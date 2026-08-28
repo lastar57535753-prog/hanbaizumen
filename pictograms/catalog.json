@@ -1,0 +1,1102 @@
+{
+  "_comment": "販売図面（マイソク）用ピクトグラム対応表。key=物件特徴の正規名 / icon=Iconify ID / match=日本語の表記ゆれ（自動ピック用の部分一致語）",
+  "_style": "Material Symbols Outlined（Apache-2.0）を基調。無いものは MDI / Tabler（Apache-2.0 / MIT）で補完",
+  "categories": {
+    "access": "交通・アクセス",
+    "life": "周辺施設（LIFE INFORMATION）",
+    "common": "共用部・建物設備",
+    "unit": "専有部・住戸設備",
+    "site": "立地・方位・眺望",
+    "deal": "取引・状態"
+  },
+  "items": [
+    {
+      "key": "station",
+      "label": "駅",
+      "cat": "access",
+      "icon": "material-symbols:directions-railway-outline",
+      "match": [
+        "駅",
+        "沿線",
+        "徒歩",
+        "JR",
+        "東急",
+        "都営",
+        "京急",
+        "小田急"
+      ]
+    },
+    {
+      "key": "subway",
+      "label": "地下鉄",
+      "cat": "access",
+      "icon": "material-symbols:subway-outline",
+      "match": [
+        "地下鉄",
+        "メトロ",
+        "都営地下鉄"
+      ]
+    },
+    {
+      "key": "bus",
+      "label": "バス停",
+      "cat": "access",
+      "icon": "material-symbols:directions-bus-outline",
+      "match": [
+        "バス",
+        "バス停"
+      ]
+    },
+    {
+      "key": "multi_line",
+      "label": "複数路線",
+      "cat": "access",
+      "icon": "material-symbols:alt-route",
+      "match": [
+        "路線",
+        "複数路線",
+        "駅利用可",
+        "4駅",
+        "２駅",
+        "3駅"
+      ]
+    },
+    {
+      "key": "airport",
+      "label": "空港",
+      "cat": "access",
+      "icon": "material-symbols:flight-outline",
+      "match": [
+        "空港",
+        "羽田"
+      ]
+    },
+    {
+      "key": "highway",
+      "label": "高速IC",
+      "cat": "access",
+      "icon": "material-symbols:add-road",
+      "match": [
+        "高速",
+        "インター",
+        "IC"
+      ]
+    },
+    {
+      "key": "supermarket",
+      "label": "スーパー",
+      "cat": "life",
+      "icon": "material-symbols:grocery",
+      "match": [
+        "スーパー",
+        "まいばすけっと",
+        "マルエツ",
+        "ライフ",
+        "サミット",
+        "オーケー",
+        "成城石井",
+        "食品館",
+        "東急ストア",
+        "西友",
+        "イオン",
+        "イトーヨーカドー",
+        "業務スーパー",
+        "クイーンズ伊勢丹",
+        "ピーコック",
+        "文化堂",
+        "ダイエー",
+        "マイバスケット",
+        "肉のハナマサ",
+        "アコレ",
+        "コモディイイダ",
+        "ヤオコー",
+        "いなげや",
+        "東武ストア",
+        "маруエツ",
+        "マルエツ プチ",
+        "食品売場",
+        "青果"
+      ]
+    },
+    {
+      "key": "convenience",
+      "label": "コンビニ",
+      "cat": "life",
+      "icon": "material-symbols:local-convenience-store-outline",
+      "match": [
+        "コンビニ",
+        "セブン",
+        "ファミリーマート",
+        "ローソン",
+        "ミニストップ",
+        "デイリーヤマザキ",
+        "ナチュラルローソン",
+        "セイコーマート",
+        "ニューデイズ",
+        "NewDays",
+        "セブン-イレブン",
+        "ローソンストア"
+      ]
+    },
+    {
+      "key": "drugstore",
+      "label": "ドラッグストア",
+      "cat": "life",
+      "icon": "material-symbols:medication-outline",
+      "match": [
+        "ドラッグ",
+        "薬局",
+        "マツモトキヨシ",
+        "ウエルシア",
+        "サンドラッグ",
+        "ツルハ",
+        "トモズ",
+        "ココカラファイン",
+        "スギ薬局",
+        "クリエイト",
+        "カワチ",
+        "セイジョー",
+        "ぱぱす",
+        "キリン堂",
+        "コスモス",
+        "くすりの",
+        "調剤",
+        "ドラックストア",
+        "サンドラック"
+      ]
+    },
+    {
+      "key": "hospital",
+      "label": "病院",
+      "cat": "life",
+      "icon": "material-symbols:local-hospital-outline",
+      "match": [
+        "病院",
+        "総合病院",
+        "医療センター",
+        "記念病院",
+        "中央病院",
+        "大学病院",
+        "総合医療"
+      ]
+    },
+    {
+      "key": "clinic",
+      "label": "クリニック",
+      "cat": "life",
+      "icon": "material-symbols:stethoscope",
+      "match": [
+        "クリニック",
+        "医院",
+        "内科",
+        "小児科",
+        "皮膚科",
+        "診療所",
+        "眼科",
+        "耳鼻",
+        "整形外科",
+        "産婦人科",
+        "メンタル",
+        "動物病院"
+      ]
+    },
+    {
+      "key": "dental",
+      "label": "歯科",
+      "cat": "life",
+      "icon": "material-symbols:dentistry-outline",
+      "match": [
+        "歯科",
+        "歯医者",
+        "デンタル",
+        "歯科医院"
+      ]
+    },
+    {
+      "key": "elementary",
+      "label": "小学校",
+      "cat": "life",
+      "icon": "material-symbols:school-outline",
+      "match": [
+        "小学校",
+        "小学",
+        "第一日野",
+        "立小学校"
+      ]
+    },
+    {
+      "key": "junior_high",
+      "label": "中学校",
+      "cat": "life",
+      "icon": "material-symbols:menu-book-outline",
+      "match": [
+        "中学校",
+        "中学",
+        "立中学校",
+        "中等"
+      ]
+    },
+    {
+      "key": "nursery",
+      "label": "保育園",
+      "cat": "life",
+      "icon": "material-symbols:child-care-outline",
+      "match": [
+        "保育園",
+        "保育所",
+        "こども園",
+        "認可保育",
+        "保育",
+        "ナーサリー",
+        "キッズ",
+        "学童"
+      ]
+    },
+    {
+      "key": "kindergarten",
+      "label": "幼稚園",
+      "cat": "life",
+      "icon": "material-symbols:child-friendly-outline",
+      "match": [
+        "幼稚園"
+      ]
+    },
+    {
+      "key": "park",
+      "label": "公園",
+      "cat": "life",
+      "icon": "material-symbols:park-outline",
+      "match": [
+        "公園",
+        "緑地",
+        "広場",
+        "児童遊園",
+        "緑道",
+        "庭園",
+        "運動場",
+        "グラウンド"
+      ]
+    },
+    {
+      "key": "post_office",
+      "label": "郵便局",
+      "cat": "life",
+      "icon": "material-symbols:local-post-office-outline",
+      "match": [
+        "郵便局",
+        "ゆうちょ",
+        "郵便"
+      ]
+    },
+    {
+      "key": "bank",
+      "label": "銀行",
+      "cat": "life",
+      "icon": "material-symbols:account-balance-outline",
+      "match": [
+        "銀行",
+        "信用金庫",
+        "ATM",
+        "みずほ",
+        "三菱UFJ",
+        "三井住友",
+        "りそな",
+        "信金",
+        "労金",
+        "JAバンク",
+        "横浜銀行",
+        "千葉銀行",
+        "城南信用"
+      ]
+    },
+    {
+      "key": "city_office",
+      "label": "役所",
+      "cat": "life",
+      "icon": "material-symbols:location-city-outline",
+      "match": [
+        "区役所",
+        "市役所",
+        "出張所",
+        "役所",
+        "区民",
+        "市民センター",
+        "支所",
+        "公民館"
+      ]
+    },
+    {
+      "key": "police",
+      "label": "交番",
+      "cat": "life",
+      "icon": "material-symbols:local-police-outline",
+      "match": [
+        "交番",
+        "警察"
+      ]
+    },
+    {
+      "key": "library",
+      "label": "図書館",
+      "cat": "life",
+      "icon": "material-symbols:local-library-outline",
+      "match": [
+        "図書館",
+        "図書室"
+      ]
+    },
+    {
+      "key": "shopping_mall",
+      "label": "商業施設",
+      "cat": "life",
+      "icon": "material-symbols:storefront-outline",
+      "match": [
+        "商業施設",
+        "ショッピング",
+        "モール",
+        "アトレ",
+        "商店街",
+        "ドン・キホーテ",
+        "ドンキ",
+        "ニトリ",
+        "カインズ",
+        "コーナン",
+        "ユニクロ",
+        "西武",
+        "東急百貨店",
+        "丸井",
+        "OIOI",
+        "ららぽーと",
+        "ルミネ",
+        "エキュート",
+        "100円",
+        "ダイソー",
+        "セリア",
+        "ホームセンター",
+        "商店会"
+      ]
+    },
+    {
+      "key": "cafe",
+      "label": "カフェ",
+      "cat": "life",
+      "icon": "material-symbols:local-cafe-outline",
+      "match": [
+        "カフェ",
+        "スターバックス",
+        "喫茶",
+        "ドトール",
+        "タリーズ",
+        "エクセルシオール",
+        "コメダ",
+        "サンマルク",
+        "珈琲"
+      ]
+    },
+    {
+      "key": "restaurant",
+      "label": "飲食店",
+      "cat": "life",
+      "icon": "material-symbols:restaurant",
+      "match": [
+        "飲食",
+        "レストラン",
+        "飲食店",
+        "ファミレス",
+        "ガスト",
+        "サイゼリヤ",
+        "松屋",
+        "吉野家",
+        "すき家",
+        "マクドナルド",
+        "モスバーガー"
+      ]
+    },
+    {
+      "key": "gym",
+      "label": "スポーツ施設",
+      "cat": "life",
+      "icon": "material-symbols:fitness-center",
+      "match": [
+        "ジム",
+        "スポーツ",
+        "フィットネス",
+        "プール",
+        "体育館",
+        "テニス",
+        "ゴルフ",
+        "スイミング",
+        "エニタイム",
+        "ティップネス",
+        "コナミスポーツ"
+      ]
+    },
+    {
+      "key": "river",
+      "label": "川・水辺",
+      "cat": "life",
+      "icon": "material-symbols:water",
+      "match": [
+        "川",
+        "目黒川",
+        "運河",
+        "水辺",
+        "河川"
+      ]
+    },
+    {
+      "key": "auto_lock",
+      "label": "オートロック",
+      "cat": "common",
+      "icon": "material-symbols:lock-outline",
+      "match": [
+        "オートロック"
+      ]
+    },
+    {
+      "key": "delivery_box",
+      "label": "宅配ボックス",
+      "cat": "common",
+      "icon": "material-symbols:package-2-outline",
+      "match": [
+        "宅配ボックス",
+        "宅配BOX",
+        "宅配ロッカー"
+      ]
+    },
+    {
+      "key": "elevator",
+      "label": "エレベーター",
+      "cat": "common",
+      "icon": "material-symbols:elevator-outline",
+      "match": [
+        "エレベーター",
+        "EV"
+      ]
+    },
+    {
+      "key": "security_cam",
+      "label": "防犯カメラ",
+      "cat": "common",
+      "icon": "material-symbols:videocam-outline",
+      "match": [
+        "防犯カメラ",
+        "監視カメラ",
+        "セキュリティカメラ"
+      ]
+    },
+    {
+      "key": "manager",
+      "label": "管理人",
+      "cat": "common",
+      "icon": "material-symbols:support-agent-outline",
+      "match": [
+        "管理人",
+        "日勤",
+        "巡回",
+        "常駐",
+        "管理員"
+      ]
+    },
+    {
+      "key": "concierge",
+      "label": "コンシェルジュ",
+      "cat": "common",
+      "icon": "material-symbols:concierge-outline",
+      "match": [
+        "コンシェルジュ",
+        "フロントサービス"
+      ]
+    },
+    {
+      "key": "lounge",
+      "label": "ラウンジ",
+      "cat": "common",
+      "icon": "material-symbols:weekend-outline",
+      "match": [
+        "ラウンジ",
+        "ゲストルーム",
+        "パーティルーム",
+        "ライブラリー",
+        "スカイラウンジ"
+      ]
+    },
+    {
+      "key": "garbage_24h",
+      "label": "24hゴミ出し可",
+      "cat": "common",
+      "icon": "material-symbols:delete-outline",
+      "match": [
+        "ゴミ",
+        "24時間ゴミ",
+        "ダストステーション"
+      ]
+    },
+    {
+      "key": "parking",
+      "label": "駐車場",
+      "cat": "common",
+      "icon": "material-symbols:local-parking",
+      "match": [
+        "駐車場",
+        "パーキング",
+        "機械式"
+      ]
+    },
+    {
+      "key": "bike_parking",
+      "label": "駐輪場",
+      "cat": "common",
+      "icon": "material-symbols:pedal-bike-outline",
+      "match": [
+        "駐輪場",
+        "自転車置場",
+        "自転車置き場"
+      ]
+    },
+    {
+      "key": "moto_parking",
+      "label": "バイク置場",
+      "cat": "common",
+      "icon": "material-symbols:two-wheeler-outline",
+      "match": [
+        "バイク置場",
+        "バイク置き場",
+        "バイク"
+      ]
+    },
+    {
+      "key": "pet_ok",
+      "label": "ペット可",
+      "cat": "common",
+      "icon": "mdi:dog-side",
+      "match": [
+        "ペット可",
+        "ペット飼育可",
+        "ペット相談"
+      ]
+    },
+    {
+      "key": "inner_hall",
+      "label": "内廊下",
+      "cat": "common",
+      "icon": "material-symbols:meeting-room-outline",
+      "match": [
+        "内廊下",
+        "ホテルライク"
+      ]
+    },
+    {
+      "key": "quake_resist",
+      "label": "免震・耐震",
+      "cat": "common",
+      "icon": "material-symbols:shield-outline",
+      "match": [
+        "免震",
+        "制震",
+        "耐震",
+        "新耐震"
+      ]
+    },
+    {
+      "key": "tower",
+      "label": "タワー",
+      "cat": "common",
+      "icon": "material-symbols:apartment",
+      "match": [
+        "タワー",
+        "タワーマンション",
+        "地上30階",
+        "超高層"
+      ]
+    },
+    {
+      "key": "ev_charge",
+      "label": "EV充電",
+      "cat": "common",
+      "icon": "material-symbols:ev-station-outline",
+      "match": [
+        "EV充電",
+        "充電設備"
+      ]
+    },
+    {
+      "key": "system_kitchen",
+      "label": "システムキッチン",
+      "cat": "unit",
+      "icon": "material-symbols:countertops-outline",
+      "match": [
+        "システムキッチン",
+        "対面キッチン",
+        "アイランドキッチン"
+      ]
+    },
+    {
+      "key": "dishwasher",
+      "label": "食洗機",
+      "cat": "unit",
+      "icon": "material-symbols:dishwasher-gen-outline",
+      "match": [
+        "食洗機",
+        "食器洗い乾燥機",
+        "食器洗浄"
+      ]
+    },
+    {
+      "key": "disposer",
+      "label": "ディスポーザー",
+      "cat": "unit",
+      "icon": "mdi:sink-outline",
+      "match": [
+        "ディスポーザー"
+      ]
+    },
+    {
+      "key": "ih_stove",
+      "label": "IH・3口コンロ",
+      "cat": "unit",
+      "icon": "material-symbols:skillet-cooktop-outline",
+      "match": [
+        "IH",
+        "3口",
+        "３口",
+        "コンロ",
+        "ガスコンロ"
+      ]
+    },
+    {
+      "key": "water_filter",
+      "label": "浄水器",
+      "cat": "unit",
+      "icon": "material-symbols:water-drop-outline",
+      "match": [
+        "浄水器",
+        "整水器"
+      ]
+    },
+    {
+      "key": "bath_dryer",
+      "label": "浴室乾燥機",
+      "cat": "unit",
+      "icon": "material-symbols:dry-outline",
+      "match": [
+        "浴室乾燥",
+        "浴室換気乾燥"
+      ]
+    },
+    {
+      "key": "reheating",
+      "label": "追焚機能",
+      "cat": "unit",
+      "icon": "material-symbols:bathtub-outline",
+      "match": [
+        "追焚",
+        "追い焚き",
+        "オートバス"
+      ]
+    },
+    {
+      "key": "floor_heat",
+      "label": "床暖房",
+      "cat": "unit",
+      "icon": "material-symbols:heat-pump-outline",
+      "match": [
+        "床暖房",
+        "床暖"
+      ]
+    },
+    {
+      "key": "washstand",
+      "label": "独立洗面台",
+      "cat": "unit",
+      "icon": "material-symbols:wash-outline",
+      "match": [
+        "独立洗面",
+        "洗面台",
+        "三面鏡",
+        "シャワー付洗面"
+      ]
+    },
+    {
+      "key": "washer_place",
+      "label": "洗濯機置場",
+      "cat": "unit",
+      "icon": "material-symbols:local-laundry-service-outline",
+      "match": [
+        "洗濯機置場",
+        "洗濯機置き場",
+        "室内洗濯"
+      ]
+    },
+    {
+      "key": "warm_toilet",
+      "label": "温水洗浄便座",
+      "cat": "unit",
+      "icon": "mdi:toilet",
+      "match": [
+        "温水洗浄便座",
+        "ウォシュレット",
+        "シャワートイレ"
+      ]
+    },
+    {
+      "key": "two_toilets",
+      "label": "トイレ2ヶ所",
+      "cat": "unit",
+      "icon": "material-symbols:counter-2-outline",
+      "match": [
+        "トイレ×２",
+        "トイレ2",
+        "トイレ２",
+        "２ヶ所"
+      ]
+    },
+    {
+      "key": "walk_in",
+      "label": "WIC",
+      "cat": "unit",
+      "icon": "mdi:coat-hanger",
+      "match": [
+        "ウォークイン",
+        "WIC",
+        "Ｗ.Ｉ.Ｃ",
+        "納戸"
+      ]
+    },
+    {
+      "key": "shoes_in",
+      "label": "シューズIN",
+      "cat": "unit",
+      "icon": "mdi:shoe-formal",
+      "match": [
+        "シューズインクローゼット",
+        "SIC",
+        "シューズクローク"
+      ]
+    },
+    {
+      "key": "storage",
+      "label": "全居室収納",
+      "cat": "unit",
+      "icon": "material-symbols:inventory-2-outline",
+      "match": [
+        "全居室収納",
+        "収納豊富",
+        "大型収納",
+        "トランクルーム"
+      ]
+    },
+    {
+      "key": "double_sash",
+      "label": "二重サッシ",
+      "cat": "unit",
+      "icon": "material-symbols:window",
+      "match": [
+        "二重サッシ",
+        "複層ガラス",
+        "ペアガラス",
+        "内窓"
+      ]
+    },
+    {
+      "key": "wide_sash",
+      "label": "ワイドサッシ",
+      "cat": "unit",
+      "icon": "material-symbols:panorama-wide-angle-outline",
+      "match": [
+        "ワイドサッシ",
+        "大開口",
+        "掃出し窓"
+      ]
+    },
+    {
+      "key": "aircon",
+      "label": "エアコン付",
+      "cat": "unit",
+      "icon": "material-symbols:mode-fan-outline",
+      "match": [
+        "エアコン",
+        "空調"
+      ]
+    },
+    {
+      "key": "intercom",
+      "label": "TVモニタ付",
+      "cat": "unit",
+      "icon": "material-symbols:doorbell-outline",
+      "match": [
+        "モニタ付",
+        "モニター付",
+        "インターホン",
+        "インターフォン"
+      ]
+    },
+    {
+      "key": "internet",
+      "label": "光回線",
+      "cat": "unit",
+      "icon": "material-symbols:wifi",
+      "match": [
+        "光回線",
+        "インターネット",
+        "ネット無料",
+        "ジェイコム",
+        "Wi-Fi"
+      ]
+    },
+    {
+      "key": "balcony",
+      "label": "バルコニー",
+      "cat": "unit",
+      "icon": "material-symbols:balcony-outline",
+      "match": [
+        "バルコニー",
+        "ルーフバルコニー",
+        "テラス"
+      ]
+    },
+    {
+      "key": "barrier_free",
+      "label": "バリアフリー",
+      "cat": "unit",
+      "icon": "material-symbols:accessible",
+      "match": [
+        "バリアフリー",
+        "段差"
+      ]
+    },
+    {
+      "key": "corner_room",
+      "label": "角住戸",
+      "cat": "site",
+      "icon": "material-symbols:rounded-corner",
+      "match": [
+        "角住戸",
+        "角部屋",
+        "角"
+      ]
+    },
+    {
+      "key": "top_floor",
+      "label": "最上階",
+      "cat": "site",
+      "icon": "material-symbols:vertical-align-top",
+      "match": [
+        "最上階",
+        "ペントハウス",
+        "プレミアムフロア"
+      ]
+    },
+    {
+      "key": "high_floor",
+      "label": "高層階",
+      "cat": "site",
+      "icon": "material-symbols:stairs-outline",
+      "match": [
+        "高層階",
+        "上層階"
+      ]
+    },
+    {
+      "key": "south_facing",
+      "label": "南向き",
+      "cat": "site",
+      "icon": "material-symbols:explore-outline",
+      "match": [
+        "南向き",
+        "南面",
+        "南東向き",
+        "南西向き"
+      ]
+    },
+    {
+      "key": "sunny",
+      "label": "日当たり良好",
+      "cat": "site",
+      "icon": "material-symbols:wb-sunny-outline",
+      "match": [
+        "日当たり",
+        "採光",
+        "陽当たり",
+        "明るい"
+      ]
+    },
+    {
+      "key": "view",
+      "label": "眺望良好",
+      "cat": "site",
+      "icon": "material-symbols:landscape-outline",
+      "match": [
+        "眺望",
+        "見晴らし",
+        "ビュー",
+        "抜け"
+      ]
+    },
+    {
+      "key": "mt_fuji",
+      "label": "富士山眺望",
+      "cat": "site",
+      "icon": "material-symbols:filter-hdr",
+      "match": [
+        "富士山"
+      ]
+    },
+    {
+      "key": "night_view",
+      "label": "夜景",
+      "cat": "site",
+      "icon": "material-symbols:nights-stay-outline",
+      "match": [
+        "夜景",
+        "東京タワー",
+        "スカイツリー"
+      ]
+    },
+    {
+      "key": "ventilation",
+      "label": "通風良好",
+      "cat": "site",
+      "icon": "material-symbols:air",
+      "match": [
+        "通風",
+        "風通し",
+        "二面採光",
+        "三面採光"
+      ]
+    },
+    {
+      "key": "quiet",
+      "label": "閑静",
+      "cat": "site",
+      "icon": "material-symbols:volume-off-outline",
+      "match": [
+        "閑静",
+        "静か",
+        "静謐",
+        "騒音"
+      ]
+    },
+    {
+      "key": "flat_land",
+      "label": "平坦地",
+      "cat": "site",
+      "icon": "material-symbols:elevation-outline",
+      "match": [
+        "平坦",
+        "フラットアプローチ"
+      ]
+    },
+    {
+      "key": "station_near",
+      "label": "駅近",
+      "cat": "site",
+      "icon": "material-symbols:directions-walk",
+      "match": [
+        "駅近",
+        "駅前",
+        "徒歩1分",
+        "徒歩2分",
+        "徒歩3分",
+        "徒歩4分",
+        "徒歩5分"
+      ]
+    },
+    {
+      "key": "new_build",
+      "label": "新築",
+      "cat": "deal",
+      "icon": "material-symbols:fiber-new-outline",
+      "match": [
+        "新築",
+        "未入居"
+      ]
+    },
+    {
+      "key": "nearly_new",
+      "label": "築浅",
+      "cat": "deal",
+      "icon": "material-symbols:schedule-outline",
+      "match": [
+        "築浅"
+      ]
+    },
+    {
+      "key": "renovated",
+      "label": "リフォーム済",
+      "cat": "deal",
+      "icon": "material-symbols:handyman-outline",
+      "match": [
+        "リフォーム",
+        "リノベーション",
+        "改装"
+      ]
+    },
+    {
+      "key": "vacant",
+      "label": "空室・即入居",
+      "cat": "deal",
+      "icon": "material-symbols:door-open-outline",
+      "match": [
+        "空室",
+        "即入居",
+        "即時引渡",
+        "内覧可"
+      ]
+    },
+    {
+      "key": "ownership",
+      "label": "所有権",
+      "cat": "deal",
+      "icon": "material-symbols:workspace-premium-outline",
+      "match": [
+        "所有権"
+      ]
+    },
+    {
+      "key": "loan",
+      "label": "ローン相談",
+      "cat": "deal",
+      "icon": "material-symbols:savings-outline",
+      "match": [
+        "ローン",
+        "住宅ローン",
+        "資金計画"
+      ]
+    },
+    {
+      "key": "investment",
+      "label": "資産性",
+      "cat": "deal",
+      "icon": "material-symbols:trending-up",
+      "match": [
+        "資産性",
+        "資産価値",
+        "投資"
+      ]
+    },
+    {
+      "key": "hazard_safe",
+      "label": "ハザード安全",
+      "cat": "deal",
+      "icon": "material-symbols:health-and-safety-outline",
+      "match": [
+        "ハザード",
+        "浸水想定",
+        "液状化"
+      ]
+    },
+    {
+      "key": "spot_generic",
+      "label": "周辺施設",
+      "cat": "life",
+      "icon": "material-symbols:location-on-outline",
+      "match": []
+    }
+  ],
+  "life_fallback": {
+    "key": "spot_generic",
+    "label": "周辺施設",
+    "icon": "material-symbols:location-on-outline"
+  }
+}
