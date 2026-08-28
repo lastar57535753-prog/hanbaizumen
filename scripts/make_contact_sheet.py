@@ -19,7 +19,7 @@ BG = (244, 240, 234)      # 生成り F4F0EA（テンプレートの背景色）
 INK = (30, 35, 40)        # 墨 1E2328
 GOLD = (140, 110, 63)     # 金 8C6E3F
 
-COLS, CELL, ICON, PAD = 9, 128, 76, 28
+CELL, ICON, PAD = 128, 76, 28
 
 
 def font(size, weight=400):
@@ -34,8 +34,11 @@ def font(size, weight=400):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--color", default="gold")
+    ap.add_argument("--cols", type=int, default=14)
     ap.add_argument("--out", default=os.path.join(ROOT, "pictograms", "contact_sheet.png"))
     args = ap.parse_args()
+    global COLS
+    COLS = args.cols
 
     with open(CATALOG, encoding="utf-8") as f:
         cat = json.load(f)

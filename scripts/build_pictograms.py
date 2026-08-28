@@ -53,9 +53,28 @@ def resolve(icon_set, name):
             ic.get("height", icon_set.get("height", 24)))
 
 
-def svg_text(body, w, h, color):
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" '
-            f'width="{w}" height="{h}" fill="{color}" color="{color}">{body}</svg>')
+# 角丸枠。販売図面では設備アイコンを枠に入れるのが通例なので、全点に同色の枠を付ける。
+FRAME_PAD = 3        # 枠の外側の余白（100 を1辺としたときの値）
+FRAME_RX = 20        # 角の丸み
+FRAME_STROKE = 5     # 枠線の太さ
+ICON_BOX = 72        # 枠の中に置く絵の大きさ
+
+
+def svg_text(body, w, h, color, frame=True):
+    """アイコン1点分のSVGを組み立てる。frame=True なら同色の角丸枠で囲う。"""
+    if not frame:
+        return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" '
+                f'width="{w}" height="{h}" fill="{color}" color="{color}">{body}</svg>')
+    scale = ICON_BOX / max(w, h)
+    tx, ty = (100 - w * scale) / 2, (100 - h * scale) / 2
+    side = 100 - FRAME_PAD * 2
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" '
+            f'width="100" height="100">'
+            f'<rect x="{FRAME_PAD}" y="{FRAME_PAD}" width="{side}" height="{side}" '
+            f'rx="{FRAME_RX}" ry="{FRAME_RX}" fill="none" stroke="{color}" '
+            f'stroke-width="{FRAME_STROKE}"/>'
+            f'<g transform="translate({tx:.3f} {ty:.3f}) scale({scale:.5f})" '
+            f'fill="{color}" color="{color}">{body}</g></svg>')
 
 
 def check_license(collections, prefix):
@@ -71,6 +90,7 @@ def main():
     ap.add_argument("--source", help="@iconify/json の json ディレクトリ")
     ap.add_argument("--size", type=int, default=256, help="PNGの一辺(px)")
     ap.add_argument("--keep-download", action="store_true", help="取得した元データを消さない")
+    ap.add_argument("--no-frame", action="store_true", help="角丸枠を付けない")
     args = ap.parse_args()
 
     with open(CATALOG, encoding="utf-8") as f:
@@ -109,11 +129,12 @@ def main():
         except (KeyError, ValueError) as e:
             errors.append(f"{item['key']}: アイコン解決に失敗 {item['icon']} ({e})")
             continue
-        # 素の SVG（currentColor のまま）
+        # 素の SVG（currentColor のまま。好きな色で使える）
         with open(os.path.join(svg_dir, item["key"] + ".svg"), "w", encoding="utf-8") as f:
-            f.write(svg_text(body, w, h, "currentColor"))
+            f.write(svg_text(body, w, h, "currentColor", frame=not args.no_frame))
         for cname, hexv in COLORS.items():
-            cairosvg.svg2png(bytestring=svg_text(body, w, h, hexv).encode("utf-8"),
+            cairosvg.svg2png(bytestring=svg_text(body, w, h, hexv,
+                                                 frame=not args.no_frame).encode("utf-8"),
                              write_to=os.path.join(OUT, "png", cname, item["key"] + ".png"),
                              output_width=args.size, output_height=args.size)
         made += 1

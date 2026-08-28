@@ -26,7 +26,7 @@ TEXT_KEYS = ([f"POINT{i}" for i in range(1, 7)] + [f"NOTE{i}" for i in range(1, 
              ["CATCH1", "CATCH2", "STRUCTURE", "ZONING", "STATUS", "HANDOVER", "MGMT_TYPE"])
 # 「有無」で決まる項目 → (ピクトグラムkey)
 FLAG_FIELDS = {"PET": "pet_ok", "ELEVATOR": "elevator", "PARKING": "parking",
-               "TRUNK": "storage", "BIKE": "bike_parking", "MOTO": "moto_parking"}
+               "TRUNK": "trunk_room", "BIKE": "bike_parking", "MOTO": "moto_parking"}
 # 否定を表す値（これらを含む場合は採用しない）
 NEGATIVE = ("不可", "無し", "なし", "無（", "×", "ありません")
 
