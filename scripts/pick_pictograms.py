@@ -55,6 +55,24 @@ def match_terms(text, items, cats=None):
     return hits
 
 
+def pick_line(text, items, cats=None, used=None):
+    """1行につき1つだけピクトグラムを選ぶ（POINT・備考の行頭用）。
+
+    優先順位は (rank, ヒットした語の長さ)。rank は catalog.json の任意項目で、
+    「富士山眺望」「最上階」のような売りになる特徴に 2 を付けてある。
+    used に既出の key を渡すと、同じ絵が1枚の図面で二度出るのを避ける。"""
+    hits = match_terms(text, items, cats=cats)
+    if not hits:
+        return None, []
+    def score(h):
+        it, found = h
+        return (0 if used and it["key"] in used else 1,
+                it.get("rank", 1),
+                max(len(m) for m in found))
+    it, found = max(hits, key=score)
+    return it, found
+
+
 def pick_life(data, items, fallback=None):
     """LIFE INFORMATION の各行に施設アイコンを1つ割り当てる。
 
