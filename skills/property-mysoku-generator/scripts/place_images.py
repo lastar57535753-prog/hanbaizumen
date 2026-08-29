@@ -500,6 +500,34 @@ def replace_image(slide, shp, path, mode, box=None):
     return pic
 
 
+# テンプレの写真枠（見本写真が入ったまま出荷されると別物件の写真が載る）
+PHOTO_FRAMES = {116: "メイン写真", 32: "写真", 33: "写真", 119: "写真",
+                120: "写真", 124: "写真", 128: "写真", 139: "間取図"}
+
+
+def guard_sample_photos(slide, cfg, allow_missing):
+    """images.json で差し替えなかった枠には**テンプレの見本写真がそのまま残る**。
+    別物件の写真を載せた図面が出来てしまうのがいちばん重い事故なので既定では止める。
+    --allow-missing のときは残骸を消して穴にする（他人の写真を出すよりは穴のほうがまし）。"""
+    used = {int(k) for k in cfg.get("images", {})} | {int(h) for h in cfg.get("hide_ids", [])}
+    if cfg.get("fullbleed_bg"):
+        used.add(116)
+    left = [(sid, PHOTO_FRAMES[sid]) for sid in PHOTO_FRAMES if sid not in used]
+    byid = {sh.shape_id: sh for sh in all_shapes(slide.shapes)}
+    left = [(sid, lb) for sid, lb in left if byid.get(sid) is not None]
+    if not left:
+        return
+    listing = "、".join(f"id{sid}（{lb}）" for sid, lb in left)
+    if not allow_missing:
+        sys.exit(f"!! 見本写真が残る枠があります: {listing}\n"
+                 f"   images.json でこの物件の写真を割り当てるか、使わない枠は "
+                 f'"hide_ids" に入れてください。\n'
+                 f"   承知のうえで空のまま進めるなら --allow-missing。")
+    for sid, lb in left:
+        byid[sid]._element.getparent().remove(byid[sid]._element)
+    print(f"⚠ 写真未割当のため見本写真を削除しました（枠は空）: {listing}")
+
+
 def main():
     src, cfgfile, out = sys.argv[1], sys.argv[2], sys.argv[3]
     allow_missing = "--allow-missing" in sys.argv[4:]
@@ -823,6 +851,8 @@ def main():
         hero_box = (hp.left, hp.top, hp.width, hp.height) if hp is not None else None
         unify_captions(slide, cfg["caption_uniform"], cbyid, pics, badge_box, hero_box)
         print("caption_uniform:", cfg["caption_uniform"].get("ids"))
+
+    guard_sample_photos(slide, cfg, allow_missing)
 
     prs.save(out)
     print("saved:", out)
