@@ -8,7 +8,8 @@ source を省略した場合は npm から @iconify/json を取得する（要�
 出力先は pictograms/svg/ と pictograms/png/{色名}/。
 色は販売図面テンプレートから採取したブランド色（墨・金・淡金・白）。
 """
-import argparse, json, os, shutil, subprocess, sys, tempfile
+import argparse, io, json, os, shutil, subprocess, sys, tempfile
+from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -93,6 +94,8 @@ def main():
     ap.add_argument("--no-frame", action="store_true", help="角丸枠を付けない")
     ap.add_argument("--out", help="書き出し先（既定: pictograms/）")
     ap.add_argument("--png-only", action="store_true", help="SVGを書かずPNGだけ作る")
+    ap.add_argument("--mask-only", action="store_true",
+                    help="色付きPNGの代わりにアルファマスク1組だけ作る（配布用・容量1/6）")
     args = ap.parse_args()
 
     with open(CATALOG, encoding="utf-8") as f:
@@ -119,8 +122,11 @@ def main():
     svg_dir = os.path.join(OUT, "svg")
     if not args.png_only:
         os.makedirs(svg_dir, exist_ok=True)
-    for c in COLORS:
-        os.makedirs(os.path.join(OUT, "png", c), exist_ok=True)
+    if args.mask_only:
+        os.makedirs(os.path.join(OUT, "mask"), exist_ok=True)
+    else:
+        for c in COLORS:
+            os.makedirs(os.path.join(OUT, "png", c), exist_ok=True)
 
     cache, used_sets, made, errors = {}, {}, 0, []
     for item in catalog["items"]:
@@ -139,11 +145,21 @@ def main():
         if not args.png_only:
             with open(os.path.join(svg_dir, item["key"] + ".svg"), "w", encoding="utf-8") as f:
                 f.write(svg_text(body, w, h, "currentColor", frame=not args.no_frame))
-        for cname, hexv in COLORS.items():
-            cairosvg.svg2png(bytestring=svg_text(body, w, h, hexv,
+        if args.mask_only:
+            # 色は使う側で着ける。4色分持つより1/6で済み、色数も自由になる。
+            buf = io.BytesIO()
+            cairosvg.svg2png(bytestring=svg_text(body, w, h, "#000000",
                                                  frame=not args.no_frame).encode("utf-8"),
-                             write_to=os.path.join(OUT, "png", cname, item["key"] + ".png"),
-                             output_width=args.size, output_height=args.size)
+                             write_to=buf, output_width=args.size, output_height=args.size)
+            buf.seek(0)
+            Image.open(buf).convert("RGBA").getchannel("A").save(
+                os.path.join(OUT, "mask", item["key"] + ".png"), optimize=True)
+        else:
+            for cname, hexv in COLORS.items():
+                cairosvg.svg2png(bytestring=svg_text(body, w, h, hexv,
+                                                     frame=not args.no_frame).encode("utf-8"),
+                                 write_to=os.path.join(OUT, "png", cname, item["key"] + ".png"),
+                                 output_width=args.size, output_height=args.size)
         made += 1
 
     if not args.png_only:
@@ -151,7 +167,10 @@ def main():
     print(f"✅ {made}/{len(catalog['items'])} 件を書き出しました → {OUT}")
     if not args.png_only:
         print(f"   SVG: {svg_dir}")
-    print(f"   PNG: {os.path.join(OUT,'png')}/{{{','.join(COLORS)}}}/  ({args.size}px)")
+    if args.mask_only:
+        print(f"   マスク: {os.path.join(OUT,'mask')}/  ({args.size}px・色は使う側で着ける)")
+    else:
+        print(f"   PNG: {os.path.join(OUT,'png')}/{{{','.join(COLORS)}}}/  ({args.size}px)")
     if errors:
         print(f"⚠ {len(errors)}件のエラー:")
         for e in errors:

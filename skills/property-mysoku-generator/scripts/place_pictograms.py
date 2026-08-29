@@ -19,7 +19,7 @@ LIFE INFORMATION は施設名の左に1つ入れる。
 字数が足りなくなる行が出たら**止める**（黙って溢れさせない）。
 --force で警告のみにして続行できる。
 """
-import argparse, os, sys
+import argparse, os, re, sys
 from pptx import Presentation
 from pptx.util import Emu, Pt
 
@@ -236,6 +236,36 @@ def shrink_to_make_room(body, log, mirror=None):
 
 PICTO_PREFIX = "PICTO:"
 
+# 販売図面テンプレートから実測したブランド色。#RRGGBB を直接渡してもよい。
+COLORS = {"sumi": "#1E2328", "gold": "#8C6E3F", "gold_light": "#BEAF87", "white": "#FFFFFF"}
+
+
+def icon_png(key, color, cache):
+    """指定色のアイコンPNGを用意して、そのパスを返す。
+
+    同梱しているのは**アルファマスク1組だけ**で、色は使うときに着ける。
+    4色分のPNGを持つと容量が6倍になるうえ、増やせる色もその4色に限られるため。
+    色付きPNGが同梱されている場合（旧レイアウト）はそちらを優先して使う。"""
+    ready = os.path.join(PICTO, "png", color, key + ".png")
+    if os.path.exists(ready):
+        return ready
+    mask_path = os.path.join(PICTO, "mask", key + ".png")
+    if not os.path.exists(mask_path):
+        return None
+    hexv = COLORS.get(color, color)
+    if not re.fullmatch(r"#[0-9A-Fa-f]{6}", hexv):
+        raise SystemExit(f"!! 色の指定が不正です: {color}"
+                         f"（{'/'.join(COLORS)} か #RRGGBB）")
+    rgb = tuple(int(hexv[i:i + 2], 16) for i in (1, 3, 5))
+    out = os.path.join(cache, f"{key}_{hexv[1:]}.png")
+    if not os.path.exists(out):
+        from PIL import Image
+        mask = Image.open(mask_path).convert("L")
+        img = Image.new("RGBA", mask.size, rgb + (0,))
+        img.putalpha(mask)
+        img.save(out)
+    return out
+
 
 def clear_pictograms(slide):
     """前回このスクリプトが置いたピクトグラムを消す（何度でも掛け直せるように）。"""
@@ -247,7 +277,7 @@ def clear_pictograms(slide):
     return n
 
 
-def place(slide, zone, items, color, force, dry, used, log):
+def place(slide, zone, items, color, force, dry, used, log, cache):
     head_text, cats = ZONE_HEADS[zone]
     head, body = find_body(slide, head_text)
     if body is None:
@@ -312,9 +342,9 @@ def place(slide, zone, items, color, force, dry, used, log):
         if it is None:
             log.append(f"   ・該当なし: 「{text[:26]}」")
             continue
-        png = os.path.join(PICTO, "png", color, it["key"] + ".png")
-        if not os.path.exists(png):
-            log.append(f"   ✗ 画像なし: {png}")
+        png = icon_png(it["key"], color, cache)
+        if png is None:
+            log.append(f"   ✗ 画像なし: {it['key']}")
             continue
         used.add(it["key"])
         x = cm_of(body.left) + ins["lIns"]
@@ -337,7 +367,8 @@ def main():
     ap.add_argument("-o", "--out")
     ap.add_argument("--zones", default="point,note",
                     help="point / note / life をカンマ区切りで（既定: point,note）")
-    ap.add_argument("--color", default="gold", choices=["sumi", "gold", "gold_light", "white"])
+    ap.add_argument("--color", default="gold",
+                    help="sumi / gold / gold_light / white、または #RRGGBB")
     ap.add_argument("--dry-run", action="store_true", help="書き込まずに配置予定だけ出す")
     ap.add_argument("--force", action="store_true", help="行が増える場合も続行する")
     args = ap.parse_args()
@@ -346,6 +377,9 @@ def main():
 
     prs = Presentation(args.pptx)
     slide = prs.slides[0]
+    base = os.path.dirname(os.path.abspath(args.out or args.pptx))
+    cache = os.path.join(base, "_picto")
+    os.makedirs(cache, exist_ok=True)
     items = load_catalog()["items"]
     if not args.dry_run:
         gone = clear_pictograms(slide)
@@ -358,7 +392,7 @@ def main():
         log = []
         print(f"■ {zone}（{ZONE_HEADS[zone][0]}）")
         try:
-            n = place(slide, zone, items, args.color, args.force, args.dry_run, used, log)
+            n = place(slide, zone, items, args.color, args.force, args.dry_run, used, log, cache)
         finally:
             for l in log:
                 print(l)

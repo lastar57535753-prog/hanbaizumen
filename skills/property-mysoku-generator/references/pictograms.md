@@ -1,7 +1,12 @@
 # ピクトグラム
 
 販売図面の行頭に、物件の特徴に合ったピクトグラムを自動で入れる。
-素材は `assets/pictograms/`（275点・4色・角丸枠つき・商用利用可のライセンスのみ）。
+素材は `assets/pictograms/`（275点・角丸枠つき・商用利用可のライセンスのみ）。
+
+同梱しているのは**アルファマスク1組だけ**で、色は使うときに着ける（PIL）。
+4色分のPNGを持つと容量が6倍になるうえ、使える色もその4色に限られるため。
+`--color gold`（既定）／`sumi`／`gold_light`／`white`、または `--color "#B03030"` のように
+好きな色を直接指定できる。着色したPNGは出力先の `_picto/` にキャッシュされる。
 
 ## 置き方の原則
 
@@ -62,5 +67,10 @@ python scripts/place_pictograms.py 図面.pptx --dry-run          # 置く場所
 python scripts/pick_pictograms.py data.json --color gold
 ```
 
-素材の作り直し（アイコンを増やす・色や枠を変える）はリポジトリ側の
-`scripts/build_pictograms.py` で行い、`assets/pictograms/` に書き出す。
+素材の作り直し（アイコンを増やす・枠の形を変える）はリポジトリ側の
+`scripts/build_pictograms.py` で行う。
+
+```bash
+python scripts/build_pictograms.py --size 128 --png-only --mask-only \
+       --out skills/property-mysoku-generator/assets/pictograms
+```
