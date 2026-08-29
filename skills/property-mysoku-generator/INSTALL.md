@@ -1,5 +1,20 @@
 # インストール手順（別アカウント／別PCで使う）
 
+## どこで動かすか（先に決める）
+
+このスキルは物件フォルダの写真・PDFを**ファイルとして読む**。だから
+**Dropboxがローカルフォルダとして見えているPC**で動かす必要がある。
+
+| 動かす場所 | ローカルフォルダ | 使えるか |
+|---|---|---|
+| 自分のPCの Claude Code（CLI / デスクトップアプリ） | 見える | **○ これが本命** |
+| claude.ai / Claude Code on the web | 見えない（別のサーバー上で動く） | ✗ 写真を毎回アップロードするか、共有URLを許可リストに追加する必要がある |
+
+→ **`C:\Users\Surface\.claude\skills\` に置いて、自分のPCの Claude Code から使う。**
+Dropbox のパスはそのまま `C:/Users/Surface/Dropbox/★媒介物件フォルダ/...` と書けばよい。
+
+## 置き方
+
 このフォルダ `property-mysoku-generator/` を丸ごと、使いたい環境の **personal skills フォルダ**に置くだけ。
 
 ## 置き場所（Claude Code）
