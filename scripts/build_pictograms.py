@@ -91,10 +91,15 @@ def main():
     ap.add_argument("--size", type=int, default=256, help="PNGの一辺(px)")
     ap.add_argument("--keep-download", action="store_true", help="取得した元データを消さない")
     ap.add_argument("--no-frame", action="store_true", help="角丸枠を付けない")
+    ap.add_argument("--out", help="書き出し先（既定: pictograms/）")
+    ap.add_argument("--png-only", action="store_true", help="SVGを書かずPNGだけ作る")
     args = ap.parse_args()
 
     with open(CATALOG, encoding="utf-8") as f:
         catalog = json.load(f)
+    global OUT
+    if args.out:
+        OUT = os.path.abspath(args.out)
 
     tmp = None
     source = args.source
@@ -112,7 +117,8 @@ def main():
         sys.exit(1)
 
     svg_dir = os.path.join(OUT, "svg")
-    os.makedirs(svg_dir, exist_ok=True)
+    if not args.png_only:
+        os.makedirs(svg_dir, exist_ok=True)
     for c in COLORS:
         os.makedirs(os.path.join(OUT, "png", c), exist_ok=True)
 
@@ -130,8 +136,9 @@ def main():
             errors.append(f"{item['key']}: アイコン解決に失敗 {item['icon']} ({e})")
             continue
         # 素の SVG（currentColor のまま。好きな色で使える）
-        with open(os.path.join(svg_dir, item["key"] + ".svg"), "w", encoding="utf-8") as f:
-            f.write(svg_text(body, w, h, "currentColor", frame=not args.no_frame))
+        if not args.png_only:
+            with open(os.path.join(svg_dir, item["key"] + ".svg"), "w", encoding="utf-8") as f:
+                f.write(svg_text(body, w, h, "currentColor", frame=not args.no_frame))
         for cname, hexv in COLORS.items():
             cairosvg.svg2png(bytestring=svg_text(body, w, h, hexv,
                                                  frame=not args.no_frame).encode("utf-8"),
@@ -139,9 +146,11 @@ def main():
                              output_width=args.size, output_height=args.size)
         made += 1
 
-    write_licenses(used_sets)
+    if not args.png_only:
+        write_licenses(used_sets)
     print(f"✅ {made}/{len(catalog['items'])} 件を書き出しました → {OUT}")
-    print(f"   SVG: {svg_dir}")
+    if not args.png_only:
+        print(f"   SVG: {svg_dir}")
     print(f"   PNG: {os.path.join(OUT,'png')}/{{{','.join(COLORS)}}}/  ({args.size}px)")
     if errors:
         print(f"⚠ {len(errors)}件のエラー:")

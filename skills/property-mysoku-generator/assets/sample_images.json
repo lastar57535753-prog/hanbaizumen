@@ -1,0 +1,135 @@
+{
+  "images": {
+    "116": {
+      "path": "C:/Users/Surface/Dropbox/★媒介物件フォルダ/５．他社OP/アトラスタワー30F/写真/採用/S__48504845_0.jpg",
+      "mode": "smart",
+      "kind": "living"
+    },
+    "32": {
+      "path": "C:/Users/Surface/Dropbox/★媒介物件フォルダ/５．他社OP/アトラスタワー30F/写真/採用/LINE_ALBUM_アトラスタワー504_250109_15.jpg",
+      "mode": "smart",
+      "kind": "exterior"
+    },
+    "33": {
+      "path": "C:/Users/Surface/Dropbox/★媒介物件フォルダ/５．他社OP/アトラスタワー30F/写真/採用/LINE_ALBUM_アトラスタワー504_250109_120.jpg",
+      "mode": "smart",
+      "kind": "view"
+    },
+    "119": {
+      "path": "C:/Users/Surface/Dropbox/★媒介物件フォルダ/５．他社OP/アトラスタワー30F/写真/採用/S__48504864_0.jpg",
+      "mode": "smart",
+      "kind": "bath"
+    },
+    "120": {
+      "path": "C:/Users/Surface/Dropbox/★媒介物件フォルダ/５．他社OP/アトラスタワー30F/写真/採用/S__48504867_0.jpg",
+      "mode": "smart",
+      "kind": "hall"
+    },
+    "124": {
+      "path": "C:/Users/Surface/Dropbox/★媒介物件フォルダ/５．他社OP/アトラスタワー30F/写真/採用/LINE_ALBUM_アトラスタワー504_250109_105.jpg",
+      "mode": "smart",
+      "kind": "facility"
+    },
+    "128": {
+      "path": "C:/Users/Surface/Dropbox/★媒介物件フォルダ/５．他社OP/アトラスタワー30F/写真/採用/LINE_ALBUM_アトラスタワー504_250109_110.jpg",
+      "mode": "smart",
+      "kind": "facility"
+    },
+    "139": {
+      "path": "C:/Users/Surface/Dropbox/★媒介物件フォルダ/５．他社OP/アトラスタワー30F/写真/採用/間取図.png",
+      "region_cm": [
+        8.3,
+        3.4,
+        12.65,
+        6.9
+      ],
+      "align": "center",
+      "is_floorplan": true,
+      "border": {
+        "color": "CFCFCF",
+        "pt": 0.75
+      }
+    }
+  },
+  "relabels": {
+    "307": {
+      "5,0": "バルコニー面積"
+    }
+  },
+  "drop_paragraphs": {
+    "281": [
+      2
+    ]
+  },
+  "scrims": [
+    {
+      "before_id": 25,
+      "box_cm": [
+        0.15,
+        1.7,
+        15.2,
+        1.85
+      ],
+      "color": "000000",
+      "alpha": 45,
+      "round": true
+    }
+  ],
+  "bullets": {
+    "ids": [
+      216
+    ]
+  },
+  "jp_wrap": {
+    "font": "C:/Windows/Fonts/msmincho.ttc",
+    "items": [
+      {
+        "id": 216,
+        "size_pt": 8.0,
+        "space_after": 1.5
+      },
+      {
+        "id": 313,
+        "space_after": 1.5
+      }
+    ]
+  },
+  "point_fix": {
+    "id": 216,
+    "bottom_cm": 15.0
+  },
+  "bring_front": [
+    139
+  ],
+  "luxury_badge": {
+    "remove_id": 31,
+    "x": 0.7,
+    "y": 5.4,
+    "w": 4.7,
+    "h": 3.6,
+    "seal": "30F ・ 最上階",
+    "madori": "3LDK",
+    "area": "109.14㎡",
+    "sub": "北西 角部屋"
+  },
+  "caption_uniform": {
+    "ids": [
+      85,
+      34,
+      35,
+      267,
+      268,
+      269,
+      272
+    ],
+    "w_cm": 2.35,
+    "h_cm": 0.52,
+    "off_cm": 0.16,
+    "font_pt": 8,
+    "fill": "14161B",
+    "alpha": 68,
+    "gold_line": true,
+    "hero_id": 85,
+    "hero_photo_id": 116
+  }
+}
