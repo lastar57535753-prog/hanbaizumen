@@ -13,11 +13,10 @@
 → **`C:\Users\Surface\.claude\skills\` に置いて、自分のPCの Claude Code から使う。**
 Dropbox のパスはそのまま `C:/Users/Surface/Dropbox/★媒介物件フォルダ/...` と書けばよい。
 
-## 置き方
+## 置き場所
 
-このフォルダ `property-mysoku-generator/` を丸ごと、使いたい環境の **personal skills フォルダ**に置くだけ。
+このフォルダ `property-mysoku-generator/` を丸ごと、personal skills フォルダに置くだけ。
 
-## 置き場所（Claude Code）
 ```
 ~/.claude/skills/property-mysoku-generator/
 ```
