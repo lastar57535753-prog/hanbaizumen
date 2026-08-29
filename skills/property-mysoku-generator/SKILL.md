@@ -1,6 +1,6 @@
 ---
 name: property-mysoku-generator
-description: Use when creating a Japanese condominium (マンション区分) sales flyer / マイソク / 販売図面 (A4 landscape, 1 page) at consistent quality from property materials — e.g. "○○マンションの販売図面を作って", "マイソク作成", "販売図面を作りたい". Condominium units only (not 戸建・土地). Runs on Windows (PowerPoint) or macOS/Linux (LibreOffice).
+description: センチュリー21ラスターハウスの「販売図面（マイソク）」を**A4横1枚**のPPTX/PDFで作る標準スキル。「○○マンションの販売図面を作って」「マイソク作成」「販売図面を作りたい」と言われたら、明示的に『スキル』と言われなくても必ずこれを使う（A4横が標準。A3縦の旧レイアウトが要るときだけ lastarhouse-hanbai-zumen）。マンション区分のみ（戸建・土地は対象外）。物件データと写真から、物件概要表・POINT・備考・LIFE INFORMATION・写真ギャラリー・ピクトグラムまで入れて1コマンドで出力し、出力前に被り・はみ出し・書体を自動QCする。Windows(PowerPoint) / macOS / Linux で動く。
 ---
 
 # 販売図面（マイソク）自動生成システム
