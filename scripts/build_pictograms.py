@@ -8,7 +8,7 @@ source を省略した場合は npm から @iconify/json を取得する（要�
 出力先は pictograms/svg/ と pictograms/png/{色名}/。
 色は販売図面テンプレートから採取したブランド色（墨・金・淡金・白）。
 """
-import argparse, io, json, os, shutil, subprocess, sys, tempfile
+import argparse, io, json, math, os, shutil, subprocess, sys, tempfile
 from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -94,8 +94,9 @@ def main():
     ap.add_argument("--no-frame", action="store_true", help="角丸枠を付けない")
     ap.add_argument("--out", help="書き出し先（既定: pictograms/）")
     ap.add_argument("--png-only", action="store_true", help="SVGを書かずPNGだけ作る")
-    ap.add_argument("--mask-only", action="store_true",
-                    help="色付きPNGの代わりにアルファマスク1組だけ作る（配布用・容量1/6）")
+    ap.add_argument("--atlas", action="store_true",
+                    help="全点を1枚のシート(atlas.png)にまとめる。"
+                         "スキル配布はファイル数の上限があるので、これを使う")
     args = ap.parse_args()
 
     with open(CATALOG, encoding="utf-8") as f:
@@ -122,11 +123,11 @@ def main():
     svg_dir = os.path.join(OUT, "svg")
     if not args.png_only:
         os.makedirs(svg_dir, exist_ok=True)
-    if args.mask_only:
-        os.makedirs(os.path.join(OUT, "mask"), exist_ok=True)
-    else:
+    os.makedirs(OUT, exist_ok=True)
+    if not args.atlas:
         for c in COLORS:
             os.makedirs(os.path.join(OUT, "png", c), exist_ok=True)
+    atlas_cells = {}
 
     cache, used_sets, made, errors = {}, {}, 0, []
     for item in catalog["items"]:
@@ -145,15 +146,15 @@ def main():
         if not args.png_only:
             with open(os.path.join(svg_dir, item["key"] + ".svg"), "w", encoding="utf-8") as f:
                 f.write(svg_text(body, w, h, "currentColor", frame=not args.no_frame))
-        if args.mask_only:
-            # 色は使う側で着ける。4色分持つより1/6で済み、色数も自由になる。
+        if args.atlas:
+            # 1点1ファイルにするとファイル数が上限を超えるので、1枚のシートに並べる。
+            # 色は使う側で着けるため、ここではアルファ（形）だけを残す。
             buf = io.BytesIO()
             cairosvg.svg2png(bytestring=svg_text(body, w, h, "#000000",
                                                  frame=not args.no_frame).encode("utf-8"),
                              write_to=buf, output_width=args.size, output_height=args.size)
             buf.seek(0)
-            Image.open(buf).convert("RGBA").getchannel("A").save(
-                os.path.join(OUT, "mask", item["key"] + ".png"), optimize=True)
+            atlas_cells[item["key"]] = Image.open(buf).convert("RGBA").getchannel("A")
         else:
             for cname, hexv in COLORS.items():
                 cairosvg.svg2png(bytestring=svg_text(body, w, h, hexv,
@@ -162,13 +163,15 @@ def main():
                                  output_width=args.size, output_height=args.size)
         made += 1
 
+    if args.atlas:
+        write_atlas(atlas_cells, catalog, args.size)
     if not args.png_only:
         write_licenses(used_sets)
     print(f"✅ {made}/{len(catalog['items'])} 件を書き出しました → {OUT}")
     if not args.png_only:
         print(f"   SVG: {svg_dir}")
-    if args.mask_only:
-        print(f"   マスク: {os.path.join(OUT,'mask')}/  ({args.size}px・色は使う側で着ける)")
+    if args.atlas:
+        print(f"   シート: {os.path.join(OUT,'atlas.png')}  ({args.size}px・色は使う側で着ける)")
     else:
         print(f"   PNG: {os.path.join(OUT,'png')}/{{{','.join(COLORS)}}}/  ({args.size}px)")
     if errors:
@@ -178,6 +181,28 @@ def main():
     if tmp and not args.keep_download:
         shutil.rmtree(tmp, ignore_errors=True)
     sys.exit(1 if errors else 0)
+
+
+def write_atlas(cells, catalog, size):
+    """全点を1枚のPNGに並べ、位置を catalog.json に書き込む。
+
+    スキルとして配るときファイル数の上限（200）に引っかかるため、
+    275点を1ファイルにまとめる。使う側は catalog の atlas_index から
+    セルを切り出して色を着ける。"""
+    keys = [it["key"] for it in catalog["items"] if it["key"] in cells]
+    cols = math.ceil(math.sqrt(len(keys)))
+    rows = math.ceil(len(keys) / cols)
+    sheet = Image.new("L", (cols * size, rows * size), 0)
+    for i, k in enumerate(keys):
+        sheet.paste(cells[k], ((i % cols) * size, (i // cols) * size))
+    sheet.save(os.path.join(OUT, "atlas.png"), optimize=True)
+    catalog["atlas"] = {"file": "atlas.png", "cell": size, "cols": cols, "rows": rows}
+    for i, k in enumerate(keys):
+        catalog["atlas_index"] = catalog.get("atlas_index", {})
+        catalog["atlas_index"][k] = i
+    with open(os.path.join(OUT, "catalog.json"), "w", encoding="utf-8") as f:
+        json.dump(catalog, f, ensure_ascii=False, indent=2)
+    print(f"   シート: {cols}x{rows} セル / {len(keys)}点")
 
 
 def write_licenses(used_sets):

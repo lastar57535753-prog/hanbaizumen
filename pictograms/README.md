@@ -28,10 +28,17 @@
 | `skills/property-mysoku-generator/scripts/pick_pictograms.py` | 物件データから使うピクトグラムを選ぶ |
 | `skills/property-mysoku-generator/scripts/place_pictograms.py` | 販売図面PPTXの行頭に実際に差し込む |
 
-実際に図面へ入れるスクリプトはスキル配下にある。スキルには**アルファマスク1組だけ**を
-同梱し（`assets/pictograms/mask/`・1.2MB）、色は使うときにPILで着ける。
-4色分のPNGを持つと容量が6倍になるうえ、使える色もその4色に固定されてしまうため。
+実際に図面へ入れるスクリプトはスキル配下にある。スキルには
+**`atlas.png` 1枚**（275点の形を17×17に並べたもの・271KB）と `catalog.json` だけを同梱し、
+色は使うときにPILで着ける。1点1ファイルにすると275ファイルになり、
+スキルを配るときのファイル数上限（200）を超えてしまうため。
 このディレクトリはSVGと4色PNGを持つマスターで、素材を作り直すときに使う。
+
+```bash
+# スキル同梱分を作り直す
+python scripts/build_pictograms.py --size 128 --png-only --atlas \
+       --out skills/property-mysoku-generator/assets/pictograms
+```
 
 色は販売図面テンプレート（アトラスタワー五反田30F）のXMLから実測したブランド色。
 PNGは256px。A4横の図面で使う0.35〜0.8cmの枠なら300dpiでも十分足りる。

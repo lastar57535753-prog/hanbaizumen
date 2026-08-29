@@ -240,30 +240,54 @@ PICTO_PREFIX = "PICTO:"
 COLORS = {"sumi": "#1E2328", "gold": "#8C6E3F", "gold_light": "#BEAF87", "white": "#FFFFFF"}
 
 
-def icon_png(key, color, cache):
+_ATLAS = None
+
+
+def _atlas(catalog):
+    """ピクトグラムのシート画像を読む（1度だけ）。"""
+    global _ATLAS
+    if _ATLAS is None:
+        from PIL import Image
+        meta = catalog.get("atlas")
+        if not meta:
+            return None
+        _ATLAS = (Image.open(os.path.join(PICTO, meta["file"])).convert("L"), meta)
+    return _ATLAS
+
+
+def icon_png(key, color, cache, catalog):
     """指定色のアイコンPNGを用意して、そのパスを返す。
 
-    同梱しているのは**アルファマスク1組だけ**で、色は使うときに着ける。
-    4色分のPNGを持つと容量が6倍になるうえ、増やせる色もその4色に限られるため。
-    色付きPNGが同梱されている場合（旧レイアウト）はそちらを優先して使う。"""
+    同梱しているのは**形（アルファ）だけを並べた1枚のシート**で、色は使うときに着ける。
+    1点1ファイルにすると275ファイルになり、スキルとして配るときのファイル数上限
+    （200）を超えてしまう。色を後から着ける方式なら、使える色も4色に縛られない。
+    色付きPNGが個別に置いてある場合（旧レイアウト）はそちらを優先する。"""
     ready = os.path.join(PICTO, "png", color, key + ".png")
     if os.path.exists(ready):
         return ready
-    mask_path = os.path.join(PICTO, "mask", key + ".png")
-    if not os.path.exists(mask_path):
-        return None
+
     hexv = COLORS.get(color, color)
     if not re.fullmatch(r"#[0-9A-Fa-f]{6}", hexv):
         raise SystemExit(f"!! 色の指定が不正です: {color}"
                          f"（{'/'.join(COLORS)} か #RRGGBB）")
-    rgb = tuple(int(hexv[i:i + 2], 16) for i in (1, 3, 5))
     out = os.path.join(cache, f"{key}_{hexv[1:]}.png")
-    if not os.path.exists(out):
-        from PIL import Image
-        mask = Image.open(mask_path).convert("L")
-        img = Image.new("RGBA", mask.size, rgb + (0,))
-        img.putalpha(mask)
-        img.save(out)
+    if os.path.exists(out):
+        return out
+
+    sheet = _atlas(catalog)
+    idx = catalog.get("atlas_index", {}).get(key)
+    if sheet is None or idx is None:
+        return None
+    img_l, meta = sheet
+    n = meta["cell"]
+    x, y = (idx % meta["cols"]) * n, (idx // meta["cols"]) * n
+    mask = img_l.crop((x, y, x + n, y + n))
+
+    from PIL import Image
+    rgb = tuple(int(hexv[i:i + 2], 16) for i in (1, 3, 5))
+    img = Image.new("RGBA", mask.size, rgb + (0,))
+    img.putalpha(mask)
+    img.save(out)
     return out
 
 
@@ -277,7 +301,7 @@ def clear_pictograms(slide):
     return n
 
 
-def place(slide, zone, items, color, force, dry, used, log, cache):
+def place(slide, zone, items, color, force, dry, used, log, cache, catalog):
     head_text, cats = ZONE_HEADS[zone]
     head, body = find_body(slide, head_text)
     if body is None:
@@ -342,7 +366,7 @@ def place(slide, zone, items, color, force, dry, used, log, cache):
         if it is None:
             log.append(f"   ・該当なし: 「{text[:26]}」")
             continue
-        png = icon_png(it["key"], color, cache)
+        png = icon_png(it["key"], color, cache, catalog)
         if png is None:
             log.append(f"   ✗ 画像なし: {it['key']}")
             continue
@@ -380,7 +404,8 @@ def main():
     base = os.path.dirname(os.path.abspath(args.out or args.pptx))
     cache = os.path.join(base, "_picto")
     os.makedirs(cache, exist_ok=True)
-    items = load_catalog()["items"]
+    catalog = load_catalog()
+    items = catalog["items"]
     if not args.dry_run:
         gone = clear_pictograms(slide)
         if gone:
@@ -392,7 +417,8 @@ def main():
         log = []
         print(f"■ {zone}（{ZONE_HEADS[zone][0]}）")
         try:
-            n = place(slide, zone, items, args.color, args.force, args.dry_run, used, log, cache)
+            n = place(slide, zone, items, args.color, args.force, args.dry_run, used, log,
+                      cache, catalog)
         finally:
             for l in log:
                 print(l)
