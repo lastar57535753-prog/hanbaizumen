@@ -1,0 +1,18 @@
+{
+  "_comment": "担当者の連絡先。data.json に \"AGENT\": \"キー\" を書くとその人になる。指定が無ければ default。会社名・住所・代表TEL・免許番号は共通なのでテンプレート側に固定。",
+  "default": "tokunaga",
+  "agents": {
+    "tokunaga": {
+      "AGENT_NAME": "徳永",
+      "AGENT_FULLNAME": "徳永新太郎",
+      "AGENT_MOBILE": "080-8633-3348",
+      "AGENT_MAIL": "tokunaga@lastarhouse.co.jp"
+    },
+    "iwasawa": {
+      "AGENT_NAME": "岩澤",
+      "AGENT_FULLNAME": "岩澤拓巳",
+      "AGENT_MOBILE": "【要確認】",
+      "AGENT_MAIL": "【要確認】"
+    }
+  }
+}

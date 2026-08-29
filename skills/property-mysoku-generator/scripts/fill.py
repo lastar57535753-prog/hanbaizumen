@@ -1,12 +1,17 @@
 # -*- coding: utf-8 -*-
 """穴あきテンプレに値を流し込んで販売図面pptxを作る。
 
-usage: python fill.py <template.pptx> <data.json> <out.pptx>
+usage: python fill.py <template.pptx> <data.json> <out.pptx> [--agent キー]
 
 data.json のキーはプレースホルダ名（{{}} なし）。
 値が無いキーは【要確認】を赤字で残す。
+
+担当者（AGENT_NAME / AGENT_MOBILE / AGENT_MAIL）は assets/agents.json から補う。
+data.json に "AGENT": "iwasawa" と書くか --agent iwasawa で切り替わる。
+data.json に直接 AGENT_* を書けばそちらが優先。
+会社名・住所・代表TEL・免許番号は共通なのでテンプレート側に固定してある。
 """
-import sys, io, json, re
+import sys, io, json, os, re
 from pptx import Presentation
 from pptx.dml.color import RGBColor
 
@@ -23,6 +28,25 @@ OPTIONAL = {"BUILDER2", "TERRACE", "BADGE1", "BADGE2", "SUBCATCH", "DIRECTION", 
             "POINT4", "POINT5", "POINT6", "POINT7", "POINT8",
             "NOTE1", "NOTE2", "NOTE3", "NOTE4",
             "CAP1", "CAP2", "CAP3", "CAP4", "CAP5", "CAP6"}
+
+
+def apply_agent(data, explicit=None):
+    """担当者の連絡先を data に補う。既に data にある値は上書きしない。"""
+    path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                        "assets", "agents.json")
+    if not os.path.exists(path):
+        return data
+    with open(path, encoding="utf-8") as f:
+        reg = json.load(f)
+    key = explicit or data.get("AGENT") or reg.get("default")
+    who = reg.get("agents", {}).get(key)
+    if who is None:
+        sys.exit(f"!! 担当者 '{key}' が assets/agents.json にありません"
+                 f"（登録済み: {'・'.join(reg.get('agents', {}))}）")
+    for k, v in who.items():
+        data.setdefault(k, v)
+    print(f"担当: {who.get('AGENT_FULLNAME', key)}")
+    return data
 
 
 def iter_shapes(shapes):
@@ -76,8 +100,11 @@ def fill(prs, data):
 
 def main():
     tpl, datafile, out = sys.argv[1], sys.argv[2], sys.argv[3]
+    rest = sys.argv[4:]
+    agent = rest[rest.index("--agent") + 1] if "--agent" in rest else None
     with open(datafile, encoding="utf-8") as f:
         data = json.load(f)
+    data = apply_agent(data, agent)
     prs = Presentation(tpl)
     filled, todos, blanks = fill(prs, data)
     prs.save(out)

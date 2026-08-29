@@ -4,6 +4,7 @@
 usage:
   python build_all.py <template.pptx> <data.json> <images.json> <out.pptx>
         [--no-pdf] [--pictograms point,note,life] [--qc-warn]
+        [--agent キー] [--allow-missing]
 
 処理:
   1) fill.py             … 文字（物件概要23項目・アクセス・POINT・備考・LIFE等）を流し込み
@@ -14,6 +15,10 @@ usage:
                             （--pictograms で指定したときだけ。既定は入れない）
   5) preflight.py        … 出力前セルフQC。**違反があればここで止まる**（--qc-warn で警告のみ）
   6) export_pdf.py       … PDF書き出し（--no-pdf で省略）
+
+写真は images.json の "path" にローカルパスでも共有URL（Dropbox / Google Drive）でも書ける。
+取得できないときは止まる（--allow-missing で穴を許容）。
+担当者は --agent キー（assets/agents.json）。既定は徳永。
 
 data.json  = 文字値（sample: 設定サンプル_data.json）
 images.json= 写真割当＋意匠設定（sample: 設定サンプル_images.json）
@@ -45,6 +50,8 @@ def main():
     rest = sys.argv[5:]
     no_pdf = "--no-pdf" in rest
     qc_warn = "--qc-warn" in rest
+    allow_missing = "--allow-missing" in rest
+    agent = rest[rest.index("--agent") + 1] if "--agent" in rest else None
     zones = None
     if "--pictograms" in rest:
         i = rest.index("--pictograms")
@@ -54,9 +61,10 @@ def main():
     imaged = base + "_2img.pptx"
 
     print("■ 文字流し込み")
-    run("fill.py", template, data, filled)
+    run("fill.py", template, data, filled, *(["--agent", agent] if agent else []))
     print("\n■ 画像・意匠")
-    run("place_images.py", filled, images, imaged)
+    run("place_images.py", filled, images, imaged,
+        *(["--allow-missing"] if allow_missing else []))
     print("\n■ 右カラム自動整列")
     run("reflow_right.py", imaged, out)
 

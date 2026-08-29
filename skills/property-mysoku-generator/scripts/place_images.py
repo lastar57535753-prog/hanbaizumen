@@ -27,10 +27,88 @@ from PIL import Image, ImageOps, ImageFilter, ImageEnhance
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import textfit
+import hashlib
+import urllib.request
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 CM = 360000
 
+
+
+
+# ── 写真の取得元 ─────────────────────────────────────────────────
+# images.json の "path" にはローカルパスのほか、Dropbox等の共有URLも書ける。
+# 共有URLは1度だけ落としてキャッシュし、2回目からはローカルを使う。
+_DL_CACHE = None
+
+
+def _cache_dir(out_path):
+    global _DL_CACHE
+    if _DL_CACHE is None:
+        _DL_CACHE = os.path.join(os.path.dirname(os.path.abspath(out_path)), "_dl")
+        os.makedirs(_DL_CACHE, exist_ok=True)
+    return _DL_CACHE
+
+
+def _direct_url(url):
+    """共有リンクを「画像そのもの」が返るURLに直す。"""
+    if "dropbox.com" in url:
+        u = re.sub(r"[?&]dl=\d", "", url)
+        u = re.sub(r"[?&]raw=\d", "", u)
+        return u + ("&" if "?" in u else "?") + "dl=1"
+    if "drive.google.com" in url:
+        m = re.search(r"/d/([\w-]+)", url) or re.search(r"[?&]id=([\w-]+)", url)
+        if m:
+            return f"https://drive.google.com/uc?export=download&id={m.group(1)}"
+    return url
+
+
+def resolve_path(path, out_path, allow_missing=False):
+    """images.json の path を実ファイルに解決する。URLなら取得してキャッシュする。
+
+    取れなかったら**止める**。写真が抜けたまま図面が出来てしまうのがいちばん困るため
+    （以前は警告だけ出して先へ進み、写真ゼロの図面が納品されかけた）。
+    どうしても穴を許したいときだけ --allow-missing。"""
+    if not str(path).lower().startswith(("http://", "https://")):
+        if os.path.exists(path):
+            return path
+        if allow_missing:
+            return None
+        sys.exit(f"!! 画像が見つかりません: {path}\n"
+                 f"   パスを直すか、承知のうえで進めるなら --allow-missing を付けてください。")
+
+    url = _direct_url(path)
+    name = hashlib.sha1(url.encode("utf-8")).hexdigest()[:16]
+    for ext in (".jpg", ".jpeg", ".png", ".webp"):
+        cached = os.path.join(_cache_dir(out_path), name + ext)
+        if os.path.exists(cached):
+            return cached
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            blob = r.read()
+            ctype = (r.headers.get("Content-Type") or "").lower()
+    except Exception as e:
+        if allow_missing:
+            print(f"⚠ 取得できません: {path} ({e})")
+            return None
+        sys.exit(f"!! 画像を取得できません: {path}\n   {e}\n"
+                 f"   共有リンクが「閲覧可能」になっているか、ネットワークの許可設定を確認してください。")
+    ext = ".png" if "png" in ctype else ".webp" if "webp" in ctype else ".jpg"
+    dst = os.path.join(_cache_dir(out_path), name + ext)
+    with open(dst, "wb") as f:
+        f.write(blob)
+    try:
+        Image.open(dst).verify()
+    except Exception:
+        os.remove(dst)
+        if allow_missing:
+            print(f"⚠ 画像として読めません: {path}")
+            return None
+        sys.exit(f"!! 取得したデータが画像ではありません: {path}\n"
+                 f"   Dropboxならファイルへの共有リンク（フォルダではなく）を使ってください。")
+    print(f"取得: {os.path.basename(dst)} <- {path[:60]}")
+    return dst
 
 
 # 被写体の種類ごとのクロップ・アンカー（縦位置 0=上 1=下）
@@ -424,6 +502,7 @@ def replace_image(slide, shp, path, mode, box=None):
 
 def main():
     src, cfgfile, out = sys.argv[1], sys.argv[2], sys.argv[3]
+    allow_missing = "--allow-missing" in sys.argv[4:]
     cfg = json.load(open(cfgfile, encoding="utf-8"))
     prs = Presentation(src)
     slide = prs.slides[0]
@@ -454,13 +533,14 @@ def main():
     fb = cfg.get("fullbleed_bg")
     if fb:
         L, T, W, H = fb["region_cm"]
-        if fb.get("stretch"):   # 比率無視で範囲いっぱいに引き伸ばす（眺望メイン向け）
-            bg = slide.shapes.add_picture(fb["photo"], int(L * CM), int(T * CM), int(W * CM), int(H * CM))
-            print(f"fullbleed_bg(stretch) <- {os.path.basename(fb['photo'])}")
-        else:
-            cf, method, loss, dpi = smart_composite(fb["photo"], W, H, fb.get("kind", "view"), tmpdir)
+        fb_photo = resolve_path(fb["photo"], out, allow_missing)
+        if fb_photo and fb.get("stretch"):   # 比率無視で範囲いっぱいに引き伸ばす（眺望メイン向け）
+            bg = slide.shapes.add_picture(fb_photo, int(L * CM), int(T * CM), int(W * CM), int(H * CM))
+            print(f"fullbleed_bg(stretch) <- {os.path.basename(fb_photo)}")
+        elif fb_photo:
+            cf, method, loss, dpi = smart_composite(fb_photo, W, H, fb.get("kind", "view"), tmpdir)
             bg = slide.shapes.add_picture(cf, int(L * CM), int(T * CM), int(W * CM), int(H * CM))
-            print(f"fullbleed_bg <- {os.path.basename(fb['photo'])} [{method} loss{loss}% dpi{dpi}]")
+            print(f"fullbleed_bg <- {os.path.basename(fb_photo)} [{method} loss{loss}% dpi{dpi}]")
         spTree = bg._element.getparent()
         spTree.remove(bg._element)
         # nvGrpSpPr, grpSpPr の直後(=最背面)に差し込む
@@ -478,9 +558,11 @@ def main():
             print(f"hide id={hid}")
     for sid, spec in cfg.get("images", {}).items():
         shp = byid[int(sid)]
-        path = spec["path"]
-        if not os.path.exists(path):
-            print(f"⚠ 画像なし id={sid}: {path}"); qc.append((sid, "欠落", 0, 0, path)); continue
+        path = resolve_path(spec["path"], out, allow_missing)
+        if path is None:
+            print(f"⚠ 画像なし id={sid}: {spec['path']}")
+            qc.append((sid, "欠落", 0, 0, spec["path"]))
+            continue
         mode = spec.get("mode", "fill")
         border = spec.get("border")
 

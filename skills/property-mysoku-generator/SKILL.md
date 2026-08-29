@@ -57,6 +57,9 @@ python scripts/build_all.py assets/template_mansion.pptx 物件_data.json 物件
    - `assets/sample_data.json` → 文字値を差し替え（キー一覧は **references/placeholder-keys.md**）
    - `assets/sample_images.json` → 写真パス・バッジ値(seal/madori/area/sub)・背景・意匠を差し替え（オプション一覧は **references/images-json-options.md**）
    - `build_all.py` 実行 → preflight ✅合格まで設定を調整。
+     **QCで違反が出るとビルドは止まる**（承知のうえで進めるなら `--qc-warn`）。
+     QCは Windows なら PowerPoint の実描画座標、mac/Linux なら python-pptx で走る。
+     どちらの環境でも検査される。
 
 ## 自動で担保される品質（`place_images.py` が設定JSONで毎回同じに）
 
@@ -64,7 +67,27 @@ python scripts/build_all.py assets/template_mansion.pptx 物件_data.json 物件
 
 ## 固定値（変えない）
 
-センチュリー21ラスターハウス ／ 徳永新太郎 ／ 担当=徳永 ／ TEL 03-5753-0021 ／ tokunaga@lastarhouse.co.jp ／ 東京都大田区大森北1-14-1 ／ フォントは全部 **HGS明朝E**。※取引態様のみ Step2 で確認。
+センチュリー21ラスターハウス ／ TEL 03-5753-0021 ／ 東京都大田区大森北1-14-1 ／ 東京都知事免許(4)第87972号 ／ フォントは全部 **HGS明朝E**。※取引態様のみ Step2 で確認。
+
+**担当者だけは可変。** 名前・携帯・メールは `assets/agents.json` から入る（既定は徳永新太郎）。
+別の担当なら `--agent iwasawa`、または data.json に `"AGENT": "iwasawa"`。
+data.json に `AGENT_NAME` 等を直接書けばそれが優先。
+
+## 写真の渡し方
+
+`images.json` の `path` には**ローカルパスでも共有URLでも**書ける。
+Dropbox / Google Drive の共有リンクはそのまま貼ってよい（`?dl=0` は自動で直リンクに変換）。
+一度取得したものはキャッシュするので、作り直しても再ダウンロードしない。
+
+**取れない写真があればビルドは止まる。** 写真の抜けた図面がそのまま出来てしまうのを
+防ぐため。穴を承知で進めるときだけ `--allow-missing`。
+
+## ピクトグラム（任意）
+
+`--pictograms point,note,life` を付けると、行頭の「・」を物件の特徴に合った
+ピクトグラムに置き換える（275点・角丸枠つき・`assets/pictograms/`）。
+帯や枠は増やさず、既にあるものの中に納める。字数が足りなければ自動で縮め、
+それでも無理なら止まる。詳細は `references/pictograms.md`。
 
 ## 出力先・締め
 
@@ -77,3 +100,6 @@ python scripts/build_all.py assets/template_mansion.pptx 物件_data.json 物件
 - 間取図を**引き伸ばす** → ✗ 縦横比厳守（`is_floorplan`+`region_cm`で比率保持最大化）。写真は多少の引き伸ばしOK。
 - `resize`/`set_font` は `jp_wrap` の**前**に効く実装。幅を変えたのに改行が直らない時は順序を確認。
 - テンプレは `assets/template_mansion.pptx`（68箇所穴・66キー）。もう一方の template_mansion 系は使わない。
+- 書体は **HGS明朝E のみ**。HGP明朝E は禁止（字送りが変わる）。preflight が検出して止める。
+- 日本語の折り返しは全角1em換算で計算する。実フォントで測ると HGS明朝E の無い
+  mac/Linux で折返し位置が変わり、レイアウトが崩れる。

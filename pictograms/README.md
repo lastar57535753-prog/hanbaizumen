@@ -18,15 +18,19 @@
 | `contact_sheet.png` | 全点の一覧（金）／`contact_sheet_sumi.png`（墨） |
 | `LICENSES.md` | 採用したアイコンセットとライセンス |
 
-スクリプトは `scripts/` にある。
+スクリプトの置き場所:
 
 | スクリプト | 役割 |
 |---|---|
-| `pick_pictograms.py` | 物件データから使うピクトグラムを選ぶ |
-| `place_pictograms.py` | 販売図面PPTXの行頭に実際に差し込む |
-| `preview_layout.py` | PPTXを1枚のPNGに素描きしてレイアウトを目で確認する |
-| `build_pictograms.py` | Iconifyから素材を作り直す |
-| `make_contact_sheet.py` | 一覧画像を作り直す |
+| `scripts/build_pictograms.py` | Iconifyから素材を作り直す（このディレクトリの生成元） |
+| `scripts/make_contact_sheet.py` | 一覧画像を作り直す |
+| `scripts/preview_layout.py` | PPTXを1枚のPNGに素描きしてレイアウトを目で確認する |
+| `skills/property-mysoku-generator/scripts/pick_pictograms.py` | 物件データから使うピクトグラムを選ぶ |
+| `skills/property-mysoku-generator/scripts/place_pictograms.py` | 販売図面PPTXの行頭に実際に差し込む |
+
+実際に図面へ入れるスクリプトはスキル配下にある（スキル単体で配れるように、
+128pxのPNGを `skills/property-mysoku-generator/assets/pictograms/` に同梱してある）。
+このディレクトリはSVGを含むマスターで、素材を作り直すときに使う。
 
 色は販売図面テンプレート（アトラスタワー五反田30F）のXMLから実測したブランド色。
 PNGは256px。A4横の図面で使う0.35〜0.8cmの枠なら300dpiでも十分足りる。
@@ -51,7 +55,7 @@ PNGは256px。A4横の図面で使う0.35〜0.8cmの枠なら300dpiでも十分�
 ### 物件データから自動で選ぶ
 
 ```bash
-python scripts/pick_pictograms.py 物件_data.json --color gold -o 物件_pictograms.json
+python skills/property-mysoku-generator/scripts/pick_pictograms.py 物件_data.json --color gold -o 物件_pictograms.json
 ```
 
 実際の物件（アトラスタワー五反田30F）で走らせた結果:
@@ -81,9 +85,9 @@ python scripts/pick_pictograms.py 物件_data.json --color gold -o 物件_pictog
 ### 販売図面に差し込む
 
 ```bash
-python scripts/place_pictograms.py 図面.pptx -o 図面_icon.pptx
-python scripts/place_pictograms.py 図面.pptx -o out.pptx --zones point,note,life --color sumi
-python scripts/place_pictograms.py 図面.pptx --dry-run          # 置く場所だけ見る
+python skills/property-mysoku-generator/scripts/place_pictograms.py 図面.pptx -o 図面_icon.pptx
+python skills/property-mysoku-generator/scripts/place_pictograms.py 図面.pptx -o out.pptx --zones point,note,life --color sumi
+python skills/property-mysoku-generator/scripts/place_pictograms.py 図面.pptx --dry-run          # 置く場所だけ見る
 ```
 
 入れる場所は3か所。**帯や枠は増やさない**。`layout-rules.md` の
