@@ -52,7 +52,8 @@
       {
         "id": 216,
         "size_pt": 8.0,
-        "space_after": 1.5
+        "space_after": 1.5,
+        "inner_ratio": 0.82
       },
       {
         "id": 313,
