@@ -828,6 +828,9 @@ def main():
         if sh is not None:
             el = sh._element
             parent = el.getparent()
+            if parent is None:                   # hide_ids で消した図形は飛ばす
+                print(f"bring_front: id={cid} は非表示なので飛ばした")
+                continue
             parent.remove(el); parent.append(el)
             print(f"bring_front: id={cid}")
 

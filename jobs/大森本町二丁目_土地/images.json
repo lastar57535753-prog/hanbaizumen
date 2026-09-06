@@ -1,0 +1,85 @@
+{
+  "images": {},
+  "drop_paragraphs": {
+    "281": [
+      2
+    ]
+  },
+  "bullets": {
+    "ids": [
+      216
+    ]
+  },
+  "jp_wrap": {
+    "font": "C:/Windows/Fonts/msmincho.ttc",
+    "items": [
+      {
+        "id": 216,
+        "size_pt": 8.0,
+        "space_after": 1.5
+      },
+      {
+        "id": 313,
+        "space_after": 1.5
+      }
+    ]
+  },
+  "point_fix": {
+    "id": 216,
+    "bottom_cm": 15.0
+  },
+  "bring_front": [
+    139
+  ],
+  "luxury_badge": {
+    "remove_id": 31,
+    "x": 0.7,
+    "y": 5.4,
+    "w": 4.7,
+    "h": 3.6,
+    "seal": "売 地",
+    "madori": "更地",
+    "area": "49.01㎡",
+    "sub": "約14.83坪"
+  },
+  "caption_uniform": {
+    "ids": [
+      85,
+      34,
+      35,
+      267,
+      268,
+      269,
+      272
+    ],
+    "w_cm": 2.35,
+    "h_cm": 0.52,
+    "off_cm": 0.16,
+    "font_pt": 8,
+    "fill": "14161B",
+    "alpha": 68,
+    "gold_line": true,
+    "hero_id": 85,
+    "hero_photo_id": 116
+  },
+  "hide_ids": [
+    116,
+    32,
+    33,
+    119,
+    120,
+    124,
+    128,
+    139
+  ],
+  "fullbleed_bg": {
+    "photo": "/home/user/hanbaizumen/skills/property-mysoku-generator/assets/washi_bg.jpg",
+    "region_cm": [
+      0.15,
+      1.85,
+      20.9,
+      17.0
+    ],
+    "stretch": true
+  }
+}

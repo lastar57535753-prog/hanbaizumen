@@ -1,0 +1,61 @@
+{
+  "_comment": "大森本町二丁目 売地。値は前セッションが references/land-keys.md に残した実測例から復元した下書き。空欄＝資料未確認（fill が【要確認】で残す）。",
+  "AGENT": "tokunaga",
+
+  "BUILDING": "大森本町二丁目 売地",
+  "FLOOR_SHORT": "更地",
+
+  "LINE1": "京急本線", "STATION1": "", "WALK1": "",
+  "LINE2": "", "STATION2": "", "WALK2": "",
+
+  "PRICE": "",
+
+  "CATCH1": "大森本町二丁目・整形地の更地",
+  "CATCH2": "近隣商業地域 建ぺい80％／容積300％",
+
+  "MADORI": "",
+  "AREA_MINI": "49.01㎡",
+  "LAND_TSUBO": "約14.83坪",
+  "TERRACE": "",
+
+  "CAP_MAIN": "現地", "CAP1": "前面道路", "CAP2": "周辺", "CAP3": "",
+  "CAP4": "", "CAP5": "", "CAP6": "",
+
+  "POINT1": "近隣商業地域・建ぺい率80％／容積率300％の建築自由度の高い土地",
+  "POINT2": "現況更地・建築条件なし。お好きなハウスメーカーで建築可",
+  "POINT3": "南西側 幅員4.0m の道路に約5.2m接道",
+  "POINT4": "公営上下水道・都市ガス引込済",
+
+  "ADDRESS": "大田区大森本町二丁目6477番338",
+  "RIGHT": "所有権",
+  "LAND_AREA": "49.01㎡ （約14.83坪）",
+  "TSUBO_PRICE": "",
+  "CHIMOKU": "宅地",
+  "TOPOGRAPHY": "平坦",
+  "ZONING": "近隣商業地域",
+  "BUILDING_RATIO": "80％",
+  "FLOOR_RATIO": "300％",
+  "FIRE_ZONE": "準防火地域",
+  "HEIGHT_ZONE": "第3種高度地区",
+  "CITY_PLAN": "市街化区域",
+  "ROAD_DIR": "南西",
+  "ROAD_WIDTH": "4.0m",
+  "ROAD_FRONT": "5.2m",
+  "PRIVATE_ROAD": "無",
+  "SETBACK": "要（約0.5m）",
+  "BUILD_COND": "無",
+  "WATER_SEWER": "公営・本管引込済",
+  "GAS": "都市ガス",
+  "SPECIAL": "隣棟間の確認書あり",
+  "STATUS": "更地",
+  "HANDOVER": "相談",
+
+  "SPOT1": "", "SPOT1_D": "",
+  "SPOT2": "", "SPOT2_D": "",
+  "SPOT3": "", "SPOT3_D": "",
+  "SPOT4": "", "SPOT4_D": "",
+
+  "NOTE1": "・現況更地・建築条件なし",
+  "NOTE2": "・セットバック要（約0.5m）",
+  "NOTE3": "・用途地域等は最新の役所調査で要再確認"
+}
