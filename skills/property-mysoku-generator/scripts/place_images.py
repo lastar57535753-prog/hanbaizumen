@@ -655,6 +655,20 @@ def main():
                 paras[i]._p.getparent().remove(paras[i]._p)
         print(f"dropped paragraphs {idxs} from {sid}")
 
+    # 2.55) 固定文言の差し替え（例: 取引態様「媒介」→「専属専任」、アクセスの「徒歩」→「バス」）
+    #   {"322": {"媒介": "専属専任"}}  run 単位で置換するので書式はそのまま
+    for sid, pairs in cfg.get("text_replace", {}).items():
+        sh = byid.get(int(sid))
+        if sh is None or not sh.has_text_frame:
+            print(f"text_replace: id={sid} が無いので飛ばした"); continue
+        n = 0
+        for para in sh.text_frame.paragraphs:
+            for r in para.runs:
+                for old_s, new_s in pairs.items():
+                    if old_s in r.text:
+                        r.text = r.text.replace(old_s, new_s); n += 1
+        print(f"text_replace: id={sid} {pairs} -> {n}箇所")
+
     # 2.6) 写真上の文字を読みやすくするスクリム（半透明の濃色帯）を文字の背面に敷く
     def set_alpha(fore, pct):
         srgb = fore._xFill.find(qn("a:srgbClr"))
