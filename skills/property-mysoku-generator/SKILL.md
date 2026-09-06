@@ -1,6 +1,6 @@
 ---
 name: property-mysoku-generator
-description: センチュリー21ラスターハウスの「販売図面（マイソク）」を**A4横1枚**のPPTX/PDFで作る標準スキル。「○○マンションの販売図面を作って」「マイソク作成」「販売図面を作りたい」と言われたら、明示的に『スキル』と言われなくても必ずこれを使う（A4横が標準。A3縦の旧レイアウトが要るときだけ lastarhouse-hanbai-zumen）。マンション区分のみ（戸建・土地は対象外）。物件データと写真から、物件概要表・POINT・備考・LIFE INFORMATION・写真ギャラリー・ピクトグラムまで入れて1コマンドで出力し、出力前に被り・はみ出し・書体を自動QCする。Windows(PowerPoint) / macOS / Linux で動く。
+description: センチュリー21ラスターハウスの「販売図面（マイソク）」を**A4横1枚**のPPTX/PDFで作る標準スキル。「○○マンションの販売図面を作って」「マイソク作成」「販売図面を作りたい」と言われたら、明示的に『スキル』と言われなくても必ずこれを使う（A4横が標準。A3縦の旧レイアウトが要るときだけ lastarhouse-hanbai-zumen）。マンション区分と土地（売地）に対応（戸建は未対応）。物件データと写真から、物件概要表・POINT・備考・LIFE INFORMATION・写真ギャラリー・ピクトグラムまで入れて1コマンドで出力し、出力前に被り・はみ出し・書体を自動QCする。Windows(PowerPoint) / macOS / Linux で動く。
 ---
 
 # 販売図面（マイソク）自動生成システム
@@ -28,16 +28,24 @@ description: センチュリー21ラスターハウスの「販売図面（マ�
 
 ## When to Use / NOT
 
-- **Use:** マンション区分の販売図面／マイソクを作る依頼。
-- **NOT:** 戸建・土地（別テンプレ想定・未対応）、冊子版、価格改定のみ、帯替えだけ（それは obi-replace スキル）。
+- **Use:** マンション区分／土地（売地）の販売図面・マイソクを作る依頼。
+- **NOT:** 戸建（未対応）、冊子版、価格改定のみ、帯替えだけ（それは obi-replace スキル）。
 
 ## 作り方（1コマンド）
 
 内部で fill → 画像/意匠 → 右カラム整列 → 出力前セルフQC → PDF を自動実行する。
 
 ```bash
+# マンション区分
 python scripts/build_all.py assets/template_mansion.pptx 物件_data.json 物件_images.json 出力.pptx
+# 土地（売地）
+python scripts/build_all.py assets/template_land.pptx   物件_data.json 物件_images.json 出力.pptx
 ```
+
+**土地はテンプレとキーが違う**（物件概要表23行が 地目・建ぺい率・容積率・接道・私道負担・
+セットバック・建築条件・上下水道 等に入れ替わる）。キー一覧と土地固有の注意は
+**references/land-keys.md**。テンプレは `scripts/make_land_template.py` が
+マンション版から生成するので、マンション版を直したら土地版も作り直すこと。
 
 - preflight が **✅合格** なら QR以外は一発納品OK。**⚠要確認** なら設定JSONを直して再実行。
 - PDFを省くなら末尾に `--no-pdf`。
@@ -110,3 +118,6 @@ Dropbox / Google Drive の共有リンクはそのまま貼ってよい（`?dl=0
 - 価格が長いと 36pt の価格行が**紙面右外へ抜ける**。preflight は枠ではなく文字の実寸で見る。
 - 日本語の折り返しは全角1em換算で計算する。実フォントで測ると HGS明朝E の無い
   mac/Linux で折返し位置が変わり、レイアウトが崩れる。
+- **枠に入る字数を超えない。** 物件概要表の値と備考は**全角19.7字**、キャッチは**約22字**。
+  超えると行が増えて表が伸び、備考がLIFE見出しに突っ込む（preflight が被りで止める）。
+  書く前に `scripts/textfit.py` の `em()` で測る。枠を広げて逃げないこと。
