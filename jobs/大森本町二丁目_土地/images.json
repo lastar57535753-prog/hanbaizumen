@@ -1,7 +1,44 @@
 {
-  "images": {},
+  "images": {
+    "116": {
+      "path": "/home/user/hanbaizumen/jobs/大森本町二丁目_土地/写真_加工/S__50274356_0.jpg",
+      "mode": "fill",
+      "kind": "exterior"
+    },
+    "32": {
+      "path": "/home/user/hanbaizumen/jobs/大森本町二丁目_土地/写真_加工/S__50274359_0.jpg",
+      "mode": "fill",
+      "kind": "exterior"
+    },
+    "33": {
+      "path": "/home/user/hanbaizumen/jobs/大森本町二丁目_土地/写真_加工/S__50274372_0.jpg",
+      "mode": "fill",
+      "kind": "exterior"
+    },
+    "119": {
+      "path": "/home/user/hanbaizumen/jobs/大森本町二丁目_土地/写真_加工/S__50274354_0.jpg",
+      "mode": "fill",
+      "kind": "exterior"
+    },
+    "139": {
+      "path": "/home/user/hanbaizumen/jobs/大森本町二丁目_土地/写真_加工/区画図.jpg",
+      "region_cm": [
+        13.8,
+        2.4,
+        7.0,
+        7.3
+      ],
+      "align": "center",
+      "is_floorplan": true,
+      "border": {
+        "color": "CFCFCF",
+        "pt": 0.75
+      }
+    }
+  },
   "drop_paragraphs": {
     "281": [
+      1,
       2
     ]
   },
@@ -37,20 +74,17 @@
     "y": 5.4,
     "w": 4.7,
     "h": 3.6,
-    "seal": "売 地",
-    "madori": "更地",
-    "area": "49.01㎡",
-    "sub": "約14.83坪"
+    "seal": "売 地 ・ 更地",
+    "madori": "49.01㎡",
+    "area": "約14.83坪",
+    "sub": "南側 公道"
   },
   "caption_uniform": {
     "ids": [
       85,
       34,
       35,
-      267,
-      268,
-      269,
-      272
+      267
     ],
     "w_cm": 2.35,
     "h_cm": 0.52,
@@ -63,14 +97,12 @@
     "hero_photo_id": 116
   },
   "hide_ids": [
-    116,
-    32,
-    33,
-    119,
     120,
     124,
     128,
-    139
+    268,
+    269,
+    272
   ],
   "fullbleed_bg": {
     "photo": "/home/user/hanbaizumen/skills/property-mysoku-generator/assets/washi_bg.jpg",
@@ -81,5 +113,15 @@
       17.0
     ],
     "stretch": true
-  }
+  },
+  "text_shadow": [
+    {
+      "ids": [
+        25
+      ],
+      "alpha": 85,
+      "blur": 5,
+      "dist": 3
+    }
+  ]
 }

@@ -1,5 +1,9 @@
-# ビルド生成物は入れない（data.json / images.json だけ残す）
+# ビルド生成物・物件資料は入れない（data.json / images.json だけ残す）
 *.pptx
 *.pdf
 *.png
+*.jpg
 _picto/
+_pages/
+資料/
+写真_加工/
