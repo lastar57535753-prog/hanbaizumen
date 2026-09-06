@@ -187,7 +187,7 @@ def widen_life_names(slide, name_box, log):
     ins = insets(dist.text_frame)
     need = max(textfit.cm(p.text, para_pt(p)) for p in dist.text_frame.paragraphs
                if p.text.strip())
-    free = cm_of(dist.width) - ins["lIns"] - ins["rIns"] - need - 0.05
+    free = cm_of(dist.width) - ins["lIns"] - ins["rIns"] - need - 0.25   # 書体差で折り返さないよう余裕を残す
     if free <= 0.05:
         return 0.0, dist
     dist.left = Emu(int((cm_of(dist.left) + free) * CM))
