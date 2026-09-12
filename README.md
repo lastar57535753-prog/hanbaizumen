@@ -28,4 +28,4 @@ python scripts/build_all.py assets/template_mansion.pptx 物件_data.json 物件
   `dropbox.com` / `dropboxusercontent.com` を足す必要がある
   （[設定方法](https://code.claude.com/docs/en/claude-code-on-the-web)）。
 - セッション開始時に `.claude/hooks/session_start.sh` が不足パッケージを入れ、
-  上の2点が使えるかを報告する。
+  上の点が使えるかを報告する。

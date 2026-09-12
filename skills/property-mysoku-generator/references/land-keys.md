@@ -17,7 +17,7 @@ python scripts/make_land_template.py assets/template_mansion.pptx assets/templat
 |---|---|---|
 | ADDRESS | 所 在 地 | 大田区大森本町二丁目6477番338 |
 | RIGHT | 権　利 | 所有権 |
-| LAND_AREA | 土地面積 | 49.01㎡ （約14.83坪） |
+| LAND_AREA | 敷地面積 | 49.01㎡ （約14.83坪） |
 | TSUBO_PRICE | 坪 単 価 | 320万円 |
 | CHIMOKU | 地　目 | 宅地 |
 | TOPOGRAPHY | 地　勢 | 平坦 |

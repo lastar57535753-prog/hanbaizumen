@@ -8,7 +8,9 @@ from pptx import Presentation
 ROWS = [
     ("所 在 地", "ADDRESS"),
     ("権　利", "RIGHT"),
-    ("土地面積", "LAND_AREA"),
+    # ラベルは「敷地面積」。「土地面積」だと LibreOffice が先頭2文字「土地」を入れ替えて
+    # 重ねて描く不具合があり、PDF で「地面積」に見える（PowerPoint では正常）。
+    ("敷地面積", "LAND_AREA"),
     ("坪 単 価", "TSUBO_PRICE"),
     ("地　目", "CHIMOKU"),
     ("地　勢", "TOPOGRAPHY"),

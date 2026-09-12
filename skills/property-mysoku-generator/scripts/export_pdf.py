@@ -81,6 +81,36 @@ def _via_powerpoint_mac(src, dst):
     return r.returncode == 0 and os.path.exists(dst)
 
 
+def check_glyph_order(pdf):
+    """書き出したPDFで、文字が前に戻って重なって描かれていないかを見る。
+
+    LibreOffice は書体と文字の組み合わせによっては、直前の文字の送り幅を
+    取りこぼして次の文字を前に戻して描くことがある（例:「土地面積」が
+    「地面積」に見える）。字は正しく入っているので見落としやすい。
+    出たら、その文言を言い換えるか、代替書体を変えて回避する。"""
+    try:
+        import pymupdf
+    except ImportError:
+        return True
+    bad = []
+    doc = pymupdf.open(pdf)
+    for page in doc:
+        for blk in page.get_text("rawdict")["blocks"]:
+            for ln in blk.get("lines", []):
+                for sp in ln["spans"]:
+                    xs = [c["origin"][0] for c in sp["chars"]]
+                    if len(xs) > 1 and xs != sorted(xs):
+                        bad.append("".join(c["c"] for c in sp["chars"]))
+    doc.close()
+    if bad:
+        print("⚠ 文字が重なって描かれています（LibreOffice の字送りの取りこぼし）:")
+        for t in bad:
+            print(f"   「{t}」")
+        print("   → その文言を言い換えるか、別の書体で書き出してください。")
+        return False
+    return True
+
+
 def outline_text(pdf):
     """PDFの文字を図形に変換する。フォントが無い環境での字形置換（中華文字化け）を断つ。"""
     gs = shutil.which("gs") or shutil.which("gswin64c")
@@ -116,6 +146,7 @@ def main():
     # macOS / Linux
     if _via_soffice(src, dst):
         print(f"saved: {dst}  (LibreOffice)")
+        check_glyph_order(dst)       # アウトライン化する前に、文字の重なりを見る
         if outline:
             outline_text(dst)
         return

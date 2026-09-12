@@ -85,6 +85,16 @@
         "color": "CFCFCF",
         "pt": 0.75
       }
+    },
+    "229": {
+      "path": "/home/user/hanbaizumen/jobs/大森本町二丁目_土地/写真_加工/QR.png",
+      "region_cm": [
+        23.57,
+        18.98,
+        1.86,
+        1.86
+      ],
+      "align": "center"
     }
   },
   "drop_paragraphs": {
