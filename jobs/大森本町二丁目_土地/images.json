@@ -149,7 +149,10 @@
     "hero_id": 85,
     "hero_photo_id": 116
   },
-  "hide_ids": [],
+  "hide_ids": [
+    21,
+    22
+  ],
   "fullbleed_bg": {
     "photo": "/home/user/hanbaizumen/skills/property-mysoku-generator/assets/washi_bg.jpg",
     "region_cm": [

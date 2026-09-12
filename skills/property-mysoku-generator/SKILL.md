@@ -22,6 +22,10 @@ description: センチュリー21ラスターハウスの「販売図面（マ�
   - **macOS / Linux:** **LibreOffice**（`soffice`）。mac は `brew install --cask libreoffice`。環境変数 `SOFFICE_BIN` でパス明示も可。mac は PowerPoint があれば LibreOffice無しでもフォールバック動作。
 - **右カラム自動整列 / 自動QC:** Windows は PowerPoint実測で高精度。**mac/Linux は python-pptx推定で整列し、preflight（自動QC）はスキップ** → 生成物を PowerPoint/LibreOffice で**目視確認**する。
 - **フォント:** `HGS明朝E`（日本語Win/Office標準）。無い環境（mac等）は明朝系に自動代替（ヒラギノ等）。行折り返し計測用フォントもOS別に自動解決。
+  **PPTXをそのまま Mac や他社に渡すと、HGS明朝E が無い環境で中国語フォントに代替されて
+  字形が変わる。** 配布はアウトライン化済みPDFで行う（PPTXは編集用と割り切る）。
+- **アウトライン化:** `ghostscript`（`apt install ghostscript` / `brew install ghostscript`）。
+  無くてもPDFは出るが、アウトライン化は飛ばされる。
 - **物件素材フォルダのルート**（`find_property.py` 用）はアカウントごとに違う。環境変数 `MYSOKU_ROOT` に設定するか、`--root "パス"` で毎回渡す（find_property はあくまで補助）。
 
 `assets/` に穴あきテンプレ本体・和紙背景・サンプル2本・仕上がり見本PDFを同梱済み。
@@ -49,6 +53,9 @@ python scripts/build_all.py assets/template_land.pptx   物件_data.json 物件_
 
 - preflight が **✅合格** なら QR以外は一発納品OK。**⚠要確認** なら設定JSONを直して再実行。
 - PDFを省くなら末尾に `--no-pdf`。
+- PDFは書き出したあと **文字をアウトライン化**（図形化）する。HGS明朝E を持っていない
+  相手に送っても字形が中国語フォントに置き換わらない（＝中華文字に化けない）。
+  Ghostscript が要る。編集用に文字を残したいときだけ `--no-outline`。
 
 ## 手順（Step 0〜6）
 
@@ -104,6 +111,8 @@ Dropbox / Google Drive の共有リンクはそのまま貼ってよい（`?dl=0
 ## 出力先・締め
 
 素材を入れた**物件フォルダ直下**に `{物件名}_販売図面.pptx / .pdf`。最後に必ず **「写真の枠割当一覧」** と **「【要確認】リスト」** を提示。**QRコードは手動でPowerPointで差す**（自動化対象外）。
+QRを入れないときは `"hide_ids": [21, 22]` で「↓物件詳細↓」と点線枠を消す。消すと備考が
+右カラム全幅に広がり、LIFE INFORMATION も上に詰まる（reflow が自動でやる）。
 
 ## Common Mistakes
 

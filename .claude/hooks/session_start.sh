@@ -29,6 +29,13 @@ else
   log "LibreOffice Impress が無いので PDF 書き出しは使えません（--no-pdf で PPTX まで作れます）"
 fi
 
+# PDFの文字をアウトライン化する（書体の無い環境で中国語フォントに化けるのを防ぐ）
+if command -v gs >/dev/null 2>&1; then
+  log "Ghostscript … OK（PDFのアウトライン化可）"
+else
+  log "Ghostscript が無いので PDF はアウトライン化されません（apt install ghostscript）"
+fi
+
 # 写真を共有リンクから取るには Dropbox 等への通信許可が要る
 python3 - <<'PY'
 import urllib.request

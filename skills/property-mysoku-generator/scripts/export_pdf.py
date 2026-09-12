@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 """pptx を PDF に書き出す（クロスプラットフォーム）。
 
-  usage: python export_pdf.py 入力.pptx [出力.pdf]
+  usage: python export_pdf.py 入力.pptx [出力.pdf] [--outline]
+
+--outline を付けると、書き出したPDFの文字を **すべてアウトライン化**（図形化）する。
+配布先に HGS明朝E が無くても字形が置き換わらない＝**中国語の字形（中華文字）に化けない**。
+Ghostscript が要る（apt install ghostscript / brew install ghostscript）。
 
 方式（自動選択）:
   - Windows            → PowerPoint COM (pywin32)
@@ -77,22 +81,48 @@ def _via_powerpoint_mac(src, dst):
     return r.returncode == 0 and os.path.exists(dst)
 
 
+def outline_text(pdf):
+    """PDFの文字を図形に変換する。フォントが無い環境での字形置換（中華文字化け）を断つ。"""
+    gs = shutil.which("gs") or shutil.which("gswin64c")
+    if gs is None:
+        print("ℹ Ghostscript が無いのでアウトライン化を飛ばしました"
+              "（apt install ghostscript / brew install ghostscript）")
+        return False
+    tmp = pdf + ".outlined.pdf"
+    r = subprocess.run([gs, "-dNoOutputFonts", "-sDEVICE=pdfwrite", "-dNOPAUSE", "-dBATCH",
+                        "-dQUIET", "-r600", f"-sOutputFile={tmp}", pdf], capture_output=True)
+    if r.returncode != 0 or not os.path.exists(tmp):
+        print("⚠ アウトライン化に失敗:", r.stderr.decode("utf-8", "ignore")[:200])
+        return False
+    shutil.move(tmp, pdf)
+    print("アウトライン化: 文字を図形に変換しました（書体が無い環境でも化けません）")
+    return True
+
+
 def main():
-    src = os.path.abspath(sys.argv[1])
-    dst = os.path.abspath(sys.argv[2]) if len(sys.argv) > 2 else os.path.splitext(src)[0] + ".pdf"
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    outline = "--outline" in sys.argv
+    src = os.path.abspath(args[0])
+    dst = os.path.abspath(args[1]) if len(args) > 1 else os.path.splitext(src)[0] + ".pdf"
     system = platform.system()
 
     if system == "Windows":
         _via_powerpoint_com(src, dst)
         print(f"saved: {dst}  (PowerPoint COM)")
+        if outline:
+            outline_text(dst)
         return
 
     # macOS / Linux
     if _via_soffice(src, dst):
         print(f"saved: {dst}  (LibreOffice)")
+        if outline:
+            outline_text(dst)
         return
     if system == "Darwin" and _via_powerpoint_mac(src, dst):
         print(f"saved: {dst}  (PowerPoint for Mac)")
+        if outline:
+            outline_text(dst)
         return
 
     sys.stderr.write(

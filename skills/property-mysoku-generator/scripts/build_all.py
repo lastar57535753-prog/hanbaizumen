@@ -3,7 +3,7 @@
 
 usage:
   python build_all.py <template.pptx> <data.json> <images.json> <out.pptx>
-        [--no-pdf] [--pictograms point,note,life] [--qc-warn]
+        [--no-pdf] [--no-outline] [--pictograms point,note,life] [--qc-warn]
         [--agent キー] [--allow-missing]
 
 処理:
@@ -14,7 +14,10 @@ usage:
   4) place_pictograms.py … 行頭の「・」を物件の特徴に合ったピクトグラムに置換
                             （--pictograms で指定したときだけ。既定は入れない）
   5) preflight.py        … 出力前セルフQC。**違反があればここで止まる**（--qc-warn で警告のみ）
-  6) export_pdf.py       … PDF書き出し（--no-pdf で省略）
+  6) export_pdf.py       … PDF書き出し＋文字のアウトライン化（--no-pdf で省略、
+                            --no-outline でアウトライン化だけ省略）
+                            アウトライン化すると、HGS明朝E が無い相手に送っても
+                            字形が中国語フォントに置き換わらない。
 
 写真は images.json の "path" にローカルパスでも共有URL（Dropbox / Google Drive）でも書ける。
 取得できないときは止まる（--allow-missing で穴を許容）。
@@ -51,6 +54,7 @@ def main():
     no_pdf = "--no-pdf" in rest
     qc_warn = "--qc-warn" in rest
     allow_missing = "--allow-missing" in rest
+    no_outline = "--no-outline" in rest
     agent = rest[rest.index("--agent") + 1] if "--agent" in rest else None
     zones = None
     if "--pictograms" in rest:
@@ -77,7 +81,7 @@ def main():
 
     if not no_pdf:
         print("\n■ PDF書き出し")
-        run("export_pdf.py", out, base + ".pdf")
+        run("export_pdf.py", out, base + ".pdf", *([] if no_outline else ["--outline"]))
     for tmp in (filled, imaged):
         try:
             os.remove(tmp)

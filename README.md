@@ -21,7 +21,9 @@ python scripts/build_all.py assets/template_mansion.pptx 物件_data.json 物件
 
 ## この環境について
 
-- PDF書き出しには LibreOffice Impress が要る。無ければ `--no-pdf` で PPTX まで作れる。
+- PDF書き出しには LibreOffice Impress、PDFのアウトライン化には Ghostscript が要る。
+  無ければ `--no-pdf` / `--no-outline`。アウトライン化しておくと、HGS明朝E の無い相手に
+  送っても字形が中国語フォントに置き換わらない。
 - 写真を Dropbox の共有リンクで渡すには、環境のネットワーク許可リストに
   `dropbox.com` / `dropboxusercontent.com` を足す必要がある
   （[設定方法](https://code.claude.com/docs/en/claude-code-on-the-web)）。
