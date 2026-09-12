@@ -155,56 +155,6 @@ def smart_composite(path, wcm, hcm, kind, tmpdir):
     return fn, method, round(loss), eff_dpi
 
 
-JP_OPEN = "「（【(『［｛《〈"
-JP_CLOSE = "」）】)』］｝》〉"
-NO_START = "、。，．・）」』】）,.:：;；!！?？ー〜%"     # 行頭に置けない（前行へ）
-_ASCII = re.compile(r"[0-9A-Za-z%．.,／/－ー~〜:：＋+#&']+")
-_KATA = re.compile(r"[ァ-ヶー・]{2,}")   # カタカナ語（ワイドサッシ/コンシェルジュ等）は分割しない
-
-
-def _tokenize(t):
-    """語中で切らないための最小トークン化。英数字連続・カタカナ語・『「…」』等の括弧内は分割不可。"""
-    toks, i, n = [], 0, len(t)
-    while i < n:
-        c = t[i]
-        if c in JP_OPEN:
-            close = JP_CLOSE[JP_OPEN.index(c)]
-            j = t.find(close, i + 1)
-            j = j if j != -1 else i
-            toks.append(t[i:j + 1]); i = j + 1; continue
-        m = _ASCII.match(t, i)
-        if m and m.end() > i:
-            toks.append(t[i:m.end()]); i = m.end(); continue
-        m = _KATA.match(t, i)
-        if m and m.end() > i:
-            toks.append(t[i:m.end()]); i = m.end(); continue
-        toks.append(c); i += 1
-    return toks
-
-
-def jp_wrap(text, max_cm, pt):
-    """日本語を語中で切らずに折り返す。禁則（行頭約物）も簡易対応。
-
-    幅は「全角1em・半角0.5em」で数える（textfit）。実フォントで計測しないのは、
-    本番の HGS明朝E が mac/Linux に無く、環境ごとに折返し位置が変わってしまうため。
-    和文は全角1emなので、この数え方なら Windows でも mac でも同じ結果になる。"""
-    lines, cur = [], ""
-    for tok in _tokenize(text):
-        cand = cur + tok
-        if cur and textfit.cm(cand, pt) > max_cm:
-            lines.append(cur); cur = tok
-        else:
-            cur = cand
-    if cur:
-        lines.append(cur)
-    fixed = []
-    for ln in lines:
-        while ln and fixed and ln[0] in NO_START:
-            fixed[-1] += ln[0]; ln = ln[1:]
-        fixed.append(ln)
-    return [l for l in fixed if l] or [text]
-
-
 def rebuild_with_breaks(paragraph, lines, size_pt=None):
     """段落を、指定行に <a:br> で区切って作り直す（書式は元の1つ目のrunを継承）。"""
     p = paragraph._p
@@ -642,9 +592,18 @@ def main():
         sh = byid.get(int(sf["id"]))
         if sh is not None and sh.has_text_frame:
             for p in sh.text_frame.paragraphs:
-                for r in p.runs:
-                    r.font.size = Pt(sf["size_pt"])
-            print(f"set_font id={sf['id']} -> {sf['size_pt']}pt")
+                if sf.get("size_pt"):
+                    for r in p.runs:
+                        r.font.size = Pt(sf["size_pt"])
+                if sf.get("line_spacing"):          # 行間（1.5→1.25 等。行数を稼ぎたいとき）
+                    pPr = p._p.get_or_add_pPr()
+                    for old_ls in pPr.findall(qn("a:lnSpc")):
+                        pPr.remove(old_ls)
+                    ls = pPr.makeelement(qn("a:lnSpc"), {})
+                    pct = ls.makeelement(qn("a:spcPct"), {"val": str(int(sf["line_spacing"] * 100000))})
+                    ls.append(pct); pPr.insert(0, ls)
+            print(f"set_font id={sf['id']} -> {sf.get('size_pt')}pt "
+                  f"line={sf.get('line_spacing')}")
 
     # 2.5) 不要な段落を削除（例: 路線が2つの物件でアクセス3行目を消す）
     for sid, idxs in cfg.get("drop_paragraphs", {}).items():
@@ -744,7 +703,7 @@ def main():
                 if not txt.strip():
                     continue
                 pt = size_pt or (para.runs[0].font.size.pt if para.runs and para.runs[0].font.size else 9)
-                lines = jp_wrap(txt, max_cm, pt)
+                lines = textfit.jp_wrap(txt, max_cm, pt)
                 rebuild_with_breaks(para, lines, size_pt)
                 if sa is not None:
                     para.space_after = Pt(sa); para.space_before = Pt(0)
@@ -769,6 +728,39 @@ def main():
         print(f"point_fix id={pf['id']}: bottom={pf['bottom_cm']}cm")
 
     # 4) 写真上の文字に影を付けて視認性を上げる
+    # 4.71) 文字色（明るい写真の上では白より墨のほうが読める。袋文字と組で使う）
+    #   {"text_color": [{"ids":[25], "color":"14161B"}]}
+    for spec in cfg.get("text_color", []):
+        for sid in spec.get("ids", []):
+            sh = byid.get(int(sid))
+            if sh is None or not sh.has_text_frame:
+                continue
+            for para in sh.text_frame.paragraphs:
+                for r in para.runs:
+                    r.font.color.rgb = RGBColor.from_string(spec["color"])
+        print(f"text_color: ids={spec.get('ids')} -> {spec.get('color')}")
+
+    # 4.72) 袋文字（写真の上の白いキャッチが背景に溶けないよう、文字に輪郭線を付ける）
+    #   {"text_outline": [{"ids":[25], "color":"14161B", "pt":1.1, "alpha":100}]}
+    for spec in cfg.get("text_outline", []):
+        for sid in spec.get("ids", []):
+            sh = byid.get(int(sid))
+            if sh is None or not sh.has_text_frame:
+                continue
+            for para in sh.text_frame.paragraphs:
+                for r in para.runs:
+                    rPr = r._r.get_or_add_rPr()
+                    for old in rPr.findall(qn("a:ln")):
+                        rPr.remove(old)
+                    ln = rPr.makeelement(qn("a:ln"), {"w": str(int(spec.get("pt", 1.1) * 12700))})
+                    fill = ln.makeelement(qn("a:solidFill"), {})
+                    clr = fill.makeelement(qn("a:srgbClr"), {"val": spec.get("color", "14161B")})
+                    if spec.get("alpha") is not None:
+                        clr.append(clr.makeelement(qn("a:alpha"), {"val": str(int(spec["alpha"] * 1000))}))
+                    fill.append(clr); ln.append(fill)
+                    rPr.insert(0, ln)
+        print(f"text_outline: ids={spec.get('ids')} {spec.get('pt', 1.1)}pt {spec.get('color', '14161B')}")
+
     for spec in cfg.get("text_shadow", []):
         for cid in spec.get("ids", []):
             sh = byid.get(int(cid))

@@ -8,25 +8,76 @@
     "32": {
       "path": "/home/user/hanbaizumen/jobs/大森本町二丁目_土地/写真_加工/S__50274359_0.jpg",
       "mode": "fill",
-      "kind": "exterior"
+      "kind": "exterior",
+      "box_cm": [
+        10.4,
+        11.1,
+        5.0,
+        3.5
+      ]
     },
     "33": {
-      "path": "/home/user/hanbaizumen/jobs/大森本町二丁目_土地/写真_加工/S__50274372_0.jpg",
+      "path": "/home/user/hanbaizumen/jobs/大森本町二丁目_土地/写真_加工/S__50274360_0.jpg",
       "mode": "fill",
-      "kind": "exterior"
+      "kind": "exterior",
+      "box_cm": [
+        15.5,
+        11.1,
+        5.2,
+        3.5
+      ]
     },
     "119": {
       "path": "/home/user/hanbaizumen/jobs/大森本町二丁目_土地/写真_加工/S__50274354_0.jpg",
       "mode": "fill",
-      "kind": "exterior"
+      "kind": "exterior",
+      "box_cm": [
+        0.2,
+        15.0,
+        5.0,
+        3.5
+      ]
+    },
+    "120": {
+      "path": "/home/user/hanbaizumen/jobs/大森本町二丁目_土地/写真_加工/S__50274355_0.jpg",
+      "mode": "fill",
+      "kind": "exterior",
+      "box_cm": [
+        5.3,
+        15.0,
+        5.0,
+        3.5
+      ]
+    },
+    "124": {
+      "path": "/home/user/hanbaizumen/jobs/大森本町二丁目_土地/写真_加工/S__50274372_0.jpg",
+      "mode": "fill",
+      "kind": "exterior",
+      "box_cm": [
+        10.4,
+        15.0,
+        5.0,
+        3.5
+      ]
+    },
+    "128": {
+      "path": "/home/user/hanbaizumen/jobs/大森本町二丁目_土地/写真_加工/S__50274373_0.jpg",
+      "mode": "fill",
+      "kind": "exterior",
+      "box_cm": [
+        15.5,
+        15.0,
+        5.2,
+        3.5
+      ]
     },
     "139": {
       "path": "/home/user/hanbaizumen/jobs/大森本町二丁目_土地/写真_加工/区画図.jpg",
       "region_cm": [
-        13.8,
-        2.4,
-        7.0,
-        7.3
+        13.6,
+        2.25,
+        7.35,
+        7.6
       ],
       "align": "center",
       "is_floorplan": true,
@@ -52,8 +103,7 @@
       {
         "id": 216,
         "size_pt": 8.0,
-        "space_after": 1.5,
-        "inner_ratio": 0.82
+        "space_after": 1.5
       },
       {
         "id": 313,
@@ -63,7 +113,7 @@
   },
   "point_fix": {
     "id": 216,
-    "bottom_cm": 15.0
+    "bottom_cm": 15.15
   },
   "bring_front": [
     139
@@ -84,7 +134,10 @@
       85,
       34,
       35,
-      267
+      267,
+      268,
+      269,
+      272
     ],
     "w_cm": 2.35,
     "h_cm": 0.52,
@@ -96,14 +149,7 @@
     "hero_id": 85,
     "hero_photo_id": 116
   },
-  "hide_ids": [
-    120,
-    124,
-    128,
-    268,
-    269,
-    272
-  ],
+  "hide_ids": [],
   "fullbleed_bg": {
     "photo": "/home/user/hanbaizumen/skills/property-mysoku-generator/assets/washi_bg.jpg",
     "region_cm": [
@@ -119,9 +165,10 @@
       "ids": [
         25
       ],
-      "alpha": 85,
-      "blur": 5,
-      "dist": 3
+      "color": "FFFFFF",
+      "alpha": 60,
+      "blur": 4,
+      "dist": 0
     }
   ],
   "text_replace": {
@@ -136,6 +183,39 @@
     {
       "id": 281,
       "size_pt": 9.0
+    },
+    {
+      "id": 216,
+      "size_pt": 8.0,
+      "line_spacing": 1.25
+    }
+  ],
+  "resize": [
+    {
+      "id": 25,
+      "w_cm": 12.8
+    },
+    {
+      "id": 216,
+      "w_cm": 9.8
+    }
+  ],
+  "text_outline": [],
+  "text_color": [
+    {
+      "ids": [
+        25
+      ],
+      "color": "14161B"
+    }
+  ],
+  "bg_panels": [
+    {
+      "behind_id": 25,
+      "color": "FFFFFF",
+      "alpha": 76,
+      "pad_cm": 0.16,
+      "round": true
     }
   ]
 }

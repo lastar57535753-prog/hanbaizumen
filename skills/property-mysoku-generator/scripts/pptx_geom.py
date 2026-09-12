@@ -53,6 +53,14 @@ def para_width(p, dflt=10.0):
     return total
 
 
+def para_indent(p):
+    """段落の字下げ(marL)cm。行頭ピクトグラムを入れると本文はこの分だけ狭くなる。"""
+    if p._pPr is None:
+        return 0.0
+    v = p._pPr.get("marL")
+    return (int(v) / 914400 * 2.54) if v else 0.0
+
+
 def para_linespace(p):
     if p._pPr is None:
         return 1.0
@@ -75,9 +83,13 @@ def lines(shape):
         if not p.text.strip():
             out.append(("", pt, lh))
             continue
-        segs = [p.text] if no_wrap else textfit.wrap(p.text, textfit.capacity(w, pt))
-        for seg in segs:
-            out.append((seg, pt, lh))
+        # 行頭ピクトグラムの字下げ(marL)の分だけ1行は短い
+        pw = w - para_indent(p)
+        # <a:br> は強制改行。python-pptx は \v で返すので、そこで必ず行を分ける
+        for hard in p.text.split("\v"):
+            segs = [hard] if no_wrap else textfit.wrap(hard, textfit.capacity(pw, pt))
+            for seg in segs:
+                out.append((seg, pt, lh))
     return out
 
 

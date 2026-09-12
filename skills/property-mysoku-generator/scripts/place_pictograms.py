@@ -19,9 +19,10 @@ LIFE INFORMATION は施設名の左に1つ入れる。
 字数が足りなくなる行が出たら**止める**（黙って溢れさせない）。
 --force で警告のみにして続行できる。
 """
-import argparse, os, re, sys
+import argparse, copy, os, re, sys
 from pptx import Presentation
 from pptx.util import Emu, Pt
+from pptx.oxml.ns import qn
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import textfit
@@ -160,6 +161,31 @@ def strip_bullet(p):
         if r.text.strip():
             return False
     return False
+
+
+def rewrap(p, max_cm, pt):
+    """字下げした分だけ狭くなった幅で、段落の改行位置を引き直す。
+
+    行頭ピクトグラムを入れると marL の分だけ1行が短くなる。入れる前に決めた
+    改行位置のままだと はみ出した分が語の途中で折り返されるので、ここで引き直す。"""
+    text = "".join(r.text for r in p.runs)
+    if not text.strip():
+        return
+    lines = textfit.jp_wrap(text, max_cm, pt)
+    keep = p.runs[0]._r.find(qn("a:rPr"))
+    for el in list(p._p):
+        if el.tag in (qn("a:r"), qn("a:br")):
+            p._p.remove(el)
+    end = p._p.find(qn("a:endParaRPr"))
+    for i, ln in enumerate(lines):
+        if i:
+            br = p._p.makeelement(qn("a:br"), {})
+            end.addprevious(br) if end is not None else p._p.append(br)
+        r = p._p.makeelement(qn("a:r"), {})
+        if keep is not None:
+            r.append(copy.deepcopy(keep))
+        t = r.makeelement(qn("a:t"), {}); t.text = ln; r.append(t)
+        end.addprevious(r) if end is not None else p._p.append(r)
 
 
 def set_indent(p, marl_cm):
@@ -381,6 +407,7 @@ def place(slide, zone, items, color, force, dry, used, log, cache, catalog):
             pic.name = PICTO_PREFIX + it["key"]
             strip_bullet(p)
             set_indent(p, ins["lIns"] + reserve)
+            rewrap(p, (text_w - reserve) * 0.97, pt)   # 実フォント差の余裕3%
         n_placed += 1
     return n_placed
 
