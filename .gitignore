@@ -3,3 +3,6 @@ __pycache__/
 .DS_Store
 install/*.zip
 install/*.skill
+
+# 物件ごとの生成物（このリポジトリはツール本体のみを管理する）
+output/
