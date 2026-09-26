@@ -4,7 +4,7 @@
 usage:
   python build_all.py <template.pptx> <data.json> <images.json> <out.pptx>
         [--no-pdf] [--pictograms point,note,life] [--qc-warn]
-        [--agent キー] [--allow-missing]
+        [--agent キー] [--allow-missing] [--no-kakoikomi]
 
 処理:
   1) fill.py             … 文字（物件概要23項目・アクセス・POINT・備考・LIFE等）を流し込み
@@ -13,8 +13,9 @@ usage:
   3) reflow_right.py     … 物件概要→備考→LIFE を実測高さで縦に自動整列
   4) place_pictograms.py … 行頭の「・」を物件の特徴に合ったピクトグラムに置換
                             （--pictograms で指定したときだけ。既定は入れない）
-  5) preflight.py        … 出力前セルフQC。**違反があればここで止まる**（--qc-warn で警告のみ）
-  6) export_pdf.py       … PDF書き出し（--no-pdf で省略）
+  5) add_kakoikomi_band.py … 下帯に囲い込み防止帯（QR＋文言）を入れる（--no-kakoikomi で省略）
+  6) preflight.py        … 出力前セルフQC。**違反があればここで止まる**（--qc-warn で警告のみ）
+  7) export_pdf.py       … PDF書き出し（--no-pdf で省略）
 
 写真は images.json の "path" にローカルパスでも共有URL（Dropbox / Google Drive）でも書ける。
 取得できないときは止まる（--allow-missing で穴を許容）。
@@ -51,6 +52,7 @@ def main():
     no_pdf = "--no-pdf" in rest
     qc_warn = "--qc-warn" in rest
     allow_missing = "--allow-missing" in rest
+    no_kakoikomi = "--no-kakoikomi" in rest
     agent = rest[rest.index("--agent") + 1] if "--agent" in rest else None
     zones = None
     if "--pictograms" in rest:
@@ -71,6 +73,10 @@ def main():
     if zones:
         print("\n■ ピクトグラム配置")
         run("place_pictograms.py", out, "--zones", zones, "-o", out)
+
+    if not no_kakoikomi:
+        print("\n■ 囲い込み防止帯")
+        run("add_kakoikomi_band.py", out)
 
     print("\n■ 出力前セルフQC（被り・はみ出し・整列・文字あふれ・書体）")
     run("preflight.py", out, *(["--warn-only"] if qc_warn else []))
