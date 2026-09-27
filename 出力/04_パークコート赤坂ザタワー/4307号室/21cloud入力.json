@@ -670,9 +670,10 @@
       "category": 19,
       "category_label": "その他共用部分",
       "comment20": "石と木目のエレベーターホール",
-      "comment100": "石張りの床と木目の壁で仕上げたエレベーターホール。天井からの光が奥へと導き、住戸へ向かう動線を落ち着いた空間に整えています。IC認証による4重のセキュリティチェック（分譲時資料）。",
+      "comment100": "石張りの床と木目の壁で仕上げたエレベーターホール。天井からの光が奥へと導き、住戸へ向かう動線を落ち着いた空間に整えています。IC認証による4重のセキュリティチェックを経て住戸へ向かいます。",
       "permission": "要許可（分譲会社公式）",
-      "source_url": "https://www.31mansion.com/parkcourt_akasaka_the_tower/mansion/space/"
+      "source_url": "https://www.31mansion.com/parkcourt_akasaka_the_tower/mansion/space/",
+      "note": "「4重のセキュリティ」は分譲時資料の記載（プラザは5重）"
     },
     {
       "order": 19,
