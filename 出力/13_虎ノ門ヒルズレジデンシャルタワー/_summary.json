@@ -1,0 +1,155 @@
+{
+  "no": "13",
+  "mansion": "虎ノ門ヒルズ レジデンシャルタワー",
+  "folder": "13_虎ノ門ヒルズレジデンシャルタワー",
+  "status": "完了",
+  "units": [
+    {
+      "unit": "29階",
+      "price": "16億5,000万円",
+      "area": "170.97㎡",
+      "layout": "2LDK+WIC（図面・KEN同一）",
+      "floor": "29階（地上54階建）",
+      "direction": "北西（北西角住戸、KEN方位表記）",
+      "monthly_total": "214,560円（管理費170,280円＋修繕積立金43,290円＋共視聴設備使用料990円）",
+      "status_now": "空室",
+      "motozuke": "ケン・コーポレーション（物件№2026055236）",
+      "photo_count": 16,
+      "unconfirmed_count": 17,
+      "missing_parts": [
+        "ベッドルーム2の専用浴室（浴室写真は1枚のみ）",
+        "洗濯機置場・ユーティリティ",
+        "シューズインクローゼット",
+        "HP掲載の間取図（図面PDFから切出し）"
+      ]
+    }
+  ],
+  "common_photo_count": 14,
+  "floorplan_count": 1,
+  "issues": [
+    {
+      "item": "制震構造",
+      "source_a": "制震構造（図面A-p20）",
+      "source_b": "AMD・粘性体制震壁・摩擦壁の3種の制振装置（MS記事・三井・KEN住戸）",
+      "result": "森ビル公式に構造形式の記載なし",
+      "adopted": "制震構造（図面）",
+      "status": "未確認"
+    },
+    {
+      "item": "敷地面積",
+      "source_a": "5,988.37㎡（図面・登記簿）",
+      "source_b": "約6,535㎡（森ビル竣工PR）",
+      "result": "差の理由未確認",
+      "adopted": "登記簿値＋公式値併記",
+      "status": "未確認"
+    },
+    {
+      "item": "構造",
+      "source_a": "鉄筋コンクリート造（図面）",
+      "source_b": "RC造（一部S造、SRC造）（森ビル竣工PR）",
+      "result": "公式で確認",
+      "adopted": "RC造（一部S・SRC造）",
+      "status": "解消"
+    },
+    {
+      "item": "総戸数とSA160戸",
+      "source_a": "547戸＋SA160戸と読める（森ビル竣工PR）",
+      "source_b": "547戸にSA160戸含む（TOKYO RENT）",
+      "result": "公式文面両義的",
+      "adopted": "547戸",
+      "status": "未確認"
+    },
+    {
+      "item": "管理員勤務形態",
+      "source_a": "常勤（図面・KEN）",
+      "source_b": "日勤（MR・mitaina）／通勤（SUUMO）",
+      "result": "未確認",
+      "adopted": "常勤（図面）",
+      "status": "未確認"
+    },
+    {
+      "item": "用途地域",
+      "source_a": "商業地域（図面）",
+      "source_b": "商業・第二種住居（MR・mitaina・SUUMO）",
+      "result": "港区都市計画図未確認",
+      "adopted": "商業地域（図面）",
+      "status": "未確認"
+    },
+    {
+      "item": "駐車場（図面空欄）",
+      "source_a": "図面空欄",
+      "source_b": "自走81・機械200・時間貸15（MS記事）／機械200・自走82（MR）",
+      "result": "空き・料金未確認",
+      "adopted": "駐車場あり（空き要確認）",
+      "status": "未確認"
+    },
+    {
+      "item": "トランクルーム（図面空欄）",
+      "source_a": "図面空欄",
+      "source_b": "15区画1.90〜3.99㎡（MR）",
+      "result": "本住戸の付帯未確認",
+      "adopted": "付帯なし扱い・要確認",
+      "status": "未確認"
+    },
+    {
+      "item": "日本料理店の所在",
+      "source_a": "店舗棟：1階（図面）",
+      "source_b": "レジデンシャルタワー内に併設（森ビル竣工PR、店名かんだ）",
+      "result": "階・棟の別未確認",
+      "adopted": "建物内に日本料理店等を併設",
+      "status": "未確認"
+    },
+    {
+      "item": "ゲストルーム41階・スパ2・3階",
+      "source_a": "図面",
+      "source_b": "森ビル竣工PR",
+      "result": "一致",
+      "adopted": "41階／2・3階（スパは会員制）",
+      "status": "解消"
+    },
+    {
+      "item": "英字表記",
+      "source_a": "TORANOMON HILLS RESIDENTIAL TOWER（KEN）",
+      "source_b": "Toranomon Hills Residential Tower（森ビル）",
+      "result": "大小文字のみ差",
+      "adopted": "Toranomon Hills Residential Tower",
+      "status": "解消"
+    },
+    {
+      "item": "学区",
+      "source_a": "御成門小（KEN）",
+      "source_b": "中央区立泰明小（SUUMOライブラリー）",
+      "result": "未確認",
+      "adopted": "御成門小学校（要確認）",
+      "status": "未確認"
+    },
+    {
+      "item": "虎ノ門駅徒歩",
+      "source_a": "6分（図面・KEN）",
+      "source_b": "5分（リハウス）",
+      "result": "—",
+      "adopted": "6分",
+      "status": "解消"
+    }
+  ],
+  "unconfirmed": [
+    "虎ノ門ヒルズスパの会員条件・費用",
+    "4重セキュリティの内容",
+    "制震装置の一次資料",
+    "駐車場の空き・料金",
+    "トランクルーム",
+    "大規模修繕",
+    "ペット細則内容",
+    "管理員勤務形態",
+    "用途地域（第二種住居の有無）",
+    "総戸数とSA160戸の関係",
+    "日本料理店の所在階・棟",
+    "ハザード（洪水深の公式確認・内水・液状化・津波）",
+    "学区",
+    "二重床・二重天井",
+    "29階の天井高",
+    "室内設備メーカー",
+    "リフォーム履歴"
+  ],
+  "notes": "写真はKEN物件ページ・建物ページの_q画像（1024x683、同サイトの最大解像度）。01_リビングは家具CG。間取図はKEN HPに掲載なしのため図面A-p20ページ画像からクロップ。unconfirmed_countは⑤末尾の未確認17項目（建物共通含む）。洪水は重ねるハザードマップのタイル色判定で想定最大規模浸水表示あり（深さ公式未確認）。物件公式サイト・ヒルズスパ公式は接続不可。"
+}
