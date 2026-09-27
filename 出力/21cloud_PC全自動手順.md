@@ -1,7 +1,7 @@
 # 21Cloud 全自動登録：PCでやること
 
 ## 準備（最初の1回だけ）
-1. **Chrome で21Cloudにログインしておく**（Claude in Chrome 拡張が入っていること）
+1. **Python 3 と git が入っていること**を確認する（PowerShell で `python --version` と `git --version`）
 2. **このリポジトリをPCに取り込む**（PowerShell）
    ```powershell
    cd $HOME\Desktop
@@ -9,7 +9,16 @@
    cd hanbaizumen
    ```
    - git が使えない場合：GitHub でブランチ `claude/happy-archimedes-g1g1nb` を開き、「Code → Download ZIP」でダウンロードして展開する。
-3. **Claude Code を Chrome 連携付きで起動する**
+3. **Python の Playwright を入れる**（ブラウザ本体のダウンロードは不要）
+   ```powershell
+   pip install playwright pillow
+   ```
+4. **自動操作用のChromeを起動し、そのChromeで21Cloudにログインする**
+   - 普段のChromeとは別の窓で開きます。初回だけログインが必要です。
+   ```powershell
+   & "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="$HOME\chrome-21cloud" https://sfa.century21.ne.jp/chukaio/21cloud/bukken_TypeSelectBaibai
+   ```
+5. **Claude Code を起動する**（hanbaizumen フォルダで実行）
    ```powershell
    claude --chrome
    ```
@@ -22,12 +31,7 @@
 ```
 
 ## 途中で頼まれる可能性がある操作
-- **21Cloudのログイン**：セッションが切れた場合。
-- **写真の自動アップロード用のChrome再起動**：Chrome拡張から写真を選べない場合に頼まれます。すべてのChromeを閉じてから、PowerShellで次を実行し、開いたChromeで21Cloudにログインしてください。
-  ```powershell
-  & "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="$HOME\chrome-21cloud"
-  ```
-  あわせて `pip install playwright` を実行します（ブラウザ本体のダウンロードは不要）。
+- **21Cloudへの再ログイン**：セッションが切れた場合。手順4のChromeでログインしてください。
 
 ## 結果
 `出力/21cloud登録ログ.md` に、住戸ごとの状態が記録されます。状態は次のいずれかです。

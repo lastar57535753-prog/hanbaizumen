@@ -14,6 +14,7 @@ LIMITS = {
 NG = ["希少", "完璧", "万全", "日本一", "特選", "厳選", "格安", "掘り出し", "破格", "完全",
       "絶対", "最高", "一流", "抜群", "当社だけ", "業界初", "No.1", "Ｎｏ．１", "超一等",
       "仲介手数料", "激安", "最上級", "至高", "究極", "唯一", "日本初", "特級"]
+INTERNAL = ["透かし", "差替", "要確認", "未確認", "要許可", "社内", "TODO", "hold", "※確認", "図面値"]
 CATS = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 21, 22, 23, 37, 38, 44}
 
 
@@ -38,6 +39,9 @@ def check(path):
         for w in NG:
             if w in v:
                 errs.append(f"{k}: 禁止語「{w}」")
+        for w in INTERNAL:
+            if w in v:
+                errs.append(f"{k}: 社内向け注記「{w}」が掲載文に入っている")
     hw = halfwidth(cm.get("txtAthomeStaffComment", ""))
     if hw:
         errs.append(f"txtAthomeStaffComment: 半角文字 {''.join(sorted(set(hw)))}")
@@ -50,6 +54,11 @@ def check(path):
         fp = f if f.startswith("/") else os.path.join(os.path.dirname(ROOT), f)
         if not os.path.isfile(fp):
             errs.append(f"画像なし: {f}")
+        uf = im.get("upload_file")
+        if not uf or not os.path.isfile(os.path.join(os.path.dirname(ROOT), uf)):
+            errs.append(f"アップロード用写真なし: {uf or f}")
+        elif ".." in uf or "work/" in uf.replace(os.sep, "/"):
+            errs.append(f"アップロード用写真がリポジトリ外: {uf}")
         if im.get("category") not in CATS:
             errs.append(f"カテゴリ値不正: {f} {im.get('category')}")
         c20, c100 = im.get("comment20", ""), im.get("comment100", "")
@@ -60,6 +69,9 @@ def check(path):
         for w in NG:
             if w in c20 + c100:
                 errs.append(f"画像コメント禁止語「{w}」: {f}")
+        for w in INTERNAL:
+            if w in c20 + c100:
+                errs.append(f"画像コメントに社内向け注記「{w}」: {f}")
     for im in imgs:
         if "他社掲載" in im.get("file", ""):
             errs.append(f"要許可写真が許可済み側に入っている: {im['file']}")
