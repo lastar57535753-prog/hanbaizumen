@@ -1,0 +1,128 @@
+{
+  "no": "12",
+  "mansion": "HIKAWA GARDENS AKASAKA",
+  "folder": "12_HIKAWA GARDENS AKASAKA",
+  "status": "完了",
+  "units": [
+    {
+      "unit": "1階",
+      "price": "9億7,800万円",
+      "area": "174.28㎡",
+      "layout": "3LDK（図面表記差あり：合豊A-p18「3LDK+2バス2トイレ」／ケンA-p19・KEN・SUUMO「3LDK」）",
+      "floor": "1階（地上6階地下2階建）",
+      "direction": "南（KEN・SUUMO記載。図面に採光面記載なし）、角部屋",
+      "monthly_total": "243,070円（管理費118,160＋修繕積立金31,370＋その他93,540［ヒーツ管理費9,060＋ヒーツ修繕積立金17,780＋駐車場64,000＋トランクルーム2,700］）",
+      "status_now": "居住中",
+      "motozuke": "合豊（売主代理）／ケン・コーポレーション外国部（媒介、№2026085910）",
+      "photo_count": 5,
+      "unconfirmed_count": 11,
+      "missing_parts": [
+        "浴室",
+        "洗面室",
+        "寝室",
+        "トイレ",
+        "玄関",
+        "テラス",
+        "眺望"
+      ]
+    }
+  ],
+  "common_photo_count": 10,
+  "floorplan_count": 1,
+  "issues": [
+    {
+      "item": "分譲会社名",
+      "source_a": "ペンブローグ（ケン A-p19・KEN）",
+      "source_b": "ペンブローク・リアルエステート・ジャパンエルエルシー（SMTRC）／Pembroke Real Estate（PLACEMEDIA）",
+      "result": "Pembroke公式の開発事例にHikawa Gardens掲載。ペンブローグは表記ゆれ",
+      "adopted": "ペンブローク・リアルエステート・ジャパン エルエルシー",
+      "status": "解消"
+    },
+    {
+      "item": "新築時とリノベ時の事業主",
+      "source_a": "新築時2002：Pembroke Real Estate（PLACEMEDIA・SMTRC）、当初は一棟賃貸「氷川ガーデンズ」",
+      "source_b": "2018リノベ施主：Pembroke Real Estate Japan LLC（Tomoru）、Pembroke公式は『Sold 2017』",
+      "result": "両時点ともペンブローク。リノベ後の区分販売の売主は公式で確認できず",
+      "adopted": "新築時・リノベ時ともペンブローク／分譲売主は未確認",
+      "status": "一部未確認"
+    },
+    {
+      "item": "その他費用内訳",
+      "source_a": "93,540円（ケン A-p19）",
+      "source_b": "9,060＋17,780＋64,000＋2,700（合豊 A-p18）",
+      "result": "合計一致。SUUMOも26,840＋66,700＝93,540",
+      "adopted": "93,540円（4項目）",
+      "status": "解消"
+    },
+    {
+      "item": "施工会社",
+      "source_a": "新築時 大成建設（図面・KEN・SUUMO・SMTRC）",
+      "source_b": "リノベ時 大成建設（リストサザビーズ過去掲載・現在404）",
+      "result": "新築時は複数情報源で一致。リノベ時は公式で確認できず",
+      "adopted": "新築時 大成建設／リノベ時 未確認",
+      "status": "一部未確認"
+    },
+    {
+      "item": "アーキサイトメビウス設計",
+      "source_a": "合豊 A-p18",
+      "source_b": "アーキサイトメビウス公式の作品ページ HIKAWA GARDENS 2018",
+      "result": "公式で確認",
+      "adopted": "アーキサイトメビウス",
+      "status": "解消"
+    },
+    {
+      "item": "港区景観街づくり賞",
+      "source_a": "令和2年度奨励賞（合豊 A-p18）",
+      "source_b": "港区公式の過去受賞一覧 令和2年度 奨励賞 HIKAWA GARDENS AKASAKA",
+      "result": "公式で確認",
+      "adopted": "令和2年度 港区景観街づくり賞奨励賞",
+      "status": "解消"
+    },
+    {
+      "item": "旧建物名",
+      "source_a": "氷川ガーデンズ（SMTRC・PLACEMEDIA）",
+      "source_b": "氷川ガーデンズ赤坂（賃貸掲載）",
+      "result": "Pembroke公式の事例名はHikawa Gardens",
+      "adopted": "旧称 氷川ガーデンズ（赤坂）",
+      "status": "解消"
+    },
+    {
+      "item": "地下階数",
+      "source_a": "地下2階（図面・KEN・SUUMO）",
+      "source_b": "地下1階（SMTRC）",
+      "result": "公式で確認できず",
+      "adopted": "地下2階",
+      "status": "未確認"
+    },
+    {
+      "item": "竣工年月",
+      "source_a": "2002年8月（図面・KEN・SUUMO・SMTRC）",
+      "source_b": "2002年7月（三井の賃貸・恵比寿不動産等）",
+      "result": "公式で確認できず",
+      "adopted": "2002年8月",
+      "status": "未確認"
+    },
+    {
+      "item": "土砂災害警戒区域",
+      "source_a": "急傾斜地の警戒区域（黄色）が街区代表点の西約4m（国土地理院タイル）",
+      "source_b": "―",
+      "result": "敷地が区域内かは未確認",
+      "adopted": "重要事項説明で要確認",
+      "status": "未確認"
+    }
+  ],
+  "unconfirmed": [
+    "リノベ後の分譲売主",
+    "リノベ時の施工会社",
+    "地下階数（2階か1階か）",
+    "竣工年月（7月か8月か）",
+    "管理体制（コンシェルジュ表記）",
+    "土砂災害警戒区域との位置関係",
+    "大規模修繕の実施時期・予定",
+    "ペット細則",
+    "赤坂氷川神社までの距離（出典値なし）",
+    "中学校学区・病院",
+    "耐震・天井高・二重床"
+  ],
+  "notes": "unconfirmed_countは物件情報.md⑤で未確認とした建物共通も含む11項目。写真はKEN（元付HP）の最大版（_q、1024x683）を使用。住戸写真は上下左右の白い余白だけを切り取り（縮小なし）。合豊HPには物件ページがない。外観と間取図は販売図面PDF A-p18の埋め込み画像のほうが高解像度のため採用（KENの間取図gif 1000x1000は重複のため保存しない）。A-p18に『広告掲載不可』表記あり（依頼者より承諾取得済との指示）。"
+}
