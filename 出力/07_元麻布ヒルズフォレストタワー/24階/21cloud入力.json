@@ -506,7 +506,12 @@
    "comment20": "東京タワーを望む夕景",
    "comment100": "販売図面掲載の眺望写真。夕景の東京タワーと都心の高層ビル群、手前に元麻布の低層住宅地と緑が広がります。灯りがともる時間帯は、窓辺で夜景を眺めて一日を終えられます。撮影階は図面に記載なし。",
    "permission": "販売図面",
-   "source_url": "販売図面PDF A-p13（PDF埋め込み画像）"
+   "source_url": "販売図面PDF A-p13（PDF埋め込み画像）",
+   "upload_file": "出力/07_元麻布ヒルズフォレストタワー/24階/21cloud_upload/01_現地からの眺望.jpg",
+   "upload_size": [
+    1363,
+    650
+   ]
   },
   {
    "order": 2,
@@ -516,7 +521,12 @@
    "comment20": "3方向バルコニーの3LDK",
    "comment100": "専有198.64㎡の3LDK。LDK約39.9帖を挟んで寝室を振り分け、主寝室約18.1帖にWIC。バルコニーは3方向に計35.64㎡、浴室とパウダールームは2か所ずつで、来客時も動線が分かれます。",
    "permission": "販売図面",
-   "source_url": "販売図面PDF A-p13（PDF埋め込み画像）"
+   "source_url": "販売図面PDF A-p13（PDF埋め込み画像）",
+   "upload_file": "出力/07_元麻布ヒルズフォレストタワー/24階/21cloud_upload/02_間取図.jpg",
+   "upload_size": [
+    977,
+    471
+   ]
   },
   {
    "order": 3,
@@ -527,7 +537,12 @@
    "comment100": "森ビル分譲・竹中工務店施工の地上29階建タワー。敷地の約半分を緑が占める元麻布ヒルズの中心棟で、免震構造を採用しています。都心にいながら木々に囲まれた静かな住環境です。管理は森ビル。",
    "permission": "販売図面",
    "source_url": "販売図面PDF A-p13（PDF埋め込み画像）",
-   "note": "低解像度（382px）のため3枚目に配置"
+   "note": "低解像度（382px）のため3枚目に配置",
+   "upload_file": "出力/07_元麻布ヒルズフォレストタワー/24階/21cloud_upload/03_外観.jpg",
+   "upload_size": [
+    382,
+    322
+   ]
   }
  ],
  "images_pending_permission": [
@@ -541,7 +556,12 @@
    "permission": "要許可（ケン・コーポレーション建物ページ）",
    "source_url": "https://www.kencorp.co.jp/housing/properties/155769/",
    "watermark": true,
-   "note": "掲載元の透かし入り。透かしなしの元データに差し替えてから登録する"
+   "note": "掲載元の透かし入り。透かしなしの元データに差し替えてから登録する",
+   "upload_file": "出力/07_元麻布ヒルズフォレストタワー/24階/21cloud_upload/要許可/01_外観.jpg",
+   "upload_size": [
+    1024,
+    683
+   ]
   },
   {
    "order": 3,
@@ -551,7 +571,12 @@
    "comment20": "上部が広がるタワー外観",
    "comment100": "内井昭蔵氏のデザイン監修による、上部が広がる樹木のようなシルエットの外観。地上29階・高さ96mのタワーで、構造は免震構造です。通りからも目を引く端正な姿です。敷地は緑被率53.15％。",
    "permission": "要許可（クレアビジョン建物ページ）",
-   "source_url": "https://www.creavision.co.jp/building/156/"
+   "source_url": "https://www.creavision.co.jp/building/156/",
+   "upload_file": "出力/07_元麻布ヒルズフォレストタワー/24階/21cloud_upload/要許可/02_その他共用部分（外観2）.jpg",
+   "upload_size": [
+    299,
+    448
+   ]
   },
   {
    "order": 4,
@@ -563,7 +588,12 @@
    "permission": "要許可（All About記事）",
    "source_url": "https://allabout.co.jp/gm/gc/376386/7/",
    "watermark": true,
-   "note": "掲載元の透かし入り。透かしなしの元データに差し替えてから登録する"
+   "note": "掲載元の透かし入り。透かしなしの元データに差し替えてから登録する",
+   "upload_file": "出力/07_元麻布ヒルズフォレストタワー/24階/21cloud_upload/要許可/03_その他共用部分（外観3）.jpg",
+   "upload_size": [
+    500,
+    333
+   ]
   },
   {
    "order": 5,
@@ -574,7 +604,12 @@
    "comment100": "夕暮れのエントランス。石張りの車寄せに照明が灯り、タワーの窓明かりが重なります。ドアマン・ポーターのサービスがあり、車での出入りや荷物の多い日も落ち着いて迎えられます。夜も明るく安心感があります。",
    "permission": "要許可（クレアビジョン建物ページ）",
    "source_url": "https://www.creavision.co.jp/building/156/",
-   "note": "長辺336px（400px未満）。転載許可に加え、高解像度データが必要"
+   "note": "長辺336px（400px未満）。転載許可に加え、高解像度データが必要",
+   "upload_file": "出力/07_元麻布ヒルズフォレストタワー/24階/21cloud_upload/要許可/04_エントランス.jpg",
+   "upload_size": [
+    336,
+    336
+   ]
   },
   {
    "order": 6,
@@ -586,7 +621,12 @@
    "permission": "要許可（ケン・コーポレーション建物ページ）",
    "source_url": "https://www.kencorp.co.jp/housing/properties/155769/",
    "watermark": true,
-   "note": "掲載元の透かし入り。透かしなしの元データに差し替えてから登録する"
+   "note": "掲載元の透かし入り。透かしなしの元データに差し替えてから登録する",
+   "upload_file": "出力/07_元麻布ヒルズフォレストタワー/24階/21cloud_upload/要許可/05_その他共用部分（ゲート）.jpg",
+   "upload_size": [
+    1024,
+    683
+   ]
   },
   {
    "order": 7,
@@ -598,7 +638,12 @@
    "permission": "要許可（ケン・コーポレーション建物ページ）",
    "source_url": "https://www.kencorp.co.jp/housing/properties/155769/",
    "watermark": true,
-   "note": "掲載元の透かし入り。透かしなしの元データに差し替えてから登録する"
+   "note": "掲載元の透かし入り。透かしなしの元データに差し替えてから登録する",
+   "upload_file": "出力/07_元麻布ヒルズフォレストタワー/24階/21cloud_upload/要許可/06_ロビー.jpg",
+   "upload_size": [
+    1024,
+    683
+   ]
   },
   {
    "order": 8,
@@ -610,7 +655,12 @@
    "permission": "要許可（All About記事）",
    "source_url": "https://allabout.co.jp/gm/gc/376386/6/",
    "watermark": true,
-   "note": "掲載元の透かし入り。透かしなしの元データに差し替えてから登録する"
+   "note": "掲載元の透かし入り。透かしなしの元データに差し替えてから登録する",
+   "upload_file": "出力/07_元麻布ヒルズフォレストタワー/24階/21cloud_upload/要許可/07_その他共用部分（スカイラウンジ）.jpg",
+   "upload_size": [
+    500,
+    333
+   ]
   }
  ],
  "hold": [

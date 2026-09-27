@@ -671,7 +671,12 @@
    "comment100": "曲面ガラスが連なる約33.4帖のリビング。正面に東京タワー、左右に都心の高層ビル群が並ぶ46階の夜景です。日が暮れたら照明を落とし、窓辺で灯りのともるタワーを眺めながら一日を締めくくれます。",
    "permission": "販売図面PDF",
    "source_url": "販売図面PDF A-p16（PDF埋め込み画像 A_p16_img05〜07 を縦結合）",
-   "note": "販売図面 A-p16 の背景写真（帯状3枚を縦に結合）。夜景の合成有無は不明"
+   "note": "販売図面 A-p16 の背景写真（帯状3枚を縦に結合）。夜景の合成有無は不明",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/01_リビング.jpg",
+   "upload_size": [
+    2560,
+    1179
+   ]
   },
   {
    "order": 2,
@@ -682,7 +687,12 @@
    "comment100": "専有183.19㎡の2LDK。リビング約33.4帖・ダイニング約11.0帖・キッチン約9.4帖、主寝室約19.6帖にWIC。二面採光の角住戸で、来客はリビング、家族の食事はダイニングと分けて使えます。",
    "permission": "販売図面PDF",
    "source_url": "販売図面PDF A-p16（PDF埋め込み画像 A_p16_img03_870x654.jpeg）",
-   "note": "販売図面 A-p16 の間取図（写真の上に重ねた図のため文字が読みにくい）。ノムコム間取図の許可が取れれば差し替え推奨"
+   "note": "販売図面 A-p16 の間取図（写真の上に重ねた図のため文字が読みにくい）。ノムコム間取図の許可が取れれば差し替え推奨",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/02_間取り.jpg",
+   "upload_size": [
+    870,
+    654
+   ]
   }
  ],
  "images_pending_permission": [
@@ -694,7 +704,12 @@
    "comment20": "地上47階のツインタワー",
    "comment100": "汐留シオサイトの一角に建つ地上47階建てのツインタワー。足元には植栽が広がり、浜離宮恩賜庭園も近い立地です。本住戸はレフトウィングの46階、45〜47階のプレミアム住戸に位置します。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/01_外観.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 2,
@@ -704,7 +719,12 @@
    "comment20": "2LDK＋WIC＋SIC",
    "comment100": "専有面積183.19㎡。約44帖のLDKと約19.6帖の主寝室、約7.1帖の洋室。リビング・ダイニング・主寝室・洋室に床暖房の表記があり、冬も足元から暖かく過ごせます。WIC約6.1帖付きです。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/02_間取り.jpg",
+   "upload_size": [
+    1200,
+    900
+   ]
   },
   {
    "order": 3,
@@ -714,7 +734,12 @@
    "comment20": "正面に東京タワー",
    "comment100": "リビング中央から見た曲面の窓。東京タワーが窓の正面に立ち、その左右に都心の高層ビル群が並びます。約33.4帖の広さがあり、ソファやグランドピアノを置いても余白の残る広いリビングです。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/03_リビング.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 4,
@@ -724,7 +749,12 @@
    "comment20": "リビング約33.4帖",
    "comment100": "リビングを奥から見た一枚。天井の折り上げと連続する窓が空間に奥行きを与えます。南西・北西の二方向から光が入り、日中は照明なしでも明るく過ごせます。間取図で床暖房の表記がある居室です。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/04_リビング.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 5,
@@ -734,7 +764,12 @@
    "comment20": "曲面ガラスの窓辺",
    "comment100": "窓際に立つと、東京タワーから新橋・汐留方面の高層ビルまでが視界に入ります。曲面に沿って窓台が続き、季節の花やアートを飾る場所にも。46階からの眺めを毎日の日常の景色にできる住まいです。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/05_リビング.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 6,
@@ -744,7 +779,12 @@
    "comment20": "シャンデリアのある居間",
    "comment100": "リビングからダイニング方向を見た一枚。シャンデリアの下にソファを置き、奥の壁面に家具を並べても通路に余裕があります。窓の外には都心の街並みが続き、昼と夜で異なる街の表情を楽しめます。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/06_リビング.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 7,
@@ -754,7 +794,12 @@
    "comment20": "46階からの眺望",
    "comment100": "46階の住戸から望む東京タワーと都心の街並み。遮るものの少ない高さから、晴れた日には青空の下にビル群が広がります。夜景に変わる夕暮れどきも、この住戸ならではの眺めの時間になります。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/07_現地からの眺望.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 8,
@@ -764,7 +809,12 @@
    "comment20": "ダイニング約11.0帖",
    "comment100": "約11.0帖のダイニング。壁面に造作の飾り棚があり、器やグラスを見せて収納できます。リビングと緩やかに分かれるため、会食の席と寛ぎの場所を分けて使えます。床暖房の表記がある空間です。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/08_リビング.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 9,
@@ -774,7 +824,12 @@
    "comment20": "キッチン約9.4帖",
    "comment100": "約9.4帖のキッチンは、シンクとコンロの列と、背面の収納・カウンターの列が向き合う配置。作業スペースが広く、二人で並んで料理ができます。窓付きのキッチンで、換気もしやすい造りです。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/09_キッチン.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 10,
@@ -784,7 +839,12 @@
    "comment20": "主寝室約19.6帖",
    "comment100": "約19.6帖の主寝室。窓の先に東京タワーが見え、目覚めの時間から眺望を楽しめます。窓際には造作の飾り棚とデスクがあり、読書や書き物のスペースも確保できます。床はカーペット敷きです。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/10_寝室.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 11,
@@ -794,7 +854,12 @@
    "comment20": "造作家具のある主寝室",
    "comment100": "主寝室を別の角度から。壁一面に造作の棚があり、本やコレクションを並べられます。大きなベッドを置いてもソファを添える余裕のある広さで、ホテルの一室のように寝室の中で寛ぎの時間をつくれます。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/11_寝室.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 12,
@@ -804,7 +869,12 @@
    "comment20": "洋室約7.1帖",
    "comment100": "約7.1帖の洋室はバルコニーに面し、リビングと引き戸でつながります。開け放てばリビングの一部として、閉じれば書斎やゲストルームとして使えます。壁面にクローゼットがあり、収納も確保。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/12_洋室.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 13,
@@ -814,7 +884,12 @@
    "comment20": "1坪以上の浴室",
    "comment100": "大理石調の壁に囲まれた浴室。浴槽は足を伸ばせる大きさで、オートバス機能付き。洗い場も広く、一日の終わりにゆっくり湯に浸かれます。図面の間取図の表記は1822サイズのゆとりある浴室です。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/13_バス.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 14,
@@ -824,7 +899,12 @@
    "comment20": "ボウル二つの洗面室",
    "comment100": "洗面ボウルを二つ並べたカウンターと、大きな鏡を備えた洗面室。朝の身支度が重なっても並んで使えます。床は石張りの幾何学模様で、浴室と一体のドレッシングルームとして、ゆとりある造りです。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/14_洗面台・洗面所.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 15,
@@ -834,7 +914,12 @@
    "comment20": "WIC約6.1帖",
    "comment100": "主寝室に続く約6.1帖のウォークインクローゼット。両側にハンガーパイプと棚、引き出しが並び、季節の衣類やバッグをまとめて収められます。身支度をこの中で済ませられるほどの広さがあります。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/15_収納.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 16,
@@ -844,7 +929,12 @@
    "comment20": "石積みのゲート",
    "comment100": "石を積み上げたゲートがエントランスへの入口。緑に囲まれたアプローチを抜けると、街の喧騒から離れた落ち着いた空間に入ります。汐留駅から徒歩2分とは思えない、静かで重厚感のある佇まいです。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/16_エントランス.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 17,
@@ -854,7 +944,12 @@
    "comment20": "オブジェのある風除室",
    "comment100": "円形の天井とオブジェが迎えるエントランス。床には石材でデザインされた模様が描かれ、来客を迎える場所にふさわしい造りです。外の緑を眺めながら館内へ入る、ゆとりのある開放的なアプローチです。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/17_エントランス.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 18,
@@ -864,7 +959,12 @@
    "comment20": "石張りの回廊",
    "comment100": "石張りの壁と照明が続く回廊。一定の間隔で吊り下げられたペンダントライトが奥へと視線を導きます。雨の日も濡れずに館内を移動でき、帰宅のたびに気持ちが切り替わる、落ち着いた石張りの空間です。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/18_エントランス.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 19,
@@ -874,7 +974,12 @@
    "comment20": "石に刻まれた館銘",
    "comment100": "荒々しい表情の石に刻まれた「TOKYO TWIN PARKS」の館銘。エントランスまわりは石材と植栽で構成され、竣工から年月を経ても落ち着いた外観を保っています。汐留を象徴する住まいです。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/19_その他共用部分.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 20,
@@ -884,7 +989,12 @@
    "comment20": "吹抜けのメインロビー",
    "comment100": "高い天井と大理石の床が広がるメインロビー。大きな窓から外の緑が見え、季節の装飾が施されることも。フロントにはコンシェルジュがいて、来客の案内や各種サービスの取次ぎを受けられて便利です。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/20_ロビー.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 21,
@@ -894,7 +1004,12 @@
    "comment20": "光天井のロビー",
    "comment100": "格子状の光天井と幾何学模様の大理石床が印象的なロビー。正面の窓の外には水景と緑が広がります。ソファで待ち合わせをしたり、来客を迎えたりと、住まいの玄関口として使える広いロビー空間です。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/21_ロビー.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 22,
@@ -904,7 +1019,12 @@
    "comment20": "石張りの共用ホール",
    "comment100": "石張りの床が続く共用ホール。左手のガラス越しにラウンジが見え、奥まで見通せる広い通路になっています。天井の照明が柔らかく空間を照らし、毎日通る動線にも、ゆとりと品格が感じられます。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/22_その他共用部分.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 23,
@@ -914,7 +1034,12 @@
    "comment20": "列柱のある共用ホール",
    "comment100": "木目の列柱と石張りの床が並ぶ共用ホール。大きな窓からは外の緑が見え、明るく開放的な空間です。住戸へ向かう途中に季節の移ろいを感じられる、天井の高いゆとりのある共用部になっています。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/23_その他共用部分.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 24,
@@ -924,7 +1049,12 @@
    "comment20": "緑を望むラウンジ",
    "comment100": "窓の外に緑が広がる1階のラウンジ。ソファやアームチェアが並び、読書や打ち合わせ、来客との歓談に使えます。住戸とは別に、館内に寛げる場所があることも、この住まいの大きな魅力の一つです。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/24_その他共用部分.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 25,
@@ -934,7 +1064,12 @@
    "comment20": "ラウンジのソファ席",
    "comment100": "ラウンジを別の角度から。窓際の席からは植栽の緑が近くに見え、都心にいながら静かな時間を過ごせます。家族や友人との待ち合わせにも使え、住戸の外にもう一つの居間を持つような感覚で使えます。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/25_その他共用部分.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 26,
@@ -944,7 +1079,12 @@
    "comment20": "吹抜けの眺望スペース",
    "comment100": "吹抜けと階段のある共用スペース。窓の外には湾岸方面の街並みが見えます。椅子に腰掛けて景色を眺めたり、住戸の外で気分を変えて過ごしたりと、住む人が思い思いに使える開放的な共用空間です。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/26_その他共用部分.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 27,
@@ -954,7 +1094,12 @@
    "comment20": "植栽豊かな庭園",
    "comment100": "石畳の小径と植栽が続く敷地内の庭園。夕暮れには足元の照明が灯り、散歩の時間を楽しめます。タワーの足元にこれだけの緑があるのは、敷地の広い大規模マンションならではの恵まれた環境です。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/27_その他共用部分.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 28,
@@ -964,7 +1109,12 @@
    "comment20": "緑に包まれた小径",
    "comment100": "木々に囲まれて曲がる石畳の小径。ライトアップされた樹木が夜の庭園を照らします。子どもと歩いたり、朝の散歩に出たりと、住まいの中で季節の移ろいを感じられる緑の空間が、すぐ身近にあります。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/28_その他共用部分.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 29,
@@ -974,7 +1124,12 @@
    "comment20": "窓際のカウンター席",
    "comment100": "都心のビル群と緑を見渡す窓際のカウンター席。パーティションで仕切られ、パソコン作業や読書に集中できます。自宅とは別に仕事の場所を持てるのは、在宅勤務の多い方にとってうれしい設備です。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/29_その他共用部分.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 30,
@@ -984,7 +1139,12 @@
    "comment20": "館内のフィットネス",
    "comment100": "ランニングマシンやトレーニング機器を備えた館内のフィットネス。外出せずに身体を動かせるため、忙しい日でも運動の習慣を続けやすくなります。明るく広い空間で、ストレッチも気兼ねなくできます。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/30_その他共用部分.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ]
   },
   {
    "order": 31,
@@ -994,7 +1154,12 @@
    "comment20": "マンション前の緑道",
    "comment100": "マンション前に続く緑道（約1m）。並木と植栽に挟まれた歩道は、駅への行き帰りや散歩の道として使えます。高層ビルが並ぶ汐留にありながら、足元には緑の多い歩きやすい環境が整っています。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/31_その他.jpg",
+   "upload_size": [
+    600,
+    450
+   ]
   },
   {
    "order": 32,
@@ -1004,7 +1169,12 @@
    "comment20": "浜離宮恩賜庭園 約20m",
    "comment100": "浜離宮恩賜庭園まで約20m。潮入の池と松の緑が広がる都立庭園が、ほぼ目の前にあります。休日に池の周りを歩いたり、季節の花を眺めたりと、都心の暮らしに四季折々の楽しみが自然に加わります。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/32_その他.jpg",
+   "upload_size": [
+    600,
+    450
+   ]
   },
   {
    "order": 33,
@@ -1014,7 +1184,12 @@
    "comment20": "イタリア公園 約5m",
    "comment100": "イタリア公園まで約5m。芝生の広場と樹木に囲まれた公園で、子どもを遊ばせたり、ベンチで一休みしたりできます。マンションのすぐ隣に芝生の広場がある、緑に恵まれた穏やかで静かな住環境です。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/33_その他.jpg",
+   "upload_size": [
+    600,
+    450
+   ]
   },
   {
    "order": 34,
@@ -1024,7 +1199,12 @@
    "comment20": "芝公園 約880m",
    "comment100": "芝公園まで約880m。木々の向こうに東京タワーを望む、都心を代表する公園の一つです。ジョギングや散歩のコースとして使え、桜や紅葉の季節には彩り豊かな景色を楽しめます。休日の散策にも。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/34_その他.jpg",
+   "upload_size": [
+    600,
+    450
+   ]
   },
   {
    "order": 35,
@@ -1034,7 +1214,12 @@
    "comment20": "増上寺 約1,250m",
    "comment100": "増上寺まで約1,250m。朱塗りの三解脱門が迎える歴史ある寺院で、背後には東京タワーが見えます。初詣や季節の行事に足を運べる距離にあり、都心で日本の文化に触れられる落ち着いた環境です。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/35_その他.jpg",
+   "upload_size": [
+    600,
+    450
+   ]
   },
   {
    "order": 36,
@@ -1044,7 +1229,12 @@
    "comment20": "コンビニ 約220m",
    "comment100": "ファミリーマート ヴィータイタリア店まで約220m。ちょっとした買い物や公共料金の支払いに便利です。帰宅途中に立ち寄れる距離にコンビニがあり、忙しい日の暮らしをさりげなく支えてくれます。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/36_その他.jpg",
+   "upload_size": [
+    600,
+    450
+   ]
   },
   {
    "order": 37,
@@ -1054,7 +1244,12 @@
    "comment20": "スーパー 約350m",
    "comment100": "マルエツプチ汐留シオサイト店まで約350m。日々の食材や日用品をそろえられるスーパーが徒歩圏にあります。仕事帰りに寄って夕食の買い物を済ませるなど、日常の買い物に便利で暮らしやすい立地です。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/37_その他.jpg",
+   "upload_size": [
+    600,
+    450
+   ]
   },
   {
    "order": 38,
@@ -1064,7 +1259,12 @@
    "comment20": "慈恵大学病院 約900m",
    "comment100": "慈恵大学病院まで約900m。多くの診療科をそろえた大学病院が徒歩圏にあり、万一のときにも頼れる環境です。ご家族の通院や定期的な健診にも通いやすく、長く暮らすうえで心強く頼もしい存在です。",
    "permission": "要許可（ノムコム同住戸掲載写真＝野村不動産ソリューションズ撮影。元付サンウッドHPに掲載なし）",
-   "source_url": "https://www.nomu.com/mansion/id/RE370040/"
+   "source_url": "https://www.nomu.com/mansion/id/RE370040/",
+   "upload_file": "出力/10_東京ツインパークス/レフトウィング4603号室/21cloud_upload/要許可/38_その他.jpg",
+   "upload_size": [
+    600,
+    450
+   ]
   }
  ],
  "hold": [
