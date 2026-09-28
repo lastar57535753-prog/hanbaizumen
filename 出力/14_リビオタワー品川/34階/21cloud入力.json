@@ -625,6 +625,21 @@
   },
   {
    "order": 2,
+   "file": "出力/14_リビオタワー品川/共用部/01_外観.jpg",
+   "category": 2,
+   "category_label": "外観",
+   "comment20": "街路から見た外観",
+   "comment100": "街路から見上げた外観。地上34階の建物の足元に植栽帯が続き、周辺は運河と高層住宅が並ぶ港南の街並みです。JR・新幹線「品川」駅港南口へ徒歩13分、敷地内からは駅へのシャトルバスも出ています。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/16_外観.jpg",
+   "upload_size": [
+    1500,
+    1125
+   ]
+  },
+  {
+   "order": 3,
    "file": "出力/14_リビオタワー品川/34階/間取図/02_間取図_住戸部分.jpg",
    "category": 1,
    "category_label": "間取図",
@@ -640,7 +655,7 @@
    ]
   },
   {
-   "order": 3,
+   "order": 4,
    "file": "出力/14_リビオタワー品川/34階/写真/02_リビング.jpg",
    "category": 4,
    "category_label": "リビング",
@@ -655,7 +670,7 @@
    ]
   },
   {
-   "order": 4,
+   "order": 5,
    "file": "出力/14_リビオタワー品川/34階/写真/03_リビング2.jpg",
    "category": 4,
    "category_label": "リビング",
@@ -670,7 +685,7 @@
    ]
   },
   {
-   "order": 5,
+   "order": 6,
    "file": "出力/14_リビオタワー品川/34階/写真/01_眺望.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -685,7 +700,7 @@
    ]
   },
   {
-   "order": 6,
+   "order": 7,
    "file": "出力/14_リビオタワー品川/34階/写真/04_眺望2.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -700,7 +715,7 @@
    ]
   },
   {
-   "order": 7,
+   "order": 8,
    "file": "出力/14_リビオタワー品川/34階/写真/13_眺望5.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -715,7 +730,7 @@
    ]
   },
   {
-   "order": 8,
+   "order": 9,
    "file": "出力/14_リビオタワー品川/34階/写真/06_眺望4.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -724,22 +739,6 @@
    "permission": "元付HP",
    "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
    "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/08_現地からの眺望.jpg",
-   "upload_size": [
-    1600,
-    1200
-   ]
-  },
-  {
-   "order": 9,
-   "file": "出力/14_リビオタワー品川/34階/写真/05_眺望3.jpg",
-   "category": 13,
-   "category_label": "現地からの眺望",
-   "comment20": "運河と湾岸の街並み",
-   "comment100": "運河とその先の湾岸エリアを見下ろす眺め。水辺の景色が近くにあり、高層階ならではの抜けがあります。レインボーブリッジまで視界が続き、眺めのよさを日々の暮らしの中で繰り返し実感できる住まいです。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "note": "04_眺望2とほぼ同構図（解像度違い）。枚数を絞る場合は外す",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/09_現地からの眺望.jpg",
    "upload_size": [
     1600,
     1200
@@ -837,21 +836,6 @@
   },
   {
    "order": 16,
-   "file": "出力/14_リビオタワー品川/共用部/01_外観.jpg",
-   "category": 2,
-   "category_label": "外観",
-   "comment20": "街路から見た外観",
-   "comment100": "街路から見上げた外観。地上34階の建物の足元に植栽帯が続き、周辺は運河と高層住宅が並ぶ港南の街並みです。JR・新幹線「品川」駅港南口へ徒歩13分、敷地内からは駅へのシャトルバスも出ています。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/16_外観.jpg",
-   "upload_size": [
-    1500,
-    1125
-   ]
-  },
-  {
-   "order": 17,
    "file": "出力/14_リビオタワー品川/共用部/04_車寄せ.jpg",
    "category": 16,
    "category_label": "エントランス",
@@ -866,7 +850,7 @@
    ]
   },
   {
-   "order": 18,
+   "order": 17,
    "file": "出力/14_リビオタワー品川/共用部/05_エントランス_トリミング.jpg",
    "category": 16,
    "category_label": "エントランス",
@@ -882,7 +866,7 @@
    ]
   },
   {
-   "order": 19,
+   "order": 18,
    "file": "出力/14_リビオタワー品川/共用部/06_館銘板.jpg",
    "category": 16,
    "category_label": "エントランス",
@@ -897,7 +881,7 @@
    ]
   },
   {
-   "order": 20,
+   "order": 19,
    "file": "出力/14_リビオタワー品川/共用部/07_エントランス夜景.jpg",
    "category": 16,
    "category_label": "エントランス",
@@ -912,7 +896,7 @@
    ]
   },
   {
-   "order": 21,
+   "order": 20,
    "file": "出力/14_リビオタワー品川/共用部/13_大階段.jpg",
    "category": 44,
    "category_label": "ロビー",
@@ -928,7 +912,7 @@
    ]
   },
   {
-   "order": 22,
+   "order": 21,
    "file": "出力/14_リビオタワー品川/共用部/14_吹抜け.jpg",
    "category": 44,
    "category_label": "ロビー",
@@ -943,7 +927,7 @@
    ]
   },
   {
-   "order": 23,
+   "order": 22,
    "file": "出力/14_リビオタワー品川/共用部/15_吹抜けラウンジ.jpg",
    "category": 44,
    "category_label": "ロビー",
@@ -958,7 +942,7 @@
    ]
   },
   {
-   "order": 24,
+   "order": 23,
    "file": "出力/14_リビオタワー品川/共用部/11_グリーンラウンジ.jpg",
    "category": 44,
    "category_label": "ロビー",
@@ -973,7 +957,7 @@
    ]
   },
   {
-   "order": 25,
+   "order": 24,
    "file": "出力/14_リビオタワー品川/共用部/12_エントランスラウンジ.jpg",
    "category": 44,
    "category_label": "ロビー",
@@ -988,7 +972,7 @@
    ]
   },
   {
-   "order": 26,
+   "order": 25,
    "file": "出力/14_リビオタワー品川/共用部/16_スカイラウンジ.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1004,7 +988,7 @@
    ]
   },
   {
-   "order": 27,
+   "order": 26,
    "file": "出力/14_リビオタワー品川/共用部/17_スカイラウンジ眺望.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1020,7 +1004,7 @@
    ]
   },
   {
-   "order": 28,
+   "order": 27,
    "file": "出力/14_リビオタワー品川/共用部/18_ラウンジ.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1035,7 +1019,7 @@
    ]
   },
   {
-   "order": 29,
+   "order": 28,
    "file": "出力/14_リビオタワー品川/共用部/25_ゲストルーム.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1050,7 +1034,7 @@
    ]
   },
   {
-   "order": 30,
+   "order": 29,
    "file": "出力/14_リビオタワー品川/共用部/23_フィットネス.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1065,7 +1049,7 @@
    ]
   },
   {
-   "order": 31,
+   "order": 30,
    "file": "出力/14_リビオタワー品川/共用部/24_フィットネス2.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1080,7 +1064,7 @@
    ]
   },
   {
-   "order": 32,
+   "order": 31,
    "file": "出力/14_リビオタワー品川/共用部/22_ゴルフレンジ.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1095,7 +1079,7 @@
    ]
   },
   {
-   "order": 33,
+   "order": 32,
    "file": "出力/14_リビオタワー品川/共用部/20_ワークラウンジ.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1110,7 +1094,7 @@
    ]
   },
   {
-   "order": 34,
+   "order": 33,
    "file": "出力/14_リビオタワー品川/共用部/19_キッチンラウンジ.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1125,7 +1109,7 @@
    ]
   },
   {
-   "order": 35,
+   "order": 34,
    "file": "出力/14_リビオタワー品川/共用部/21_ワークブース.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1140,7 +1124,7 @@
    ]
   },
   {
-   "order": 36,
+   "order": 35,
    "file": "出力/14_リビオタワー品川/共用部/26_内廊下.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1155,7 +1139,7 @@
    ]
   },
   {
-   "order": 37,
+   "order": 36,
    "file": "出力/14_リビオタワー品川/共用部/03_アプローチ.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1170,7 +1154,7 @@
    ]
   },
   {
-   "order": 38,
+   "order": 37,
    "file": "出力/14_リビオタワー品川/共用部/10_館銘石夜景.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1185,7 +1169,7 @@
    ]
   },
   {
-   "order": 39,
+   "order": 38,
    "file": "出力/14_リビオタワー品川/共用部/08_ラウンジ外観夜景.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1200,7 +1184,7 @@
    ]
   },
   {
-   "order": 40,
+   "order": 39,
    "file": "出力/14_リビオタワー品川/共用部/09_ラウンジ外観夜景2.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1215,25 +1199,7 @@
    ]
   }
  ],
- "images_pending_permission": [
-  {
-   "file": "出力/14_リビオタワー品川/34階/写真_他社掲載_要許可確認/01_間取図.jpg",
-   "category": 1,
-   "category_label": "間取図",
-   "comment20": "間取図（他社作成）",
-   "comment100": "ウィル不動産販売が描き起こした間取図。3つの洋室とウォークインクローゼット、2面のバルコニーの配置が分かります。帖数の表記が元付の間取図と合わないため、使う場合は数値の確認が必要です。",
-   "permission": "他社掲載（ウィル不動産販売）・要許可",
-   "source_url": "https://www.wills.co.jp/buy/p/?strShanaiBukkenNo=992914R&intSerial=5088708&clWebFlgCity=201",
-   "watermark": true,
-   "note": "他社（ウィル不動産販売）の透かし入り・要許可。LDK約15.1帖の表記が元付間取図（LD約25.5帖＋K約4.7帖）と不一致のため使わないのが安全",
-   "order": 1,
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/要許可/01_間取図.jpg",
-   "upload_size": [
-    1260,
-    841
-   ]
-  }
- ],
+ "images_pending_permission": [],
  "images_excluded": [
   {
    "file": "出力/14_リビオタワー品川/共用部/27_外観夜景CG.jpg",
@@ -1254,6 +1220,41 @@
   {
    "file": "出力/14_リビオタワー品川/共用部/05_エントランス.jpg",
    "reason": "「内覧会」看板の文字が写り込んでいるため、トリミングした 共用部/05_エントランス_トリミング.jpg に差し替えた"
+  },
+  {
+   "file": "出力/14_リビオタワー品川/34階/写真_他社掲載_要許可確認/01_間取図.jpg",
+   "category": 1,
+   "category_label": "間取図",
+   "comment20": "間取図（他社作成）",
+   "comment100": "ウィル不動産販売が描き起こした間取図。3つの洋室とウォークインクローゼット、2面のバルコニーの配置が分かります。帖数の表記が元付の間取図と合わないため、使う場合は数値の確認が必要です。",
+   "permission": "他社掲載（ウィル不動産販売）・要許可",
+   "source_url": "https://www.wills.co.jp/buy/p/?strShanaiBukkenNo=992914R&intSerial=5088708&clWebFlgCity=201",
+   "watermark": true,
+   "note": "他社（ウィル不動産販売）の透かし入り・要許可。LDK約15.1帖の表記が元付間取図（LD約25.5帖＋K約4.7帖）と不一致のため使わないのが安全",
+   "order": 1,
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/要許可/01_間取図.jpg",
+   "upload_size": [
+    1260,
+    841
+   ],
+   "exclude_reason": "同一住戸の他社掲載だが透かし入りのため不使用"
+  },
+  {
+   "order": 9,
+   "file": "出力/14_リビオタワー品川/34階/写真/05_眺望3.jpg",
+   "category": 13,
+   "category_label": "現地からの眺望",
+   "comment20": "運河と湾岸の街並み",
+   "comment100": "運河とその先の湾岸エリアを見下ろす眺め。水辺の景色が近くにあり、高層階ならではの抜けがあります。レインボーブリッジまで視界が続き、眺めのよさを日々の暮らしの中で繰り返し実感できる住まいです。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "note": "04_眺望2とほぼ同構図（解像度違い）。枚数を絞る場合は外す",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/09_現地からの眺望.jpg",
+   "upload_size": [
+    1600,
+    1200
+   ],
+   "exclude_reason": "重複（同じ写真の高解像度版が既にある）"
   }
  ],
  "hold": [

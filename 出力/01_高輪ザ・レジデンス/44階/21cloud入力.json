@@ -807,22 +807,6 @@
   },
   {
    "order": 10,
-   "file": "出力/01_高輪ザ・レジデンス/44階/写真/02_眺望2.jpg",
-   "category": 13,
-   "category_label": "現地からの眺望",
-   "comment20": "東京タワーを望む眺望",
-   "comment100": "44階から東京タワー方面を望む眺めです。手前に高輪の緑と住宅地、奥に都心の高層ビル群が重なります。天候によりスカイツリーも見え、日が暮れると街の夜景も楽しめる住戸です。窓辺で過ごす時間が増えます。",
-   "permission": "元付HP（東急リバブル）",
-   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/10_現地からの眺望.jpg",
-   "upload_size": [
-    1276,
-    850
-   ]
-  },
-  {
-   "order": 11,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/01_眺望.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -837,7 +821,7 @@
    ]
   },
   {
-   "order": 12,
+   "order": 11,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/12_眺望3.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -852,7 +836,7 @@
    ]
   },
   {
-   "order": 13,
+   "order": 12,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/10_キッチン.jpg",
    "category": 5,
    "category_label": "キッチン",
@@ -867,7 +851,7 @@
    ]
   },
   {
-   "order": 14,
+   "order": 13,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/11_キッチン2.jpg",
    "category": 5,
    "category_label": "キッチン",
@@ -882,7 +866,7 @@
    ]
   },
   {
-   "order": 15,
+   "order": 14,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/14_和室.jpg",
    "category": 22,
    "category_label": "和室",
@@ -897,7 +881,7 @@
    ]
   },
   {
-   "order": 16,
+   "order": 15,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/15_和室2.jpg",
    "category": 22,
    "category_label": "和室",
@@ -912,7 +896,7 @@
    ]
   },
   {
-   "order": 17,
+   "order": 16,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/16_洋室.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -927,7 +911,7 @@
    ]
   },
   {
-   "order": 18,
+   "order": 17,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/17_洋室2.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -942,7 +926,7 @@
    ]
   },
   {
-   "order": 19,
+   "order": 18,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/18_洋室3.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -957,7 +941,7 @@
    ]
   },
   {
-   "order": 20,
+   "order": 19,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/19_洋室4.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -972,7 +956,7 @@
    ]
   },
   {
-   "order": 21,
+   "order": 20,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/20_洋室5.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -987,22 +971,7 @@
    ]
   },
   {
-   "order": 22,
-   "file": "出力/01_高輪ザ・レジデンス/44階/写真/13_バルコニー.jpg",
-   "category": 9,
-   "category_label": "バルコニー",
-   "comment20": "眺めのバルコニー",
-   "comment100": "奥行きのあるバルコニーです。手すりの先に都心の街並みが広がり、室外機置場と物干しのスペースを確保できます。バルコニーは北東・東・南東の3か所、合計16.30㎡です。朝の外気浴にも使えます。",
-   "permission": "元付HP（野村不動産ソリューションズ）",
-   "source_url": "https://www.nomu.com/mansion/id/EF416010/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/22_バルコニー.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 23,
+   "order": 21,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/21_浴室.jpg",
    "category": 6,
    "category_label": "バス",
@@ -1017,7 +986,7 @@
    ]
   },
   {
-   "order": 24,
+   "order": 22,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/22_浴室2.jpg",
    "category": 6,
    "category_label": "バス",
@@ -1032,7 +1001,7 @@
    ]
   },
   {
-   "order": 25,
+   "order": 23,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/23_洗面室.jpg",
    "category": 11,
    "category_label": "洗面台・洗面所",
@@ -1047,7 +1016,7 @@
    ]
   },
   {
-   "order": 26,
+   "order": 24,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/24_洗面室2.jpg",
    "category": 11,
    "category_label": "洗面台・洗面所",
@@ -1062,7 +1031,7 @@
    ]
   },
   {
-   "order": 27,
+   "order": 25,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/25_トイレ.jpg",
    "category": 10,
    "category_label": "トイレ",
@@ -1077,7 +1046,7 @@
    ]
   },
   {
-   "order": 28,
+   "order": 26,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/26_トイレ2.jpg",
    "category": 10,
    "category_label": "トイレ",
@@ -1092,39 +1061,7 @@
    ]
   },
   {
-   "order": 29,
-   "file": "出力/01_高輪ザ・レジデンス/44階/写真/30_ウォークインクローゼット.jpg",
-   "category": 12,
-   "category_label": "収納",
-   "comment20": "奥行きのあるWIC",
-   "comment100": "奥行きのあるウォークインクローゼットです。両側にハンガーパイプと棚が並び、衣類を種類ごとに分けて掛けられます。季節の入れ替えもこの中で済み、居室を広く使えます。扉付きの収納棚もあります。",
-   "permission": "元付HP（東急リバブル）",
-   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/29_収納.jpg",
-   "upload_size": [
-    900,
-    599
-   ]
-  },
-  {
-   "order": 30,
-   "file": "出力/01_高輪ザ・レジデンス/44階/写真/29_シューズインクローゼット.jpg",
-   "category": 12,
-   "category_label": "収納",
-   "comment20": "シューズインクローゼット",
-   "comment100": "玄関脇のシューズインクローゼットです。可動棚が三方に並び、靴のほかゴルフバッグやスーツケースも収められます。玄関まわりに物を出さずに、すっきり保てます。帰宅後すぐに上着や鞄も片付けられます。",
-   "permission": "元付HP（東急リバブル）",
-   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/30_収納.jpg",
-   "upload_size": [
-    900,
-    599
-   ]
-  },
-  {
-   "order": 31,
+   "order": 27,
    "file": "出力/01_高輪ザ・レジデンス/44階/写真/27_玄関.jpg",
    "category": 7,
    "category_label": "玄関",
@@ -1139,23 +1076,22 @@
    ]
   },
   {
-   "order": 32,
-   "file": "出力/01_高輪ザ・レジデンス/44階/写真/28_勝手口.jpg",
-   "category": 7,
-   "category_label": "玄関",
-   "comment20": "もう一つの玄関",
-   "comment100": "2か所目の玄関です。扉の横に大容量の可動棚を備え、靴や日用品をしまえます。家族用と来客用で玄関を使い分けたり、ゴミ出しの動線にしたりできます。扉まわりは明るい木目で、正面の玄関とは別の出入口です。",
-   "permission": "元付HP（東急リバブル）",
-   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/32_玄関.jpg",
+   "order": 28,
+   "file": "出力/01_高輪ザ・レジデンス/44階/写真/13_バルコニー.jpg",
+   "category": 9,
+   "category_label": "バルコニー",
+   "comment20": "眺めのバルコニー",
+   "comment100": "奥行きのあるバルコニーです。手すりの先に都心の街並みが広がり、室外機置場と物干しのスペースを確保できます。バルコニーは北東・東・南東の3か所、合計16.30㎡です。朝の外気浴にも使えます。",
+   "permission": "元付HP（野村不動産ソリューションズ）",
+   "source_url": "https://www.nomu.com/mansion/id/EF416010/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/22_バルコニー.jpg",
    "upload_size": [
-    900,
-    599
+    1920,
+    1440
    ]
   },
   {
-   "order": 33,
+   "order": 29,
    "file": "出力/01_高輪ザ・レジデンス/共用部/06_エントランス.jpg",
    "category": 16,
    "category_label": "エントランス",
@@ -1170,23 +1106,7 @@
    ]
   },
   {
-   "order": 34,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/07_エントランス夜景.jpg",
-   "category": 16,
-   "category_label": "エントランス",
-   "comment20": "夜のエントランス",
-   "comment100": "照明が灯る夜のエントランスです。石張りの外壁とガラスの扉が明るく浮かび、遅い時間の帰宅にも安心感があります。館内は24時間有人管理で、日々の用件を頼めるコンシェルジュサービスもあります。",
-   "permission": "元付HP（東急リバブル）",
-   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/34_エントランス.jpg",
-   "upload_size": [
-    1000,
-    751
-   ]
-  },
-  {
-   "order": 35,
+   "order": 30,
    "file": "出力/01_高輪ザ・レジデンス/共用部/08_グランドホール.jpg",
    "category": 44,
    "category_label": "ロビー",
@@ -1201,55 +1121,7 @@
    ]
   },
   {
-   "order": 36,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/09_テラスビューサロン.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "ピアノのあるサロン",
-   "comment100": "2階のテラスビューサロンです。グランドピアノと円形の天井照明を配した空間で、居住者は無料で利用できます。大きな窓から中庭の緑が見え、読書や待ち合わせ、ちょっとした来客の応対の場所として使えます。",
-   "permission": "元付HP（東急リバブル）",
-   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/36_その他共用部分.jpg",
-   "upload_size": [
-    900,
-    600
-   ]
-  },
-  {
-   "order": 37,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/10_テラスビューサロン2.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "サロンのソファ席",
-   "comment100": "テラスビューサロンのソファ席です。木目の壁と間接照明に囲まれ、窓辺には植栽を置いています。ご近所との待ち合わせや、来客とのひと休みに使える落ち着いた場所が、住戸の外の館内にも用意されています。",
-   "permission": "元付HP（東急リバブル）",
-   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/37_その他共用部分.jpg",
-   "upload_size": [
-    898,
-    599
-   ]
-  },
-  {
-   "order": 38,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/11_テラスビューサロン3.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "サロンのカウンター席",
-   "comment100": "テラスビューサロンのカウンター席です。石のカウンターと天窓からの光で明るく、奥には中庭に面した席が続きます。ちょっとした書き物や、コーヒーを片手に静かに過ごす時間に向いた場所です。",
-   "permission": "元付HP（東急リバブル）",
-   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/38_その他共用部分.jpg",
-   "upload_size": [
-    898,
-    599
-   ]
-  },
-  {
-   "order": 39,
+   "order": 31,
    "file": "出力/01_高輪ザ・レジデンス/共用部/12_共用ラウンジ.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1261,118 +1133,6 @@
    "upload_size": [
     1920,
     1440
-   ]
-  },
-  {
-   "order": 40,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/13_階段.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "曲線を描く大階段",
-   "comment100": "曲線を描く館内の大階段です。窓の外に緑が見え、階段を上り下りするだけでもホテルのロビーにいるような気分になります。共用部は屋内でつながっており、雨や風の強い日も天候を気にせず館内を移動できます。",
-   "permission": "元付HP（東急リバブル）",
-   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/40_その他共用部分.jpg",
-   "upload_size": [
-    824,
-    599
-   ]
-  },
-  {
-   "order": 41,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/14_共用部.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "円形のホール",
-   "comment100": "木の壁と植物模様のパネルで囲まれた館内の円形ホールです。大きな照明の下にベンチを置き、共用部を移動する途中で足を止められます。館内は24時間有人管理の体制で、共用部はいつも整った状態に保たれています。",
-   "permission": "元付HP（東急リバブル）",
-   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/41_その他共用部分.jpg",
-   "upload_size": [
-    898,
-    599
-   ]
-  },
-  {
-   "order": 42,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/15_共用部2.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "照明の映える館内通路",
-   "comment100": "スタンドライトとアートで飾られた館内の通路です。石張りの床が奥まで続き、ホテルの廊下のような静けさがあります。エントランスから住戸に着くまでの時間も、落ち着いた気持ちで心地よく過ごせます。",
-   "permission": "元付HP（東急リバブル）",
-   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/42_その他共用部分.jpg",
-   "upload_size": [
-    898,
-    599
-   ]
-  },
-  {
-   "order": 43,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/19_共用廊下.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "ホテルのような内廊下",
-   "comment100": "住戸へ続く内廊下です。木目の壁とカーペットで足音を抑え、玄関前はアルコーブで通路から一歩下がっています。外気に触れない内廊下のため、雨や風の強い日も天候を気にせず玄関まで出入りできます。",
-   "permission": "元付HP（東急リバブル）",
-   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/43_その他共用部分.jpg",
-   "upload_size": [
-    899,
-    599
-   ]
-  },
-  {
-   "order": 44,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/16_アプローチ.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "照明が導くアプローチ",
-   "comment100": "照明に導かれる屋根付きのアプローチです。石張りの床と壁を照らす柔らかな光が夜の帰宅を迎え、奥には植栽のライトアップが見えます。雨の日も傘をたたんだまま建物の入口まで歩ける、屋根付きの通路です。",
-   "permission": "元付HP（東急リバブル）",
-   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/44_その他共用部分.jpg",
-   "upload_size": [
-    1000,
-    751
-   ]
-  },
-  {
-   "order": 45,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/18_外観_中庭から.jpg",
-   "category": 2,
-   "category_label": "外観",
-   "comment20": "中庭から見たタワー",
-   "comment100": "中庭から見上げたタワーです。手前の低層棟と植栽の向こうに地上47階の外観が伸びます。敷地9,161.22㎡の中に緑地を確保した配置で、低層棟の窓の外にも緑が入ります。都心で木々の近くに暮らせます。",
-   "permission": "元付HP（東急リバブル）",
-   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/45_外観.jpg",
-   "upload_size": [
-    1000,
-    667
-   ]
-  },
-  {
-   "order": 46,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/05_外観夜景.jpg",
-   "category": 2,
-   "category_label": "外観",
-   "comment20": "夜のタワーと敷地",
-   "comment100": "夜の敷地内から見上げたタワーです。照明に照らされた石張りのアプローチと植栽が続き、帰宅時も明るく落ち着いた雰囲気です。24時間有人管理のため、夜間も人の目がある建物で、遅い帰宅にも安心感があります。",
-   "permission": "元付HP（東急リバブル）",
-   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/46_外観.jpg",
-   "upload_size": [
-    751,
-    1000
    ]
   }
  ],
@@ -1671,5 +1431,262 @@
   "画像カテゴリ：勝手口は「玄関(7)」、グランドホールは「ロビー(44)」、サロン・ラウンジ・廊下・階段・アプローチは「その他共用部分(19)」。",
   "LDの写真が7枚あるため、眺望が入る写真（09）を先頭にした。",
   "コメントの表現（暮らしのイメージ部分）は写真と図面からの推測を含む。"
+ ],
+ "images_excluded": [
+  {
+   "order": 10,
+   "file": "出力/01_高輪ザ・レジデンス/44階/写真/02_眺望2.jpg",
+   "category": 13,
+   "category_label": "現地からの眺望",
+   "comment20": "東京タワーを望む眺望",
+   "comment100": "44階から東京タワー方面を望む眺めです。手前に高輪の緑と住宅地、奥に都心の高層ビル群が重なります。天候によりスカイツリーも見え、日が暮れると街の夜景も楽しめる住戸です。窓辺で過ごす時間が増えます。",
+   "permission": "元付HP（東急リバブル）",
+   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/10_現地からの眺望.jpg",
+   "upload_size": [
+    1276,
+    850
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 29,
+   "file": "出力/01_高輪ザ・レジデンス/44階/写真/30_ウォークインクローゼット.jpg",
+   "category": 12,
+   "category_label": "収納",
+   "comment20": "奥行きのあるWIC",
+   "comment100": "奥行きのあるウォークインクローゼットです。両側にハンガーパイプと棚が並び、衣類を種類ごとに分けて掛けられます。季節の入れ替えもこの中で済み、居室を広く使えます。扉付きの収納棚もあります。",
+   "permission": "元付HP（東急リバブル）",
+   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/29_収納.jpg",
+   "upload_size": [
+    900,
+    599
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 30,
+   "file": "出力/01_高輪ザ・レジデンス/44階/写真/29_シューズインクローゼット.jpg",
+   "category": 12,
+   "category_label": "収納",
+   "comment20": "シューズインクローゼット",
+   "comment100": "玄関脇のシューズインクローゼットです。可動棚が三方に並び、靴のほかゴルフバッグやスーツケースも収められます。玄関まわりに物を出さずに、すっきり保てます。帰宅後すぐに上着や鞄も片付けられます。",
+   "permission": "元付HP（東急リバブル）",
+   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/30_収納.jpg",
+   "upload_size": [
+    900,
+    599
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 32,
+   "file": "出力/01_高輪ザ・レジデンス/44階/写真/28_勝手口.jpg",
+   "category": 7,
+   "category_label": "玄関",
+   "comment20": "もう一つの玄関",
+   "comment100": "2か所目の玄関です。扉の横に大容量の可動棚を備え、靴や日用品をしまえます。家族用と来客用で玄関を使い分けたり、ゴミ出しの動線にしたりできます。扉まわりは明るい木目で、正面の玄関とは別の出入口です。",
+   "permission": "元付HP（東急リバブル）",
+   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/32_玄関.jpg",
+   "upload_size": [
+    900,
+    599
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 34,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/07_エントランス夜景.jpg",
+   "category": 16,
+   "category_label": "エントランス",
+   "comment20": "夜のエントランス",
+   "comment100": "照明が灯る夜のエントランスです。石張りの外壁とガラスの扉が明るく浮かび、遅い時間の帰宅にも安心感があります。館内は24時間有人管理で、日々の用件を頼めるコンシェルジュサービスもあります。",
+   "permission": "元付HP（東急リバブル）",
+   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/34_エントランス.jpg",
+   "upload_size": [
+    1000,
+    751
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 36,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/09_テラスビューサロン.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "ピアノのあるサロン",
+   "comment100": "2階のテラスビューサロンです。グランドピアノと円形の天井照明を配した空間で、居住者は無料で利用できます。大きな窓から中庭の緑が見え、読書や待ち合わせ、ちょっとした来客の応対の場所として使えます。",
+   "permission": "元付HP（東急リバブル）",
+   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/36_その他共用部分.jpg",
+   "upload_size": [
+    900,
+    600
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 37,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/10_テラスビューサロン2.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "サロンのソファ席",
+   "comment100": "テラスビューサロンのソファ席です。木目の壁と間接照明に囲まれ、窓辺には植栽を置いています。ご近所との待ち合わせや、来客とのひと休みに使える落ち着いた場所が、住戸の外の館内にも用意されています。",
+   "permission": "元付HP（東急リバブル）",
+   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/37_その他共用部分.jpg",
+   "upload_size": [
+    898,
+    599
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 38,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/11_テラスビューサロン3.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "サロンのカウンター席",
+   "comment100": "テラスビューサロンのカウンター席です。石のカウンターと天窓からの光で明るく、奥には中庭に面した席が続きます。ちょっとした書き物や、コーヒーを片手に静かに過ごす時間に向いた場所です。",
+   "permission": "元付HP（東急リバブル）",
+   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/38_その他共用部分.jpg",
+   "upload_size": [
+    898,
+    599
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 40,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/13_階段.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "曲線を描く大階段",
+   "comment100": "曲線を描く館内の大階段です。窓の外に緑が見え、階段を上り下りするだけでもホテルのロビーにいるような気分になります。共用部は屋内でつながっており、雨や風の強い日も天候を気にせず館内を移動できます。",
+   "permission": "元付HP（東急リバブル）",
+   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/40_その他共用部分.jpg",
+   "upload_size": [
+    824,
+    599
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 41,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/14_共用部.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "円形のホール",
+   "comment100": "木の壁と植物模様のパネルで囲まれた館内の円形ホールです。大きな照明の下にベンチを置き、共用部を移動する途中で足を止められます。館内は24時間有人管理の体制で、共用部はいつも整った状態に保たれています。",
+   "permission": "元付HP（東急リバブル）",
+   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/41_その他共用部分.jpg",
+   "upload_size": [
+    898,
+    599
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 42,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/15_共用部2.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "照明の映える館内通路",
+   "comment100": "スタンドライトとアートで飾られた館内の通路です。石張りの床が奥まで続き、ホテルの廊下のような静けさがあります。エントランスから住戸に着くまでの時間も、落ち着いた気持ちで心地よく過ごせます。",
+   "permission": "元付HP（東急リバブル）",
+   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/42_その他共用部分.jpg",
+   "upload_size": [
+    898,
+    599
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 43,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/19_共用廊下.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "ホテルのような内廊下",
+   "comment100": "住戸へ続く内廊下です。木目の壁とカーペットで足音を抑え、玄関前はアルコーブで通路から一歩下がっています。外気に触れない内廊下のため、雨や風の強い日も天候を気にせず玄関まで出入りできます。",
+   "permission": "元付HP（東急リバブル）",
+   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/43_その他共用部分.jpg",
+   "upload_size": [
+    899,
+    599
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 44,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/16_アプローチ.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "照明が導くアプローチ",
+   "comment100": "照明に導かれる屋根付きのアプローチです。石張りの床と壁を照らす柔らかな光が夜の帰宅を迎え、奥には植栽のライトアップが見えます。雨の日も傘をたたんだまま建物の入口まで歩ける、屋根付きの通路です。",
+   "permission": "元付HP（東急リバブル）",
+   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/44_その他共用部分.jpg",
+   "upload_size": [
+    1000,
+    751
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 45,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/18_外観_中庭から.jpg",
+   "category": 2,
+   "category_label": "外観",
+   "comment20": "中庭から見たタワー",
+   "comment100": "中庭から見上げたタワーです。手前の低層棟と植栽の向こうに地上47階の外観が伸びます。敷地9,161.22㎡の中に緑地を確保した配置で、低層棟の窓の外にも緑が入ります。都心で木々の近くに暮らせます。",
+   "permission": "元付HP（東急リバブル）",
+   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/45_外観.jpg",
+   "upload_size": [
+    1000,
+    667
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 46,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/05_外観夜景.jpg",
+   "category": 2,
+   "category_label": "外観",
+   "comment20": "夜のタワーと敷地",
+   "comment100": "夜の敷地内から見上げたタワーです。照明に照らされた石張りのアプローチと植栽が続き、帰宅時も明るく落ち着いた雰囲気です。24時間有人管理のため、夜間も人の目がある建物で、遅い帰宅にも安心感があります。",
+   "permission": "元付HP（東急リバブル）",
+   "source_url": "https://www.livable.co.jp/grantact/detail/C13266U89",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/44階/21cloud_upload/46_外観.jpg",
+   "upload_size": [
+    751,
+    1000
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  }
  ]
 }

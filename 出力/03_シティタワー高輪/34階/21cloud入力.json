@@ -792,17 +792,18 @@
   },
   {
    "order": 9,
-   "file": "出力/03_シティタワー高輪/34階/写真/07_畳コーナー.jpg",
-   "category": 22,
-   "category_label": "和室",
-   "comment20": "窓辺の畳コーナー",
-   "comment100": "LDKの窓辺に設けた畳コーナーです。二方向の窓に面し、都心の景色と緑を眺めながらくつろげます。子どもの遊び場や来客の休憩場所など、LDKの中で使い分けができます。床は市松模様の畳です。",
-   "permission": "元付HP（小田急不動産）",
-   "source_url": "https://www.odakyu-chukai.com/mansion/detail/B03131-000146/",
-   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/09_和室.jpg",
+   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/01_眺望.jpg",
+   "category": 13,
+   "category_label": "現地からの眺望",
+   "comment20": "居室からの眺め",
+   "comment100": "居室の窓からの眺めです。東京タワー方面に都心のビル群と緑が広がります（天候による）。高層階の北東角住戸で、空が大きく見えます。",
+   "permission": "同一住戸の他社掲載（許可済み）",
+   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
+   "note": "同一住戸の他社掲載写真（依頼者指示 2026-09-28 により許可済み）",
+   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/01_現地からの眺望.jpg",
    "upload_size": [
-    1920,
-    1280
+    1000,
+    750
    ]
   },
   {
@@ -837,6 +838,117 @@
   },
   {
    "order": 12,
+   "file": "出力/03_シティタワー高輪/34階/写真/07_畳コーナー.jpg",
+   "category": 22,
+   "category_label": "和室",
+   "comment20": "窓辺の畳コーナー",
+   "comment100": "LDKの窓辺に設けた畳コーナーです。二方向の窓に面し、都心の景色と緑を眺めながらくつろげます。子どもの遊び場や来客の休憩場所など、LDKの中で使い分けができます。床は市松模様の畳です。",
+   "permission": "元付HP（小田急不動産）",
+   "source_url": "https://www.odakyu-chukai.com/mansion/detail/B03131-000146/",
+   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/09_和室.jpg",
+   "upload_size": [
+    1920,
+    1280
+   ]
+  },
+  {
+   "order": 13,
+   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/02_洋室.jpg",
+   "category": 21,
+   "category_label": "洋室",
+   "comment20": "引戸で続く洋室",
+   "comment100": "引戸で続き間にできる洋室です。木の床と白い壁の明るい空間で、個室にも書斎にも使えます。仕切りを開ければ広い一室としても使えます。",
+   "permission": "同一住戸の他社掲載（許可済み）",
+   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
+   "note": "同一住戸の他社掲載写真（依頼者指示 2026-09-28 により許可済み）",
+   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/02_洋室.jpg",
+   "upload_size": [
+    1000,
+    666
+   ]
+  },
+  {
+   "order": 14,
+   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/03_洋室2.jpg",
+   "category": 21,
+   "category_label": "洋室",
+   "comment20": "造作棚のある洋室",
+   "comment100": "壁一面の造作棚を備えた洋室です。バルコニーに面した窓から光が入り、書斎や趣味の部屋に向きます。本やコレクションを壁一面に並べられます。",
+   "permission": "同一住戸の他社掲載（許可済み）",
+   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
+   "note": "同一住戸の他社掲載写真（依頼者指示 2026-09-28 により許可済み）",
+   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/03_洋室.jpg",
+   "upload_size": [
+    1000,
+    666
+   ]
+  },
+  {
+   "order": 15,
+   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/04_洋室3.jpg",
+   "category": 21,
+   "category_label": "洋室",
+   "comment20": "眺めのある洋室",
+   "comment100": "窓から都心の景色を望む洋室です。落ち着いた色の壁で、寝室や個室として使えます。窓辺から高層階ならではの眺めを楽しめます。",
+   "permission": "同一住戸の他社掲載（許可済み）",
+   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
+   "note": "同一住戸の他社掲載写真（依頼者指示 2026-09-28 により許可済み）",
+   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/04_洋室.jpg",
+   "upload_size": [
+    1000,
+    666
+   ]
+  },
+  {
+   "order": 16,
+   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/05_洋室4.jpg",
+   "category": 21,
+   "category_label": "洋室",
+   "comment20": "明るい洋室",
+   "comment100": "大きな窓のある洋室です。アクセントの壁色が明るい印象で、子ども部屋にも使えます。窓の外には都心のビル群が見えます。",
+   "permission": "同一住戸の他社掲載（許可済み）",
+   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
+   "note": "同一住戸の他社掲載写真（依頼者指示 2026-09-28 により許可済み）",
+   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/05_洋室.jpg",
+   "upload_size": [
+    1000,
+    666
+   ]
+  },
+  {
+   "order": 17,
+   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/06_浴室.jpg",
+   "category": 6,
+   "category_label": "バス",
+   "comment20": "ゆとりある浴室",
+   "comment100": "広い洗い場と浴槽を備えた浴室です。浴室乾燥機と追焚機能付きで、雨の日の洗濯物も乾かせます。一日の終わりにゆっくり入浴できます。",
+   "permission": "同一住戸の他社掲載（許可済み）",
+   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
+   "note": "同一住戸の他社掲載写真（依頼者指示 2026-09-28 により許可済み）",
+   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/06_バス.jpg",
+   "upload_size": [
+    1000,
+    666
+   ]
+  },
+  {
+   "order": 18,
+   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/07_洗面.jpg",
+   "category": 11,
+   "category_label": "洗面台・洗面所",
+   "comment20": "ボウル二つの洗面室",
+   "comment100": "ボウルを二つ並べた洗面室です。大きな鏡と木目の収納で、朝の身支度が重なっても使いやすいつくりです。パウダールームは2か所あります。",
+   "permission": "同一住戸の他社掲載（許可済み）",
+   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
+   "note": "同一住戸の他社掲載写真（依頼者指示 2026-09-28 により許可済み）",
+   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/07_洗面台・洗面所.jpg",
+   "upload_size": [
+    1000,
+    666
+   ]
+  },
+  {
+   "order": 19,
    "file": "出力/03_シティタワー高輪/34階/写真/15_ウォークインクローゼット.jpg",
    "category": 12,
    "category_label": "収納",
@@ -851,7 +963,7 @@
    ]
   },
   {
-   "order": 13,
+   "order": 20,
    "file": "出力/03_シティタワー高輪/34階/写真/14_シューズインクローゼット.jpg",
    "category": 12,
    "category_label": "収納",
@@ -866,22 +978,39 @@
    ]
   },
   {
-   "order": 14,
-   "file": "出力/03_シティタワー高輪/34階/写真/12_玄関ホール.jpg",
-   "category": 38,
-   "category_label": "その他内観",
-   "comment20": "石張りの玄関ホール",
-   "comment100": "石張りの床の玄関ホールです。天然石の柱と白い壁でまとめ、正面のガラス越しにLDKの光が届きます。来客を迎える最初の場所として、落ち着いた印象を与えます。段差の床も石張りで統一しています。",
-   "permission": "元付HP（小田急不動産）",
-   "source_url": "https://www.odakyu-chukai.com/mansion/detail/B03131-000146/",
-   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/14_その他内観.jpg",
+   "order": 21,
+   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/09_ウォークインクローゼット.jpg",
+   "category": 12,
+   "category_label": "収納",
+   "comment20": "ウォークインクローゼット",
+   "comment100": "ハンガーパイプと棚を備えたウォークインクローゼットです。衣類をまとめて掛けられ、季節の入れ替えもこの中で済みます。",
+   "permission": "同一住戸の他社掲載（許可済み）",
+   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
+   "note": "同一住戸の他社掲載写真（依頼者指示 2026-09-28 により許可済み）",
+   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/09_収納.jpg",
    "upload_size": [
-    1920,
-    1280
+    1000,
+    666
    ]
   },
   {
-   "order": 15,
+   "order": 22,
+   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/10_収納.jpg",
+   "category": 12,
+   "category_label": "収納",
+   "comment20": "通り抜けできる収納",
+   "comment100": "両側に棚とハンガーパイプを備えたウォークスルー型の収納です。家族の衣類をまとめて管理でき、居室を広く使えます。",
+   "permission": "同一住戸の他社掲載（許可済み）",
+   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
+   "note": "同一住戸の他社掲載写真（依頼者指示 2026-09-28 により許可済み）",
+   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/10_収納.jpg",
+   "upload_size": [
+    1000,
+    666
+   ]
+  },
+  {
+   "order": 23,
    "file": "出力/03_シティタワー高輪/34階/写真/10_玄関.jpg",
    "category": 7,
    "category_label": "玄関",
@@ -896,7 +1025,7 @@
    ]
   },
   {
-   "order": 16,
+   "order": 24,
    "file": "出力/03_シティタワー高輪/34階/写真/11_玄関2.jpg",
    "category": 7,
    "category_label": "玄関",
@@ -911,7 +1040,7 @@
    ]
   },
   {
-   "order": 17,
+   "order": 25,
    "file": "出力/03_シティタワー高輪/34階/写真/13_玄関前.jpg",
    "category": 7,
    "category_label": "玄関",
@@ -926,7 +1055,38 @@
    ]
   },
   {
-   "order": 18,
+   "order": 26,
+   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/08_バルコニー.jpg",
+   "category": 9,
+   "category_label": "バルコニー",
+   "comment20": "眺めのバルコニー",
+   "comment100": "34階のバルコニーです。手すり越しに都心の街並みと緑が広がります（天候による）。外の空気を感じながら景色を眺められます。",
+   "permission": "同一住戸の他社掲載（許可済み）",
+   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
+   "note": "同一住戸の他社掲載写真（依頼者指示 2026-09-28 により許可済み）",
+   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/08_バルコニー.jpg",
+   "upload_size": [
+    1000,
+    666
+   ]
+  },
+  {
+   "order": 27,
+   "file": "出力/03_シティタワー高輪/34階/写真/12_玄関ホール.jpg",
+   "category": 38,
+   "category_label": "その他内観",
+   "comment20": "石張りの玄関ホール",
+   "comment100": "石張りの床の玄関ホールです。天然石の柱と白い壁でまとめ、正面のガラス越しにLDKの光が届きます。来客を迎える最初の場所として、落ち着いた印象を与えます。段差の床も石張りで統一しています。",
+   "permission": "元付HP（小田急不動産）",
+   "source_url": "https://www.odakyu-chukai.com/mansion/detail/B03131-000146/",
+   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/14_その他内観.jpg",
+   "upload_size": [
+    1920,
+    1280
+   ]
+  },
+  {
+   "order": 28,
    "file": "出力/03_シティタワー高輪/共用部/04_エントランス.jpg",
    "category": 44,
    "category_label": "ロビー",
@@ -941,7 +1101,7 @@
    ]
   },
   {
-   "order": 19,
+   "order": 29,
    "file": "出力/03_シティタワー高輪/共用部/05_エントランスラウンジ_文字除去.jpg",
    "category": 44,
    "category_label": "ロビー",
@@ -956,7 +1116,7 @@
    ]
   },
   {
-   "order": 20,
+   "order": 30,
    "file": "出力/03_シティタワー高輪/共用部/06_スカイラウンジ.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -971,7 +1131,7 @@
    ]
   },
   {
-   "order": 21,
+   "order": 31,
    "file": "出力/03_シティタワー高輪/共用部/07_シアタールーム.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -986,7 +1146,7 @@
    ]
   },
   {
-   "order": 22,
+   "order": 32,
    "file": "出力/03_シティタワー高輪/共用部/08_高輪庵.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1001,7 +1161,7 @@
    ]
   },
   {
-   "order": 23,
+   "order": 33,
    "file": "出力/03_シティタワー高輪/共用部/02_アプローチ.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1016,7 +1176,7 @@
    ]
   },
   {
-   "order": 24,
+   "order": 34,
    "file": "出力/03_シティタワー高輪/共用部/03_敷地内通路.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1032,166 +1192,6 @@
   }
  ],
  "images_pending_permission": [
-  {
-   "order": 1,
-   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/01_眺望.jpg",
-   "category": 13,
-   "category_label": "現地からの眺望",
-   "comment20": "居室からの眺め",
-   "comment100": "居室の窓からの眺めです。東京タワー方面に都心のビル群と緑が広がります（天候による）。高層階の北東角住戸で、空が大きく見えます。",
-   "permission": "要許可（SUUMO掲載：元付の小田急不動産がポータルに掲載したカット。元付HPには未掲載）",
-   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
-   "note": "元付HP外の掲載（SUUMO。元付の小田急不動産がポータルに掲載したカットで、元付HPには未掲載）",
-   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/01_現地からの眺望.jpg",
-   "upload_size": [
-    1000,
-    750
-   ]
-  },
-  {
-   "order": 2,
-   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/02_洋室.jpg",
-   "category": 21,
-   "category_label": "洋室",
-   "comment20": "引戸で続く洋室",
-   "comment100": "引戸で続き間にできる洋室です。木の床と白い壁の明るい空間で、個室にも書斎にも使えます。仕切りを開ければ広い一室としても使えます。",
-   "permission": "要許可（SUUMO掲載：元付の小田急不動産がポータルに掲載したカット。元付HPには未掲載）",
-   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
-   "note": "元付HP外の掲載（SUUMO。元付の小田急不動産がポータルに掲載したカットで、元付HPには未掲載）",
-   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/02_洋室.jpg",
-   "upload_size": [
-    1000,
-    666
-   ]
-  },
-  {
-   "order": 3,
-   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/03_洋室2.jpg",
-   "category": 21,
-   "category_label": "洋室",
-   "comment20": "造作棚のある洋室",
-   "comment100": "壁一面の造作棚を備えた洋室です。バルコニーに面した窓から光が入り、書斎や趣味の部屋に向きます。本やコレクションを壁一面に並べられます。",
-   "permission": "要許可（SUUMO掲載：元付の小田急不動産がポータルに掲載したカット。元付HPには未掲載）",
-   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
-   "note": "元付HP外の掲載（SUUMO。元付の小田急不動産がポータルに掲載したカットで、元付HPには未掲載）",
-   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/03_洋室.jpg",
-   "upload_size": [
-    1000,
-    666
-   ]
-  },
-  {
-   "order": 4,
-   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/04_洋室3.jpg",
-   "category": 21,
-   "category_label": "洋室",
-   "comment20": "眺めのある洋室",
-   "comment100": "窓から都心の景色を望む洋室です。落ち着いた色の壁で、寝室や個室として使えます。窓辺から高層階ならではの眺めを楽しめます。",
-   "permission": "要許可（SUUMO掲載：元付の小田急不動産がポータルに掲載したカット。元付HPには未掲載）",
-   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
-   "note": "元付HP外の掲載（SUUMO。元付の小田急不動産がポータルに掲載したカットで、元付HPには未掲載）",
-   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/04_洋室.jpg",
-   "upload_size": [
-    1000,
-    666
-   ]
-  },
-  {
-   "order": 5,
-   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/05_洋室4.jpg",
-   "category": 21,
-   "category_label": "洋室",
-   "comment20": "明るい洋室",
-   "comment100": "大きな窓のある洋室です。アクセントの壁色が明るい印象で、子ども部屋にも使えます。窓の外には都心のビル群が見えます。",
-   "permission": "要許可（SUUMO掲載：元付の小田急不動産がポータルに掲載したカット。元付HPには未掲載）",
-   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
-   "note": "元付HP外の掲載（SUUMO。元付の小田急不動産がポータルに掲載したカットで、元付HPには未掲載）",
-   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/05_洋室.jpg",
-   "upload_size": [
-    1000,
-    666
-   ]
-  },
-  {
-   "order": 6,
-   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/06_浴室.jpg",
-   "category": 6,
-   "category_label": "バス",
-   "comment20": "ゆとりある浴室",
-   "comment100": "広い洗い場と浴槽を備えた浴室です。浴室乾燥機と追焚機能付きで、雨の日の洗濯物も乾かせます。一日の終わりにゆっくり入浴できます。",
-   "permission": "要許可（SUUMO掲載：元付の小田急不動産がポータルに掲載したカット。元付HPには未掲載）",
-   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
-   "note": "元付HP外の掲載（SUUMO。元付の小田急不動産がポータルに掲載したカットで、元付HPには未掲載）",
-   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/06_バス.jpg",
-   "upload_size": [
-    1000,
-    666
-   ]
-  },
-  {
-   "order": 7,
-   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/07_洗面.jpg",
-   "category": 11,
-   "category_label": "洗面台・洗面所",
-   "comment20": "ボウル二つの洗面室",
-   "comment100": "ボウルを二つ並べた洗面室です。大きな鏡と木目の収納で、朝の身支度が重なっても使いやすいつくりです。パウダールームは2か所あります。",
-   "permission": "要許可（SUUMO掲載：元付の小田急不動産がポータルに掲載したカット。元付HPには未掲載）",
-   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
-   "note": "元付HP外の掲載（SUUMO。元付の小田急不動産がポータルに掲載したカットで、元付HPには未掲載）",
-   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/07_洗面台・洗面所.jpg",
-   "upload_size": [
-    1000,
-    666
-   ]
-  },
-  {
-   "order": 8,
-   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/08_バルコニー.jpg",
-   "category": 9,
-   "category_label": "バルコニー",
-   "comment20": "眺めのバルコニー",
-   "comment100": "34階のバルコニーです。手すり越しに都心の街並みと緑が広がります（天候による）。外の空気を感じながら景色を眺められます。",
-   "permission": "要許可（SUUMO掲載：元付の小田急不動産がポータルに掲載したカット。元付HPには未掲載）",
-   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
-   "note": "元付HP外の掲載（SUUMO。元付の小田急不動産がポータルに掲載したカットで、元付HPには未掲載）",
-   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/08_バルコニー.jpg",
-   "upload_size": [
-    1000,
-    666
-   ]
-  },
-  {
-   "order": 9,
-   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/09_ウォークインクローゼット.jpg",
-   "category": 12,
-   "category_label": "収納",
-   "comment20": "ウォークインクローゼット",
-   "comment100": "ハンガーパイプと棚を備えたウォークインクローゼットです。衣類をまとめて掛けられ、季節の入れ替えもこの中で済みます。",
-   "permission": "要許可（SUUMO掲載：元付の小田急不動産がポータルに掲載したカット。元付HPには未掲載）",
-   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
-   "note": "元付HP外の掲載（SUUMO。元付の小田急不動産がポータルに掲載したカットで、元付HPには未掲載）",
-   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/09_収納.jpg",
-   "upload_size": [
-    1000,
-    666
-   ]
-  },
-  {
-   "order": 10,
-   "file": "出力/03_シティタワー高輪/34階/写真_他社掲載_要許可確認/10_収納.jpg",
-   "category": 12,
-   "category_label": "収納",
-   "comment20": "通り抜けできる収納",
-   "comment100": "両側に棚とハンガーパイプを備えたウォークスルー型の収納です。家族の衣類をまとめて管理でき、居室を広く使えます。",
-   "permission": "要許可（SUUMO掲載：元付の小田急不動産がポータルに掲載したカット。元付HPには未掲載）",
-   "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_21392863/",
-   "note": "元付HP外の掲載（SUUMO。元付の小田急不動産がポータルに掲載したカットで、元付HPには未掲載）",
-   "upload_file": "出力/03_シティタワー高輪/34階/21cloud_upload/要許可/10_収納.jpg",
-   "upload_size": [
-    1000,
-    666
-   ]
-  },
   {
    "order": 11,
    "file": "出力/03_シティタワー高輪/共用部_他社掲載_要許可確認/01_フォレストラウンジ.jpg",
@@ -1333,5 +1333,6 @@
   "リビング写真の「オーク材の床」「天然石の柱・壁」は小田急HP店長コメント（オーク材・天然石）と写真からの表現。",
   "「東京湾方面まで見通せる」は小田急HP店長コメント（東側の東京湾）に基づく表現。",
   "コメントの表現（暮らしのイメージ部分）は写真と図面からの推測を含む。"
- ]
+ ],
+ "images_excluded": []
 }

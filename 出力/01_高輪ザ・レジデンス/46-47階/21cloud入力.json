@@ -734,87 +734,40 @@
    ]
   },
   {
-   "order": 2,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/間取図/01_間取図.jpg",
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/間取図/02_間取図_販売図面.jpg",
    "category": 1,
-   "category_label": "間取り",
-   "comment20": "46・47階メゾネット間取図",
-   "comment100": "46・47階の2層メゾネット、専有285.25㎡の間取図です。下階に約50帖の吹抜けリビングダイニング、キッチン、バー、ワインセラー、ジム、サウナ。上階に主寝室、浴室、サービスルームを配しています。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/02_間取り.jpg",
-   "upload_size": [
-    1920,
-    678
-   ]
+   "category_label": "間取図",
+   "comment20": "最上階２層のメゾネット",
+   "comment100": "専有面積２８５．２５㎡、最上階の２層メゾネット。１階に吹き抜けのリビングダイニングとバー、ジム、サウナを、２階に主寝室とウォークインクローゼットを配し、くつろぎと私室を分けた構成です。",
+   "permission": "販売図面",
+   "source_url": "販売図面PDF A-p01",
+   "note": "販売図面から切り出し・透かし無し（目視確認）",
+   "order": 2
   },
   {
-   "order": 3,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/01_リビング.jpg",
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/22_リビング吹抜_販売図面.jpg",
    "category": 4,
    "category_label": "リビング",
-   "comment20": "約50帖の吹抜けリビング",
-   "comment100": "2層吹抜けのリビングダイニングは約50帖。縦に長い窓から光が入り、上階の手すり越しに空間がつながります。大きなソファを置いても通路に余裕があり、大人数が集まる休日にも対応できます。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/03_リビング.jpg",
-   "upload_size": [
-    1800,
-    1200
-   ]
+   "comment20": "約５０帖の吹き抜けＬＤ",
+   "comment100": "約５０帖、２層吹き抜けのリビングダイニング。天井まで届く大きな窓から光が降り注ぎ、高層階の空がそのまま室内に広がります。現在の家具はご相談に応じます。来客を迎える場にもふさわしい空間です。",
+   "permission": "販売図面",
+   "source_url": "販売図面PDF A-p01",
+   "note": "販売図面から切り出し・透かし無し（目視確認）",
+   "order": 3
   },
   {
-   "order": 4,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/05_リビング2.jpg",
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/23_ダイニング_販売図面.jpg",
    "category": 4,
    "category_label": "リビング",
-   "comment20": "二層分の窓が続くLD",
-   "comment100": "二層分の高さの窓が連なるリビングです。窓辺から高層階の空が大きく見え、日中は自然光で明るく過ごせます。写真の家具の扱いはご相談に応じます。床は光沢のある石調で、窓の外の景色が映り込みます。",
-   "permission": "元付HP（ケン・コーポレーション）",
-   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/2026076317/",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/04_リビング.jpg",
-   "upload_size": [
-    1024,
-    683
-   ]
+   "comment20": "吹き抜けに面したダイニング",
+   "comment100": "吹き抜けに面したダイニング。上階の手すり越しに奥行きと高さが感じられ、石と木を組み合わせた内装が落ち着いた雰囲気をつくります。家族の食事から少人数の会食まで、ゆったりと楽しめます。",
+   "permission": "販売図面",
+   "source_url": "販売図面PDF A-p01",
+   "note": "販売図面から切り出し・透かし無し（目視確認）",
+   "order": 4
   },
   {
    "order": 5,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/04_リビングダイニング.jpg",
-   "category": 4,
-   "category_label": "リビング",
-   "comment20": "ダイニングとキッチン",
-   "comment100": "リビング側から見たダイニングです。円卓の奥にキッチン、右手に上階へ続く手すりが見えます。吹抜けを介して上下の気配が伝わり、料理をしながら家族や来客と会話を楽しめる、開放的なつくりです。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/05_リビング.jpg",
-   "upload_size": [
-    1800,
-    1200
-   ]
-  },
-  {
-   "order": 6,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/02_眺望.jpg",
-   "category": 13,
-   "category_label": "現地からの眺望",
-   "comment20": "46・47階からの眺め",
-   "comment100": "46・47階の窓から見た街並みです。眼下に寺院や学校の緑が点在し、その先に高層ビル群が広がります。南・西・東に開口がある角住戸で、天候により富士山も望めます。朝と夜で景色が変わります。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/06_現地からの眺望.jpg",
-   "upload_size": [
-    1800,
-    1200
-   ]
-  },
-  {
-   "order": 7,
    "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/03_眺望2.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -829,279 +782,62 @@
    ]
   },
   {
-   "order": 8,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/20_バルコニー.jpg",
-   "category": 9,
-   "category_label": "バルコニー",
-   "comment20": "眺めのバルコニー",
-   "comment100": "都心の街並みを望むバルコニーです。手すりの先に高層ビル群と緑が広がり、外の空気を感じながら景色を眺められます。バルコニーは2面で合計19.14㎡。室外機置場を兼ねた奥行きのある空間です。",
-   "permission": "元付HP（ケン・コーポレーション）",
-   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/2026076317/",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/08_バルコニー.jpg",
-   "upload_size": [
-    1024,
-    683
-   ]
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/24_眺望_販売図面.jpg",
+   "category": 13,
+   "category_label": "現地からの眺望",
+   "comment20": "最上階からの都心の眺め",
+   "comment100": "最上階から見渡す都心の街並み。南・西・東の三方向に開け、天候の良い日には富士山も望めます。遠くまで遮るもののない眺めが、朝の光から夕景、夜景まで、一日を通して表情を変えていきます。",
+   "permission": "販売図面",
+   "source_url": "販売図面PDF A-p01",
+   "note": "販売図面から切り出し・透かし無し（目視確認）",
+   "order": 6
   },
   {
-   "order": 9,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/06_キッチン.jpg",
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/26_キッチン_販売図面.jpg",
    "category": 5,
    "category_label": "キッチン",
-   "comment20": "2024年交換のキッチン",
-   "comment100": "2024年1月に交換したキッチンです。石のカウンタートップに大型シンクとガスコンロを備え、ダイニングと向き合いながら調理できます。背面の高い窓から光が入り、日中は手元が明るい配置です。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/09_キッチン.jpg",
-   "upload_size": [
-    1800,
-    1200
-   ]
+   "comment20": "２０２４年交換のキッチン",
+   "comment100": "２０２４年１月のリフォームで新しく交換したキッチン。石目の壁と白い天板の広い作業台を備え、窓の外には空が広がります。リビングダイニングとつながり、料理をしながら会話も楽しめる配置です。",
+   "permission": "販売図面",
+   "source_url": "販売図面PDF A-p01",
+   "note": "販売図面から切り出し・透かし無し（目視確認）",
+   "order": 7
   },
   {
-   "order": 10,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/07_バー.jpg",
-   "category": 38,
-   "category_label": "その他内観",
-   "comment20": "室内のバーカウンター",
-   "comment100": "下階に設けたバーカウンターです。黒の石張りのカウンターにハイチェアを並べ、窓の外の景色を背に来客をもてなせます。リビングとは空間が分かれ、照明を落として落ち着いて会話を楽しめる場所です。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/10_その他内観.jpg",
-   "upload_size": [
-    1800,
-    1200
-   ]
-  },
-  {
-   "order": 11,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/08_ワインセラー.jpg",
-   "category": 38,
-   "category_label": "その他内観",
-   "comment20": "壁一面のワインセラー",
-   "comment100": "2024年1月のリフォームで設けたワインセラーです。壁一面の棚にボトルを寝かせて保管でき、床はヘリンボーン張り。コレクションを眺めながら、食事に合わせてその日の一本を選ぶ時間を楽しめます。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/11_その他内観.jpg",
-   "upload_size": [
-    1800,
-    1200
-   ]
-  },
-  {
-   "order": 12,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/09_主寝室.jpg",
-   "category": 8,
-   "category_label": "寝室",
-   "comment20": "上階の主寝室",
-   "comment100": "上階の主寝室です。二方向の窓から都心の景色を望み、大きなベッドを置いても周囲に余裕があります。来客の空間がある下階から離れているため、夜は静かに休めます。朝は窓辺で景色を眺められます。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/12_寝室.jpg",
-   "upload_size": [
-    1800,
-    1200
-   ]
-  },
-  {
-   "order": 13,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/10_主寝室2.jpg",
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/25_主寝室_販売図面.jpg",
    "category": 8,
    "category_label": "寝室",
    "comment20": "間接照明の主寝室",
-   "comment100": "主寝室を別の角度から見た様子です。折り上げ天井の間接照明と木目の壁が落ち着いた雰囲気をつくり、奥には造作の棚を設けた壁があります。一日の終わりをホテルのように過ごせる落ち着いた寝室です。",
-   "permission": "元付HP（ケン・コーポレーション）",
-   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/2026076317/",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/13_寝室.jpg",
-   "upload_size": [
-    1024,
-    683
-   ]
+   "comment100": "２階の主寝室。折り上げ天井の間接照明と壁一面の造作棚が、ホテルのような落ち着いた空間をつくります。浴室とウォークインクローゼットが隣接し、朝晩の身支度も寝室まわりで静かに完結します。",
+   "permission": "販売図面",
+   "source_url": "販売図面PDF A-p01",
+   "note": "販売図面から切り出し・透かし無し（目視確認）",
+   "order": 8
   },
   {
-   "order": 14,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/11_サービスルーム.jpg",
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/27_ジム_販売図面.jpg",
    "category": 37,
    "category_label": "その他居室",
-   "comment20": "書斎に使えるDEN",
-   "comment100": "上階のサービスルーム（DEN）です。窓に向かってデスクを置け、書斎やワークスペースとして使えます。扉の先はバルコニーで、仕事の合間に外の空気を吸えます。来客の空間から離れた静かな場所です。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/14_その他居室.jpg",
-   "upload_size": [
-    1800,
-    1200
-   ]
+   "comment20": "プライベートジム",
+   "comment100": "リフォームで設けたプライベートジム。大きな窓から眺望を楽しみながらトレーニングでき、隣にはサウナとシャワールームを備えます。外に出ることなく、住まいの中で身体を整える習慣を続けられます。",
+   "permission": "販売図面",
+   "source_url": "販売図面PDF A-p01",
+   "note": "販売図面から切り出し・透かし無し（目視確認）",
+   "order": 9
   },
   {
-   "order": 15,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/12_ジム.jpg",
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/28_書斎_販売図面.jpg",
    "category": 37,
    "category_label": "その他居室",
-   "comment20": "窓辺のプライベートジム",
-   "comment100": "2024年1月のリフォームで設けたプライベートジムです。窓に面してトレーニング機器を置け、景色を眺めながら体を動かせます。床はゴム素材で、外出せずに住戸内で運動の時間を確保できます。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/15_その他居室.jpg",
-   "upload_size": [
-    1800,
-    1200
-   ]
+   "comment20": "造作デスクのワークスペース",
+   "comment100": "木の造作デスクを備えたワークスペース。壁を包む木の仕上げが集中しやすい落ち着きをつくり、窓の外には空が広がります。在宅での仕事や読書、趣味の時間に、家族と程よく離れて使える一室です。",
+   "permission": "販売図面",
+   "source_url": "販売図面PDF A-p01",
+   "note": "販売図面から切り出し・透かし無し（目視確認）",
+   "order": 10
   },
   {
-   "order": 16,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/13_サウナ.jpg",
-   "category": 38,
-   "category_label": "その他内観",
-   "comment20": "住戸内のサウナ",
-   "comment100": "住戸内に設置したサウナです。木のベンチとストーブを備え、隣のシャワールームとあわせて自宅で温冷浴ができます。ジムで体を動かした後、そのまま体を整える時間を持てる、住戸内ならではの設えです。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/16_その他内観.jpg",
-   "upload_size": [
-    1705,
-    959
-   ]
-  },
-  {
-   "order": 17,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/15_浴室.jpg",
-   "category": 6,
-   "category_label": "バス",
-   "comment20": "新しくした浴室",
-   "comment100": "2024年1月に交換した浴室です。円形の浴槽を石調のタイルで囲み、ガラスの仕切りで明るさを保っています。浴室乾燥機と追焚機能付きで、雨の日の洗濯物も乾かせます。洗い場も広く、ゆったりと入浴できます。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/17_バス.jpg",
-   "upload_size": [
-    1800,
-    1200
-   ]
-  },
-  {
-   "order": 18,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/14_シャワールーム.jpg",
-   "category": 6,
-   "category_label": "バス",
-   "comment20": "サウナ横のシャワー",
-   "comment100": "サウナの隣にあるシャワールームです。石調の壁と床で統一し、シャワーと棚を備えます。ジムやサウナの後に浴室まで移動せずに汗を流せるため、運動後の動線が短くまとまり、汗をかいた後も快適です。",
-   "permission": "元付HP（ケン・コーポレーション）",
-   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/2026076317/",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/18_バス.jpg",
-   "upload_size": [
-    1024,
-    683
-   ]
-  },
-  {
-   "order": 19,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/16_洗面室.jpg",
-   "category": 11,
-   "category_label": "洗面台・洗面所",
-   "comment20": "丸鏡のある洗面室",
-   "comment100": "浴室に続く洗面室です。大きな丸鏡とベッセル型の洗面ボウルを置き、足元の間接照明が柔らかな印象です。ガラス越しに浴室が見える開放的なつくりで、毎朝の身支度を明るい空間で心地よく始められます。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/19_洗面台・洗面所.jpg",
-   "upload_size": [
-    1800,
-    1200
-   ]
-  },
-  {
-   "order": 20,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/17_洗面室2.jpg",
-   "category": 11,
-   "category_label": "洗面台・洗面所",
-   "comment20": "ボウル二つの洗面台",
-   "comment100": "ボウルを二つ並べた洗面台です。横長の鏡の下に間接照明が入り、二人同時に身支度ができます。左手はサウナへの扉で、サウナの後の身支度もこの場所で済ませられる動線です。カウンター下にも間接照明が入ります。",
-   "permission": "元付HP（ケン・コーポレーション）",
-   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/2026076317/",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/20_洗面台・洗面所.jpg",
-   "upload_size": [
-    1024,
-    683
-   ]
-  },
-  {
-   "order": 21,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/18_トイレ.jpg",
-   "category": 10,
-   "category_label": "トイレ",
-   "comment20": "新しくしたトイレ",
-   "comment100": "2024年1月に交換したトイレです。タンクレスの便器と木目の壁、ベッセル型の手洗いを備え、来客にも使いやすい設えです。温水洗浄便座付き。ペンダント照明が落ち着いた雰囲気をつくります。",
-   "permission": "元付HP（ケン・コーポレーション）",
-   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/2026076317/",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/21_トイレ.jpg",
-   "upload_size": [
-    1024,
-    683
-   ]
-  },
-  {
-   "order": 22,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/19_ウォークインクローゼット.jpg",
-   "category": 12,
-   "category_label": "収納",
-   "comment20": "主寝室のWIC",
-   "comment100": "上階のウォークインクローゼットです。木目の棚とハンガーパイプがL字に続き、中央にはアクセサリー用の引出し付き収納があります。衣類を季節ごとに分けて、一か所でまとめて管理できる広さです。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/22_収納.jpg",
-   "upload_size": [
-    1800,
-    1200
-   ]
-  },
-  {
-   "order": 23,
-   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/21_玄関.jpg",
-   "category": 7,
-   "category_label": "玄関",
-   "comment20": "石調の玄関ホール",
-   "comment100": "玄関ホールです。石調の床と明るい壁でまとめ、正面の扉から各室へ分かれます。アートを飾れる広い壁があり、来客を迎える最初の場所として整っています。壁面には扉付きの収納も備えています。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/23_玄関.jpg",
-   "upload_size": [
-    1800,
-    1200
-   ]
-  },
-  {
-   "order": 24,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/22_フロント.jpg",
-   "category": 44,
-   "category_label": "ロビー",
-   "comment20": "コンシェルジュのフロント",
-   "comment100": "コンシェルジュが控えるフロントです。楕円形のアートを背にしたカウンターで、日々の用件を相談できます。24時間有人管理の建物で、来訪者への応対も任せられる安心感があります。来客も落ち着いて迎えられます。",
-   "permission": "元付HP（ケン・コーポレーション）",
-   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/24_ロビー.jpg",
-   "upload_size": [
-    400,
-    300
-   ]
-  },
-  {
-   "order": 25,
+   "order": 11,
    "file": "出力/01_高輪ザ・レジデンス/共用部/24_館銘板.jpg",
    "category": 16,
    "category_label": "エントランス",
@@ -1113,102 +849,6 @@
    "upload_size": [
     1024,
     683
-   ]
-  },
-  {
-   "order": 26,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/21_エレベーターホール.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "エレベーターホール",
-   "comment100": "住戸階のエレベーターホールです。ガラスの扉の奥に木目の内廊下が続き、明るいホールで来客を迎えられます。建物にはエレベーターが複数基あり、高層階と地上の行き来を支えます。朝夕の外出や帰宅に便利です。",
-   "permission": "元付HP（ケン・コーポレーション）",
-   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/26_その他共用部分.jpg",
-   "upload_size": [
-    1024,
-    683
-   ]
-  },
-  {
-   "order": 27,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/20_共用廊下2.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "落ち着いた内廊下",
-   "comment100": "照明を抑えた内廊下です。木目の壁が続き、各住戸の玄関前に明かりが落ちる落ち着いた雰囲気です。外から玄関まわりが見えにくい内廊下設計で、住まいのプライバシーを保ちながら、静かに出入りできます。",
-   "permission": "元付HP（ケン・コーポレーション）",
-   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/27_その他共用部分.jpg",
-   "upload_size": [
-    1024,
-    683
-   ]
-  },
-  {
-   "order": 28,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/23_ラウンジテラス.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "窓辺のラウンジ席",
-   "comment100": "窓辺に椅子を並べたラウンジです。石張りの壁と間接照明で落ち着いた雰囲気をつくり、外の景色を眺めながらひと息つけます。共用施設には2階のサロンや24階のビューラウンジ、25階のゲストルームもあります。",
-   "permission": "元付HP（ケン・コーポレーション）",
-   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/28_その他共用部分.jpg",
-   "upload_size": [
-    400,
-    300
-   ]
-  },
-  {
-   "order": 29,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/17_中庭.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "緑の中庭",
-   "comment100": "敷地内の中庭です。芝生と樹木の間を小道が通り、高層棟の足元に森のような緑が広がります。朝の散歩や子どもの外遊びを、通りに出ることなく敷地の中で楽しめる環境です。ベンチに座って木陰で休むこともできます。",
-   "permission": "元付HP（ケン・コーポレーション）",
-   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/29_その他共用部分.jpg",
-   "upload_size": [
-    1024,
-    683
-   ]
-  },
-  {
-   "order": 30,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/02_外観2.jpg",
-   "category": 2,
-   "category_label": "外観",
-   "comment20": "緑越しに見上げるタワー",
-   "comment100": "敷地の植栽越しに見上げた地上47階建のタワーです。白を基調にした外壁が空に伸び、足元は樹木に包まれています。制震構造を採用し、24時間有人管理とコンシェルジュサービスの体制を整えています。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/30_外観.jpg",
-   "upload_size": [
-    1200,
-    800
-   ]
-  },
-  {
-   "order": 31,
-   "file": "出力/01_高輪ザ・レジデンス/共用部/03_外観3.jpg",
-   "category": 2,
-   "category_label": "外観",
-   "comment20": "低層棟とタワー",
-   "comment100": "通り側から見た低層棟とタワーです。敷地は9,161.22㎡、総戸数574戸の規模で、敷地内には24時間営業のスーパーがあります。夜遅くに帰宅した日も、買い物を建物のそばで済ませられます。",
-   "permission": "元付HP（リスト サザビーズ）",
-   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
-   "watermark": true,
-   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/31_外観.jpg",
-   "upload_size": [
-    1200,
-    800
    ]
   }
  ],
@@ -1608,5 +1248,483 @@
   "1枚目（物件の顔）は透かしのない外観（共用部/04_外観4・ケン）にした。",
   "コメントの表現（暮らしのイメージ部分）は写真と図面からの推測を含む。眺望写真の方向（寺院・学校の緑など）は写真からの判断。",
   "写真の家具・テレビは撮影時のもの（家具相談の対象かは元付に確認）。"
+ ],
+ "images_excluded": [
+  {
+   "order": 2,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/間取図/01_間取図.jpg",
+   "category": 1,
+   "category_label": "間取り",
+   "comment20": "46・47階メゾネット間取図",
+   "comment100": "46・47階の2層メゾネット、専有285.25㎡の間取図です。下階に約50帖の吹抜けリビングダイニング、キッチン、バー、ワインセラー、ジム、サウナ。上階に主寝室、浴室、サービスルームを配しています。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/02_間取り.jpg",
+   "upload_size": [
+    1920,
+    678
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 3,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/01_リビング.jpg",
+   "category": 4,
+   "category_label": "リビング",
+   "comment20": "約50帖の吹抜けリビング",
+   "comment100": "2層吹抜けのリビングダイニングは約50帖。縦に長い窓から光が入り、上階の手すり越しに空間がつながります。大きなソファを置いても通路に余裕があり、大人数が集まる休日にも対応できます。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/03_リビング.jpg",
+   "upload_size": [
+    1800,
+    1200
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 4,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/05_リビング2.jpg",
+   "category": 4,
+   "category_label": "リビング",
+   "comment20": "二層分の窓が続くLD",
+   "comment100": "二層分の高さの窓が連なるリビングです。窓辺から高層階の空が大きく見え、日中は自然光で明るく過ごせます。写真の家具の扱いはご相談に応じます。床は光沢のある石調で、窓の外の景色が映り込みます。",
+   "permission": "元付HP（ケン・コーポレーション）",
+   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/2026076317/",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/04_リビング.jpg",
+   "upload_size": [
+    1024,
+    683
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 5,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/04_リビングダイニング.jpg",
+   "category": 4,
+   "category_label": "リビング",
+   "comment20": "ダイニングとキッチン",
+   "comment100": "リビング側から見たダイニングです。円卓の奥にキッチン、右手に上階へ続く手すりが見えます。吹抜けを介して上下の気配が伝わり、料理をしながら家族や来客と会話を楽しめる、開放的なつくりです。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/05_リビング.jpg",
+   "upload_size": [
+    1800,
+    1200
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 6,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/02_眺望.jpg",
+   "category": 13,
+   "category_label": "現地からの眺望",
+   "comment20": "46・47階からの眺め",
+   "comment100": "46・47階の窓から見た街並みです。眼下に寺院や学校の緑が点在し、その先に高層ビル群が広がります。南・西・東に開口がある角住戸で、天候により富士山も望めます。朝と夜で景色が変わります。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/06_現地からの眺望.jpg",
+   "upload_size": [
+    1800,
+    1200
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 8,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/20_バルコニー.jpg",
+   "category": 9,
+   "category_label": "バルコニー",
+   "comment20": "眺めのバルコニー",
+   "comment100": "都心の街並みを望むバルコニーです。手すりの先に高層ビル群と緑が広がり、外の空気を感じながら景色を眺められます。バルコニーは2面で合計19.14㎡。室外機置場を兼ねた奥行きのある空間です。",
+   "permission": "元付HP（ケン・コーポレーション）",
+   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/2026076317/",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/08_バルコニー.jpg",
+   "upload_size": [
+    1024,
+    683
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 9,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/06_キッチン.jpg",
+   "category": 5,
+   "category_label": "キッチン",
+   "comment20": "2024年交換のキッチン",
+   "comment100": "2024年1月に交換したキッチンです。石のカウンタートップに大型シンクとガスコンロを備え、ダイニングと向き合いながら調理できます。背面の高い窓から光が入り、日中は手元が明るい配置です。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/09_キッチン.jpg",
+   "upload_size": [
+    1800,
+    1200
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 10,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/07_バー.jpg",
+   "category": 38,
+   "category_label": "その他内観",
+   "comment20": "室内のバーカウンター",
+   "comment100": "下階に設けたバーカウンターです。黒の石張りのカウンターにハイチェアを並べ、窓の外の景色を背に来客をもてなせます。リビングとは空間が分かれ、照明を落として落ち着いて会話を楽しめる場所です。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/10_その他内観.jpg",
+   "upload_size": [
+    1800,
+    1200
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 11,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/08_ワインセラー.jpg",
+   "category": 38,
+   "category_label": "その他内観",
+   "comment20": "壁一面のワインセラー",
+   "comment100": "2024年1月のリフォームで設けたワインセラーです。壁一面の棚にボトルを寝かせて保管でき、床はヘリンボーン張り。コレクションを眺めながら、食事に合わせてその日の一本を選ぶ時間を楽しめます。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/11_その他内観.jpg",
+   "upload_size": [
+    1800,
+    1200
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 12,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/09_主寝室.jpg",
+   "category": 8,
+   "category_label": "寝室",
+   "comment20": "上階の主寝室",
+   "comment100": "上階の主寝室です。二方向の窓から都心の景色を望み、大きなベッドを置いても周囲に余裕があります。来客の空間がある下階から離れているため、夜は静かに休めます。朝は窓辺で景色を眺められます。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/12_寝室.jpg",
+   "upload_size": [
+    1800,
+    1200
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 13,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/10_主寝室2.jpg",
+   "category": 8,
+   "category_label": "寝室",
+   "comment20": "間接照明の主寝室",
+   "comment100": "主寝室を別の角度から見た様子です。折り上げ天井の間接照明と木目の壁が落ち着いた雰囲気をつくり、奥には造作の棚を設けた壁があります。一日の終わりをホテルのように過ごせる落ち着いた寝室です。",
+   "permission": "元付HP（ケン・コーポレーション）",
+   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/2026076317/",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/13_寝室.jpg",
+   "upload_size": [
+    1024,
+    683
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 14,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/11_サービスルーム.jpg",
+   "category": 37,
+   "category_label": "その他居室",
+   "comment20": "書斎に使えるDEN",
+   "comment100": "上階のサービスルーム（DEN）です。窓に向かってデスクを置け、書斎やワークスペースとして使えます。扉の先はバルコニーで、仕事の合間に外の空気を吸えます。来客の空間から離れた静かな場所です。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/14_その他居室.jpg",
+   "upload_size": [
+    1800,
+    1200
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 15,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/12_ジム.jpg",
+   "category": 37,
+   "category_label": "その他居室",
+   "comment20": "窓辺のプライベートジム",
+   "comment100": "2024年1月のリフォームで設けたプライベートジムです。窓に面してトレーニング機器を置け、景色を眺めながら体を動かせます。床はゴム素材で、外出せずに住戸内で運動の時間を確保できます。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/15_その他居室.jpg",
+   "upload_size": [
+    1800,
+    1200
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 16,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/13_サウナ.jpg",
+   "category": 38,
+   "category_label": "その他内観",
+   "comment20": "住戸内のサウナ",
+   "comment100": "住戸内に設置したサウナです。木のベンチとストーブを備え、隣のシャワールームとあわせて自宅で温冷浴ができます。ジムで体を動かした後、そのまま体を整える時間を持てる、住戸内ならではの設えです。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/16_その他内観.jpg",
+   "upload_size": [
+    1705,
+    959
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 17,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/15_浴室.jpg",
+   "category": 6,
+   "category_label": "バス",
+   "comment20": "新しくした浴室",
+   "comment100": "2024年1月に交換した浴室です。円形の浴槽を石調のタイルで囲み、ガラスの仕切りで明るさを保っています。浴室乾燥機と追焚機能付きで、雨の日の洗濯物も乾かせます。洗い場も広く、ゆったりと入浴できます。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/17_バス.jpg",
+   "upload_size": [
+    1800,
+    1200
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 18,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/14_シャワールーム.jpg",
+   "category": 6,
+   "category_label": "バス",
+   "comment20": "サウナ横のシャワー",
+   "comment100": "サウナの隣にあるシャワールームです。石調の壁と床で統一し、シャワーと棚を備えます。ジムやサウナの後に浴室まで移動せずに汗を流せるため、運動後の動線が短くまとまり、汗をかいた後も快適です。",
+   "permission": "元付HP（ケン・コーポレーション）",
+   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/2026076317/",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/18_バス.jpg",
+   "upload_size": [
+    1024,
+    683
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 19,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/16_洗面室.jpg",
+   "category": 11,
+   "category_label": "洗面台・洗面所",
+   "comment20": "丸鏡のある洗面室",
+   "comment100": "浴室に続く洗面室です。大きな丸鏡とベッセル型の洗面ボウルを置き、足元の間接照明が柔らかな印象です。ガラス越しに浴室が見える開放的なつくりで、毎朝の身支度を明るい空間で心地よく始められます。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/19_洗面台・洗面所.jpg",
+   "upload_size": [
+    1800,
+    1200
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 20,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/17_洗面室2.jpg",
+   "category": 11,
+   "category_label": "洗面台・洗面所",
+   "comment20": "ボウル二つの洗面台",
+   "comment100": "ボウルを二つ並べた洗面台です。横長の鏡の下に間接照明が入り、二人同時に身支度ができます。左手はサウナへの扉で、サウナの後の身支度もこの場所で済ませられる動線です。カウンター下にも間接照明が入ります。",
+   "permission": "元付HP（ケン・コーポレーション）",
+   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/2026076317/",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/20_洗面台・洗面所.jpg",
+   "upload_size": [
+    1024,
+    683
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 21,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/18_トイレ.jpg",
+   "category": 10,
+   "category_label": "トイレ",
+   "comment20": "新しくしたトイレ",
+   "comment100": "2024年1月に交換したトイレです。タンクレスの便器と木目の壁、ベッセル型の手洗いを備え、来客にも使いやすい設えです。温水洗浄便座付き。ペンダント照明が落ち着いた雰囲気をつくります。",
+   "permission": "元付HP（ケン・コーポレーション）",
+   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/2026076317/",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/21_トイレ.jpg",
+   "upload_size": [
+    1024,
+    683
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 22,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/19_ウォークインクローゼット.jpg",
+   "category": 12,
+   "category_label": "収納",
+   "comment20": "主寝室のWIC",
+   "comment100": "上階のウォークインクローゼットです。木目の棚とハンガーパイプがL字に続き、中央にはアクセサリー用の引出し付き収納があります。衣類を季節ごとに分けて、一か所でまとめて管理できる広さです。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/22_収納.jpg",
+   "upload_size": [
+    1800,
+    1200
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 23,
+   "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/21_玄関.jpg",
+   "category": 7,
+   "category_label": "玄関",
+   "comment20": "石調の玄関ホール",
+   "comment100": "玄関ホールです。石調の床と明るい壁でまとめ、正面の扉から各室へ分かれます。アートを飾れる広い壁があり、来客を迎える最初の場所として整っています。壁面には扉付きの収納も備えています。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/23_玄関.jpg",
+   "upload_size": [
+    1800,
+    1200
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 24,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/22_フロント.jpg",
+   "category": 44,
+   "category_label": "ロビー",
+   "comment20": "コンシェルジュのフロント",
+   "comment100": "コンシェルジュが控えるフロントです。楕円形のアートを背にしたカウンターで、日々の用件を相談できます。24時間有人管理の建物で、来訪者への応対も任せられる安心感があります。来客も落ち着いて迎えられます。",
+   "permission": "元付HP（ケン・コーポレーション）",
+   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/24_ロビー.jpg",
+   "upload_size": [
+    400,
+    300
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 26,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/21_エレベーターホール.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "エレベーターホール",
+   "comment100": "住戸階のエレベーターホールです。ガラスの扉の奥に木目の内廊下が続き、明るいホールで来客を迎えられます。建物にはエレベーターが複数基あり、高層階と地上の行き来を支えます。朝夕の外出や帰宅に便利です。",
+   "permission": "元付HP（ケン・コーポレーション）",
+   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/26_その他共用部分.jpg",
+   "upload_size": [
+    1024,
+    683
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 27,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/20_共用廊下2.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "落ち着いた内廊下",
+   "comment100": "照明を抑えた内廊下です。木目の壁が続き、各住戸の玄関前に明かりが落ちる落ち着いた雰囲気です。外から玄関まわりが見えにくい内廊下設計で、住まいのプライバシーを保ちながら、静かに出入りできます。",
+   "permission": "元付HP（ケン・コーポレーション）",
+   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/27_その他共用部分.jpg",
+   "upload_size": [
+    1024,
+    683
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 28,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/23_ラウンジテラス.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "窓辺のラウンジ席",
+   "comment100": "窓辺に椅子を並べたラウンジです。石張りの壁と間接照明で落ち着いた雰囲気をつくり、外の景色を眺めながらひと息つけます。共用施設には2階のサロンや24階のビューラウンジ、25階のゲストルームもあります。",
+   "permission": "元付HP（ケン・コーポレーション）",
+   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/28_その他共用部分.jpg",
+   "upload_size": [
+    400,
+    300
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 29,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/17_中庭.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "緑の中庭",
+   "comment100": "敷地内の中庭です。芝生と樹木の間を小道が通り、高層棟の足元に森のような緑が広がります。朝の散歩や子どもの外遊びを、通りに出ることなく敷地の中で楽しめる環境です。ベンチに座って木陰で休むこともできます。",
+   "permission": "元付HP（ケン・コーポレーション）",
+   "source_url": "https://www.kencorp.co.jp/housing/properties/140304/",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/29_その他共用部分.jpg",
+   "upload_size": [
+    1024,
+    683
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 30,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/02_外観2.jpg",
+   "category": 2,
+   "category_label": "外観",
+   "comment20": "緑越しに見上げるタワー",
+   "comment100": "敷地の植栽越しに見上げた地上47階建のタワーです。白を基調にした外壁が空に伸び、足元は樹木に包まれています。制震構造を採用し、24時間有人管理とコンシェルジュサービスの体制を整えています。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/30_外観.jpg",
+   "upload_size": [
+    1200,
+    800
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  },
+  {
+   "order": 31,
+   "file": "出力/01_高輪ザ・レジデンス/共用部/03_外観3.jpg",
+   "category": 2,
+   "category_label": "外観",
+   "comment20": "低層棟とタワー",
+   "comment100": "通り側から見た低層棟とタワーです。敷地は9,161.22㎡、総戸数574戸の規模で、敷地内には24時間営業のスーパーがあります。夜遅くに帰宅した日も、買い物を建物のそばで済ませられます。",
+   "permission": "元付HP（リスト サザビーズ）",
+   "source_url": "https://list-sir.jp/buy/detail/?bk_cd=B00104-008444",
+   "watermark": true,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/31_外観.jpg",
+   "upload_size": [
+    1200,
+    800
+   ],
+   "exclude_reason": "透かし入り（依頼者指示 2026-09-28：透かしのある写真は使わない）"
+  }
  ]
 }
