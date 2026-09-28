@@ -591,25 +591,12 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 2,
-   "file": "出力/02_アクシア青山/共用部/02_外観2.jpg",
-   "category": 2,
-   "category_label": "外観",
-   "comment20": "空に伸びる外観",
-   "comment100": "前面の通りから見上げた外観です。整然と並ぶ窓と白い外壁が空に伸び、足元には植栽があります。銀座線「青山一丁目」駅徒歩4分、千代田線「乃木坂」駅徒歩7分の立地です。外苑前駅も徒歩圏です。",
-   "permission": "元付HP（住友不動産ステップ）",
-   "source_url": "https://www.stepon.co.jp/mansion/detail_152T3224/",
-   "upload_file": "出力/02_アクシア青山/20階/21cloud_upload/21_外観.jpg",
-   "upload_size": [
-    1200,
-    900
-   ]
-  },
-  {
-   "order": 3,
    "file": "出力/02_アクシア青山/20階/間取図/01_間取図.jpg",
    "category": 1,
    "category_label": "間取り",
@@ -621,10 +608,12 @@
    "upload_size": [
     1122,
     1200
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 4,
+   "order": 3,
    "file": "出力/02_アクシア青山/20階/写真/03_リビングダイニング.jpg",
    "category": 4,
    "category_label": "リビング",
@@ -636,10 +625,12 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 5,
+   "order": 4,
    "file": "出力/02_アクシア青山/20階/写真/04_リビングダイニング2.jpg",
    "category": 4,
    "category_label": "リビング",
@@ -651,10 +642,12 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 6,
+   "order": 5,
    "file": "出力/02_アクシア青山/20階/写真/01_眺望.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -666,10 +659,12 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 7,
+   "order": 6,
    "file": "出力/02_アクシア青山/20階/写真/13_眺望2.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -681,10 +676,12 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 8,
+   "order": 7,
    "file": "出力/02_アクシア青山/20階/写真/14_眺望3.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -696,10 +693,12 @@
    "upload_size": [
     624,
     280
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 9,
+   "order": 8,
    "file": "出力/02_アクシア青山/20階/写真/05_キッチン.jpg",
    "category": 5,
    "category_label": "キッチン",
@@ -711,26 +710,29 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 10,
+   "order": 9,
    "file": "出力/02_アクシア青山/20階/写真_他社掲載_要許可確認/01_キッチン2.jpg",
    "category": 5,
    "category_label": "キッチン",
-   "comment20": "シンク正面のキッチン",
-   "comment100": "シンク側から見た対面式キッチンです。IHクッキングヒーターと食器洗浄乾燥機を備え、背面の収納に食器をまとめられます。カウンター越しに家族と会話しながら料理ができます。天井には照明も備えます。",
+   "comment20": "シンク側から見たキッチン",
+   "comment100": "シンク側から見た対面式のシステムキッチンです。IHクッキングヒーターと食器洗浄乾燥機を備え、背面の収納に食器や家電をまとめられます。カウンター越しにリビングの様子がわかる配置です。",
    "permission": "同一住戸の他社掲載（許可済み）",
    "source_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_20186831/",
-   "note": "同一住戸の他社掲載写真（依頼者指示 2026-09-28 により許可済み）",
+   "note": "同一住戸の他社掲載写真（依頼者指示 2026-09-28 により許可済み）／透かし無し（目視確認）",
    "upload_file": "出力/02_アクシア青山/20階/21cloud_upload/要許可/03_キッチン.jpg",
    "upload_size": [
     600,
     450
-   ]
+   ],
+   "watermark": false
   },
   {
-   "order": 11,
+   "order": 10,
    "file": "出力/02_アクシア青山/20階/写真/07_和室.jpg",
    "category": 22,
    "category_label": "和室",
@@ -742,10 +744,12 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 12,
+   "order": 11,
    "file": "出力/02_アクシア青山/20階/写真/08_洋室.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -757,10 +761,12 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 13,
+   "order": 12,
    "file": "出力/02_アクシア青山/20階/写真/09_洋室2.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -772,10 +778,12 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 14,
+   "order": 13,
    "file": "出力/02_アクシア青山/20階/写真/10_洋室3.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -787,10 +795,12 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 15,
+   "order": 14,
    "file": "出力/02_アクシア青山/20階/写真/06_ファミリールーム.jpg",
    "category": 37,
    "category_label": "その他居室",
@@ -802,10 +812,12 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 16,
+   "order": 15,
    "file": "出力/02_アクシア青山/20階/写真/12_浴室.jpg",
    "category": 6,
    "category_label": "バス",
@@ -817,10 +829,12 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 17,
+   "order": 16,
    "file": "出力/02_アクシア青山/20階/写真/11_洗面.jpg",
    "category": 11,
    "category_label": "洗面台・洗面所",
@@ -832,7 +846,26 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 17,
+   "file": "出力/02_アクシア青山/共用部/02_外観2.jpg",
+   "category": 2,
+   "category_label": "外観",
+   "comment20": "空に伸びる外観",
+   "comment100": "前面の通りから見上げた外観です。整然と並ぶ窓と白い外壁が空に伸び、足元には植栽があります。銀座線「青山一丁目」駅徒歩4分、千代田線「乃木坂」駅徒歩7分の立地です。外苑前駅も徒歩圏です。",
+   "permission": "元付HP（住友不動産ステップ）",
+   "source_url": "https://www.stepon.co.jp/mansion/detail_152T3224/",
+   "upload_file": "出力/02_アクシア青山/20階/21cloud_upload/21_外観.jpg",
+   "upload_size": [
+    1200,
+    900
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 18,
@@ -847,7 +880,9 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 19,
@@ -862,7 +897,9 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 20,
@@ -877,7 +914,9 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 21,
@@ -892,7 +931,9 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 22,
@@ -907,7 +948,9 @@
    "upload_size": [
     1200,
     900
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   }
  ],
  "images_pending_permission": [

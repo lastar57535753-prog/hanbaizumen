@@ -627,7 +627,9 @@
    "upload_size": [
     1920,
     1440
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 2,
@@ -642,7 +644,9 @@
    "upload_size": [
     1790,
     700
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 3,
@@ -657,7 +661,9 @@
    "upload_size": [
     1920,
     1440
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 4,
@@ -672,7 +678,9 @@
    "upload_size": [
     1920,
     1440
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 5,
@@ -687,280 +695,12 @@
    "upload_size": [
     1920,
     1440
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 6,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/06_キッチン.jpg",
-   "category": 5,
-   "category_label": "キッチン",
-   "comment20": "アイランドキッチン",
-   "comment100": "石のカウンタートップのアイランドキッチンです。ハイチェアを並べてカウンター席として使え、料理をしながら家族や来客と向き合えます。背面には大型の収納と家電スペースを備え、見せない収納ができます。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/07_キッチン.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 7,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/07_キッチン2.jpg",
-   "category": 5,
-   "category_label": "キッチン",
-   "comment20": "窓に面したキッチン",
-   "comment100": "キッチンを窓側から見た様子です。大型のシンクを備えたアイランドの先に、窓越しの都心の景色が見えます。キッチンに立ちながら外の明るさを感じられ、長い時間の料理も心地よく続けられます。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/08_キッチン.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 8,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/09_キッチン3.jpg",
-   "category": 5,
-   "category_label": "キッチン",
-   "comment20": "バー裏の作業スペース",
-   "comment100": "バーカウンターの裏側にある作業スペースです。シンクと冷蔵設備を備え、グラスや食材の準備をここで済ませられます。来客の多いご家庭で、もてなしの準備を表から見えない場所で整えられます。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/10_キッチン.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 9,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/11_主寝室.jpg",
-   "category": 8,
-   "category_label": "寝室",
-   "comment20": "約16.42帖の主寝室",
-   "comment100": "約16.42帖の主寝室です。二方向に窓があり、ベッドを置いても周囲に十分なゆとりがあります。ウォークインクローゼットに隣接し、身支度を寝室の中で済ませられる配置です。床は木目で落ち着いた印象です。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/11_寝室.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 10,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/12_洋室.jpg",
-   "category": 21,
-   "category_label": "洋室",
-   "comment20": "バルコニーに面した洋室",
-   "comment100": "バルコニーに面した洋室です。掃き出し窓から外に出られ、木目の床と間接照明で落ち着いた雰囲気です。約7帖台の広さで、子ども部屋や書斎として使えます。窓から光が入り、外の空気も取り込める明るい部屋です。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/12_洋室.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 11,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/13_洋室2.jpg",
-   "category": 21,
-   "category_label": "洋室",
-   "comment20": "落ち着いた洋室",
-   "comment100": "木目の床の洋室です。窓は小さめで、外の視線を気にせず過ごせます。ベッドとデスクを置ける広さがあり、ゲストルームや趣味の部屋としても使えます。クローゼットも備え、身の回りの物を室内にしまえる個室です。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/13_洋室.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 12,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/17_浴室.jpg",
-   "category": 6,
-   "category_label": "バス",
-   "comment20": "窓のある浴室",
-   "comment100": "窓のある浴室です。濃色のタイルの壁と白い浴槽の対比がすっきりとした印象で、ガラスの仕切りで洗い場が明るく見えます。窓から外の光を取り込みながら入浴できます。浴室は2か所あり、家族で使い分けられます。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/16_バス.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 13,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/18_浴室2.jpg",
-   "category": 6,
-   "category_label": "バス",
-   "comment20": "石調の浴室",
-   "comment100": "石調の大判タイルで仕上げた浴室です。浴槽の横に腰掛けられる段があり、ゆったりと入浴できます。浴室は2か所あり、家族やゲストと入浴時間が重なっても待たずに済みます。壁は明るい石調です。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/17_バス.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 14,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/19_洗面室.jpg",
-   "category": 11,
-   "category_label": "洗面台・洗面所",
-   "comment20": "ボウル二つの洗面室",
-   "comment100": "ボウルを二つ並べた洗面室です。三面鏡の収納と石調のカウンターを備え、二人並んで身支度ができます。洗面室は2か所あり、朝の混み合う時間も分けて使えます。カウンターが広く、日用品を並べても余裕があります。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/18_洗面台・洗面所.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 15,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/20_洗面室2.jpg",
-   "category": 11,
-   "category_label": "洗面台・洗面所",
-   "comment20": "2か所目の洗面室",
-   "comment100": "2か所目の洗面室です。三面鏡の収納と引出しの多いカウンターで、化粧品や日用品を整理できます。主寝室側に配置され、寝室から身支度までの動きが短くまとまります。床も石調で、明るい印象です。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/19_洗面台・洗面所.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 16,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/21_トイレ.jpg",
-   "category": 10,
-   "category_label": "トイレ",
-   "comment20": "手洗い付きのトイレ",
-   "comment100": "カウンター付きの手洗いを備えたトイレです。ベッセル型のボウルと木目の収納、鏡でまとめています。来客用として使いやすいつくりで、温水洗浄便座付きです。壁は石調のタイルで、落ち着いた雰囲気のトイレです。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/20_トイレ.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 17,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/22_トイレ2.jpg",
-   "category": 10,
-   "category_label": "トイレ",
-   "comment20": "2か所目のトイレ",
-   "comment100": "2か所目のトイレです。タンクレスの便器と木目の手洗いカウンターを備え、白を基調にすっきりとまとめています。主寝室の近くにあり、家族用として気兼ねなく使えます。床は明るい石調のタイルです。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/21_トイレ.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 18,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/14_ウォークインクローゼット.jpg",
-   "category": 12,
-   "category_label": "収納",
-   "comment20": "ウォークインクローゼット",
-   "comment100": "ウォークインクローゼットです。L字にハンガーパイプと上部の棚が続き、スーツやコートを丈ごとに分けて掛けられます。ウォークインクローゼットは3か所あり、衣類の管理がしやすい住戸です。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/22_収納.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 19,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/15_収納.jpg",
-   "category": 12,
-   "category_label": "収納",
-   "comment20": "可動棚の収納",
-   "comment100": "壁一面に可動棚を設けた収納です。棚の高さを変えられるため、箱物や書類、季節の小物を整理して並べられます。居室の外に物をまとめられ、生活空間をすっきり保てます。奥には木目の扉があります。床も木目です。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/23_収納.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 20,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/16_収納2.jpg",
-   "category": 12,
-   "category_label": "収納",
-   "comment20": "納戸の可動棚",
-   "comment100": "三方に可動棚を巡らせた納戸です。スーツケースや季節家電、備蓄品など大きさの違う物をまとめて収められます。納戸は4か所あり、用途ごとに使い分けられます。棚の高さは物に合わせて変えられます。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/24_収納.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 21,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/23_玄関.jpg",
-   "category": 7,
-   "category_label": "玄関",
-   "comment20": "木目の扉の玄関",
-   "comment100": "内廊下から見た住戸の玄関です。木目の壁に囲まれたアルコーブの奥に扉があり、共用廊下から一歩下がった位置で出入りできます。来客を迎える前に身なりを整えられる落ち着いた構えの玄関前です。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/25_玄関.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 22,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/24_玄関2.jpg",
-   "category": 7,
-   "category_label": "玄関",
-   "comment20": "もう一つの玄関",
-   "comment100": "2か所目の玄関です。木目の扉に挟まれた明るい空間で、家族用と来客用で使い分けられます。この住戸には玄関が2か所あり、動線を分けた暮らしに対応できます。玄関ホールの床は明るい石調で、清潔感があります。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/26_玄関.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 23,
-   "file": "出力/01_高輪ザ・レジデンス/43階/写真/10_バルコニー.jpg",
-   "category": 9,
-   "category_label": "バルコニー",
-   "comment20": "奥行きのあるバルコニー",
-   "comment100": "19.81㎡のバルコニーです。タイル敷きの床が横に長く続き、手すりの先に街並みが広がります。西向きで、天候により富士山を望めます。夕方は空の色の変化を眺められます。室外機置場も兼ねます。",
-   "permission": "元付HP（RMパートナーズ）",
-   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
-   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/06_バルコニー.jpg",
-   "upload_size": [
-    1920,
-    1440
-   ]
-  },
-  {
-   "order": 24,
    "file": "出力/01_高輪ザ・レジデンス/43階/写真/08_バーカウンター.jpg",
    "category": 38,
    "category_label": "その他内観",
@@ -972,10 +712,301 @@
    "upload_size": [
     1920,
     1440
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 25,
+   "order": 7,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/06_キッチン.jpg",
+   "category": 5,
+   "category_label": "キッチン",
+   "comment20": "アイランドキッチン",
+   "comment100": "石のカウンタートップのアイランドキッチンです。ハイチェアを並べてカウンター席として使え、料理をしながら家族や来客と向き合えます。背面には大型の収納と家電スペースを備え、見せない収納ができます。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/07_キッチン.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 8,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/07_キッチン2.jpg",
+   "category": 5,
+   "category_label": "キッチン",
+   "comment20": "窓に面したキッチン",
+   "comment100": "キッチンを窓側から見た様子です。大型のシンクを備えたアイランドの先に、窓越しの都心の景色が見えます。キッチンに立ちながら外の明るさを感じられ、長い時間の料理も心地よく続けられます。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/08_キッチン.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 9,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/09_キッチン3.jpg",
+   "category": 5,
+   "category_label": "キッチン",
+   "comment20": "バー裏の作業スペース",
+   "comment100": "バーカウンターの裏側にある作業スペースです。シンクと冷蔵設備を備え、グラスや食材の準備をここで済ませられます。来客の多いご家庭で、もてなしの準備を表から見えない場所で整えられます。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/10_キッチン.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 10,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/11_主寝室.jpg",
+   "category": 8,
+   "category_label": "寝室",
+   "comment20": "約16.42帖の主寝室",
+   "comment100": "約16.42帖の主寝室です。二方向に窓があり、ベッドを置いても周囲に十分なゆとりがあります。ウォークインクローゼットに隣接し、身支度を寝室の中で済ませられる配置です。床は木目で落ち着いた印象です。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/11_寝室.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 11,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/12_洋室.jpg",
+   "category": 21,
+   "category_label": "洋室",
+   "comment20": "バルコニーに面した洋室",
+   "comment100": "バルコニーに面した洋室です。掃き出し窓から外に出られ、木目の床と間接照明で落ち着いた雰囲気です。約7帖台の広さで、子ども部屋や書斎として使えます。窓から光が入り、外の空気も取り込める明るい部屋です。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/12_洋室.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 12,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/13_洋室2.jpg",
+   "category": 21,
+   "category_label": "洋室",
+   "comment20": "落ち着いた洋室",
+   "comment100": "木目の床の洋室です。窓は小さめで、外の視線を気にせず過ごせます。ベッドとデスクを置ける広さがあり、ゲストルームや趣味の部屋としても使えます。クローゼットも備え、身の回りの物を室内にしまえる個室です。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/13_洋室.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 13,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/17_浴室.jpg",
+   "category": 6,
+   "category_label": "バス",
+   "comment20": "窓のある浴室",
+   "comment100": "窓のある浴室です。濃色のタイルの壁と白い浴槽の対比がすっきりとした印象で、ガラスの仕切りで洗い場が明るく見えます。窓から外の光を取り込みながら入浴できます。浴室は2か所あり、家族で使い分けられます。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/16_バス.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 14,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/18_浴室2.jpg",
+   "category": 6,
+   "category_label": "バス",
+   "comment20": "石調の浴室",
+   "comment100": "石調の大判タイルで仕上げた浴室です。浴槽の横に腰掛けられる段があり、ゆったりと入浴できます。浴室は2か所あり、家族やゲストと入浴時間が重なっても待たずに済みます。壁は明るい石調です。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/17_バス.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 15,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/19_洗面室.jpg",
+   "category": 11,
+   "category_label": "洗面台・洗面所",
+   "comment20": "ボウル二つの洗面室",
+   "comment100": "ボウルを二つ並べた洗面室です。三面鏡の収納と石調のカウンターを備え、二人並んで身支度ができます。洗面室は2か所あり、朝の混み合う時間も分けて使えます。カウンターが広く、日用品を並べても余裕があります。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/18_洗面台・洗面所.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 16,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/20_洗面室2.jpg",
+   "category": 11,
+   "category_label": "洗面台・洗面所",
+   "comment20": "2か所目の洗面室",
+   "comment100": "2か所目の洗面室です。三面鏡の収納と引出しの多いカウンターで、化粧品や日用品を整理できます。主寝室側に配置され、寝室から身支度までの動きが短くまとまります。床も石調で、明るい印象です。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/19_洗面台・洗面所.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 17,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/21_トイレ.jpg",
+   "category": 10,
+   "category_label": "トイレ",
+   "comment20": "手洗い付きのトイレ",
+   "comment100": "カウンター付きの手洗いを備えたトイレです。ベッセル型のボウルと木目の収納、鏡でまとめています。来客用として使いやすいつくりで、温水洗浄便座付きです。壁は石調のタイルで、落ち着いた雰囲気のトイレです。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/20_トイレ.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 18,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/22_トイレ2.jpg",
+   "category": 10,
+   "category_label": "トイレ",
+   "comment20": "2か所目のトイレ",
+   "comment100": "2か所目のトイレです。タンクレスの便器と木目の手洗いカウンターを備え、白を基調にすっきりとまとめています。主寝室の近くにあり、家族用として気兼ねなく使えます。床は明るい石調のタイルです。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/21_トイレ.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 19,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/14_ウォークインクローゼット.jpg",
+   "category": 12,
+   "category_label": "収納",
+   "comment20": "ウォークインクローゼット",
+   "comment100": "ウォークインクローゼットです。L字にハンガーパイプと上部の棚が続き、スーツやコートを丈ごとに分けて掛けられます。ウォークインクローゼットは3か所あり、衣類の管理がしやすい住戸です。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/22_収納.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 20,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/15_収納.jpg",
+   "category": 12,
+   "category_label": "収納",
+   "comment20": "可動棚の収納",
+   "comment100": "壁一面に可動棚を設けた収納です。棚の高さを変えられるため、箱物や書類、季節の小物を整理して並べられます。居室の外に物をまとめられ、生活空間をすっきり保てます。奥には木目の扉があります。床も木目です。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/23_収納.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 21,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/16_収納2.jpg",
+   "category": 12,
+   "category_label": "収納",
+   "comment20": "納戸の可動棚",
+   "comment100": "三方に可動棚を巡らせた納戸です。スーツケースや季節家電、備蓄品など大きさの違う物をまとめて収められます。納戸は4か所あり、用途ごとに使い分けられます。棚の高さは物に合わせて変えられます。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/24_収納.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 22,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/23_玄関.jpg",
+   "category": 7,
+   "category_label": "玄関",
+   "comment20": "木目の扉の玄関",
+   "comment100": "内廊下から見た住戸の玄関です。木目の壁に囲まれたアルコーブの奥に扉があり、共用廊下から一歩下がった位置で出入りできます。来客を迎える前に身なりを整えられる落ち着いた構えの玄関前です。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/25_玄関.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 23,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/24_玄関2.jpg",
+   "category": 7,
+   "category_label": "玄関",
+   "comment20": "もう一つの玄関",
+   "comment100": "2か所目の玄関です。木目の扉に挟まれた明るい空間で、家族用と来客用で使い分けられます。この住戸には玄関が2か所あり、動線を分けた暮らしに対応できます。玄関ホールの床は明るい石調で、清潔感があります。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/26_玄関.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 24,
    "file": "出力/01_高輪ザ・レジデンス/43階/写真/26_ホール.jpg",
    "category": 38,
    "category_label": "その他内観",
@@ -987,10 +1018,12 @@
    "upload_size": [
     1920,
     1440
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 26,
+   "order": 25,
    "file": "出力/01_高輪ザ・レジデンス/43階/写真/25_廊下.jpg",
    "category": 38,
    "category_label": "その他内観",
@@ -1002,7 +1035,26 @@
    "upload_size": [
     1920,
     1440
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 26,
+   "file": "出力/01_高輪ザ・レジデンス/43階/写真/10_バルコニー.jpg",
+   "category": 9,
+   "category_label": "バルコニー",
+   "comment20": "奥行きのあるバルコニー",
+   "comment100": "19.81㎡のバルコニーです。タイル敷きの床が横に長く続き、手すりの先に街並みが広がります。西向きで、天候により富士山を望めます。夕方は空の色の変化を眺められます。室外機置場も兼ねます。",
+   "permission": "元付HP（RMパートナーズ）",
+   "source_url": "https://rm-p.co.jp/works/%E9%AB%98%E8%BC%AA%E3%82%B6%E3%83%BB%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/",
+   "upload_file": "出力/01_高輪ザ・レジデンス/43階/21cloud_upload/06_バルコニー.jpg",
+   "upload_size": [
+    1920,
+    1440
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   }
  ],
  "images_pending_permission": [
