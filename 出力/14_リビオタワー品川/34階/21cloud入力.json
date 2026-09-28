@@ -621,56 +621,46 @@
    "upload_size": [
     1500,
     2000
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 2,
-   "file": "出力/14_リビオタワー品川/共用部/01_外観.jpg",
-   "category": 2,
-   "category_label": "外観",
-   "comment20": "街路から見た外観",
-   "comment100": "街路から見上げた外観。地上34階の建物の足元に植栽帯が続き、周辺は運河と高層住宅が並ぶ港南の街並みです。JR・新幹線「品川」駅港南口へ徒歩13分、敷地内からは駅へのシャトルバスも出ています。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/16_外観.jpg",
-   "upload_size": [
-    1500,
-    1125
-   ]
-  },
-  {
-   "order": 3,
    "file": "出力/14_リビオタワー品川/34階/間取図/02_間取図_住戸部分.jpg",
    "category": 1,
    "category_label": "間取図",
    "comment20": "130.24㎡の3LDK",
-   "comment100": "最上階34階、専有面積130.24㎡の3LDK＋3WIC＋SIC＋納戸。約25.5帖のLDは天井高約2.9mで二面に窓。3つの洋室すべてにウォークインクローゼットを備え、トランクルーム1.46㎡付き。",
+   "comment100": "最上階34階、専有面積130.24㎡の3LDK＋3WIC。リビング・ダイニングは角に沿って二面に窓が並び、3つの洋室すべてにウォークインクローゼットを備えます。トランクルーム1.46㎡付きです。",
    "permission": "元付HP",
    "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "note": "元付HPの間取図（34階/間取図/01_間取図.jpg、「社内資料・2024年11月2日の計画段階」表記と全住戸配置表入り）から対象住戸の間取り部分だけをPILでトリミングした派生ファイル。Readで「社内資料」の文字・他住戸が入っていないことを確認済み",
+   "note": "元付HPの間取図（34階/間取図/01_間取図.jpg、「社内資料・2024年11月2日の計画段階」表記と全住戸配置表入り）から対象住戸の間取り部分だけをPILでトリミングした派生ファイル。Readで「社内資料」の文字・他住戸が入っていないことを確認済み／透かし無し（目視確認）",
    "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/02_間取図.jpg",
    "upload_size": [
     2307,
     1609
-   ]
+   ],
+   "watermark": false
   },
   {
-   "order": 4,
+   "order": 3,
    "file": "出力/14_リビオタワー品川/34階/写真/02_リビング.jpg",
    "category": 4,
    "category_label": "リビング",
    "comment20": "レインボーブリッジを望むLD",
-   "comment100": "約25.5帖のリビング・ダイニング。床から天井近くまでの窓の外に、レインボーブリッジと東京湾が正面に広がります。天井高約2.9m、床はタイル仕上げで、窓辺にソファを置けば景色が居間の主役になります。",
+   "comment100": "レインボーブリッジと東京湾を正面に望むリビング・ダイニング。床から天井近くまでの窓が角に沿って連なり、床はタイル仕上げです。窓辺にソファを置けば、刻々と変わるこの景色が居間の主役になります。",
    "permission": "元付HP",
    "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
    "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/03_リビング.jpg",
    "upload_size": [
     2000,
     1500
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 5,
+   "order": 4,
    "file": "出力/14_リビオタワー品川/34階/写真/03_リビング2.jpg",
    "category": 4,
    "category_label": "リビング",
@@ -682,25 +672,29 @@
    "upload_size": [
     1600,
     1200
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 6,
+   "order": 5,
    "file": "出力/14_リビオタワー品川/34階/写真/01_眺望.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
    "comment20": "レインボーブリッジ方向",
-   "comment100": "34階の住戸から撮影した眺望（2026年6月8日撮影）。運河の先にレインボーブリッジとお台場、東京湾が見渡せます。最上階で上階に住戸がなく、眺めと静けさを両立できます。眺望は天候で変わります。",
+   "comment100": "34階の住戸から撮影した眺望。運河の先にレインボーブリッジとお台場、東京湾が見渡せます。最上階で上階に住戸がなく、眺めと静けさを両立できる住まいです。眺望は季節や天候により変わります。",
    "permission": "元付HP",
    "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
    "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/05_現地からの眺望.jpg",
    "upload_size": [
     2000,
     1500
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 7,
+   "order": 6,
    "file": "出力/14_リビオタワー品川/34階/写真/04_眺望2.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -712,10 +706,12 @@
    "upload_size": [
     2000,
     1500
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 8,
+   "order": 7,
    "file": "出力/14_リビオタワー品川/34階/写真/13_眺望5.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -727,10 +723,12 @@
    "upload_size": [
     1600,
     2133
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 9,
+   "order": 8,
    "file": "出力/14_リビオタワー品川/34階/写真/06_眺望4.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -742,10 +740,12 @@
    "upload_size": [
     1600,
     1200
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 10,
+   "order": 9,
    "file": "出力/14_リビオタワー品川/34階/写真/07_キッチン.jpg",
    "category": 5,
    "category_label": "キッチン",
@@ -757,10 +757,12 @@
    "upload_size": [
     2000,
     1500
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 11,
+   "order": 10,
    "file": "出力/14_リビオタワー品川/34階/写真/08_食器洗い機.jpg",
    "category": 5,
    "category_label": "キッチン",
@@ -772,25 +774,29 @@
    "upload_size": [
     2000,
     1500
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 12,
-   "file": "出力/14_リビオタワー品川/34階/写真/09_キッチン2.jpg",
+   "order": 11,
+   "file": "出力/14_リビオタワー品川/34階/写真/09_キッチン2_透かし除去.jpg",
    "category": 5,
    "category_label": "キッチン",
    "comment20": "石目調天板のカウンター",
    "comment100": "キッチン背面のカウンター。石目調の天板の下に大容量の引出し収納を備え、家電や食器をすっきり納められます。調理家電を並べても作業スペースが残り、料理を並べる配膳台としても重宝します。",
    "permission": "元付HP",
    "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/12_キッチン.jpg",
+   "upload_file": "出力/14_リビオタワー品川/34階/写真/09_キッチン2_透かし除去.jpg",
    "upload_size": [
     2000,
-    1500
-   ]
+    510
+   ],
+   "watermark": false,
+   "note": "透かし除去（目視確認）：元画像 09_キッチン2.jpg の画像上半分の天板に置かれた取扱説明書・メーカーの案内チラシ（社名・QRコード入り）をPILでトリミングして除去し、除去後の画像を目視確認"
   },
   {
-   "order": 13,
+   "order": 12,
    "file": "出力/14_リビオタワー品川/34階/写真/10_キッチン3.jpg",
    "category": 5,
    "category_label": "キッチン",
@@ -802,10 +808,12 @@
    "upload_size": [
     2000,
     1500
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 14,
+   "order": 13,
    "file": "出力/14_リビオタワー品川/34階/写真/11_バルコニー.jpg",
    "category": 9,
    "category_label": "バルコニー",
@@ -817,10 +825,12 @@
    "upload_size": [
     2000,
     1500
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 15,
+   "order": 14,
    "file": "出力/14_リビオタワー品川/34階/写真/12_バルコニー2.jpg",
    "category": 9,
    "category_label": "バルコニー",
@@ -832,41 +842,80 @@
    "upload_size": [
     2000,
     1500
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 15,
+   "file": "出力/14_リビオタワー品川/共用部/01_外観.jpg",
+   "category": 2,
+   "category_label": "外観",
+   "comment20": "街路から見た外観",
+   "comment100": "街路から見上げた外観。地上34階の建物の足元に植栽帯が続き、周辺は運河と高層住宅が並ぶ港南の街並みです。JR・新幹線「品川」駅港南口へ徒歩13分、敷地内からは駅へのシャトルバスも出ています。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/16_外観.jpg",
+   "upload_size": [
+    1500,
+    1125
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 16,
+   "file": "出力/14_リビオタワー品川/共用部/03_アプローチ.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "館銘石とアプローチ",
+   "comment100": "敷地内のアプローチと館銘石。中高木と草花を植えたランドスケープが続き、四季の移ろいを感じながら歩けます。車道から離れた歩行者の動線で、小さなお子さまとも安心して歩ける、ゆとりある通路です。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/37_その他共用部分.jpg",
+   "upload_size": [
+    1500,
+    1125
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 17,
    "file": "出力/14_リビオタワー品川/共用部/04_車寄せ.jpg",
    "category": 16,
    "category_label": "エントランス",
-   "comment20": "高さ約8mの車寄せ",
-   "comment100": "高さ約8mのキャノピーをかけた車寄せ。雨の日でも濡れずにタクシーやハイヤーに乗り降りできます。エントランスへ直結しているため、大きな荷物のある日や来客の送迎も慌てずスムーズに行えます。",
+   "comment20": "天井の高い車寄せ",
+   "comment100": "大きなキャノピーをかけた車寄せ。雨の日でも濡れずにタクシーやハイヤーに乗り降りできます。エントランスへ直結しているため、大きな荷物のある日や来客の送迎も慌てずにスムーズに行えるのも魅力です。",
    "permission": "元付HP",
    "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
    "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/17_エントランス.jpg",
    "upload_size": [
     1500,
     1125
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 17,
+   "order": 18,
    "file": "出力/14_リビオタワー品川/共用部/05_エントランス_トリミング.jpg",
    "category": 16,
    "category_label": "エントランス",
-   "comment20": "エントランス",
-   "comment100": "木目の扉と石張りの壁で仕上げたエントランス。24時間有人管理と顔認証を含むセキュリティで、建物エントランスから住戸玄関まで段階的に守られています。来訪者の出入りも管理されています。",
+   "comment20": "木目扉のエントランス",
+   "comment100": "木目の扉と石張りの壁で仕上げたエントランス。管理員が常駐する建物で、エントランスから住戸玄関まで段階的なセキュリティで守られています。来訪者の出入りも落ち着いて管理され、安心して暮らせます。",
    "permission": "元付HP",
    "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "note": "共用部/05_エントランス.jpg の左側に写っていた「内覧会」看板をPILでトリミング除去した派生ファイル。Readで文字が入っていないことを確認済み（右側に内覧会時の生花は残る）",
+   "note": "共用部/05_エントランス.jpg の左側に写っていた「内覧会」看板をPILでトリミング除去した派生ファイル。Readで文字が入っていないことを確認済み（右側に内覧会時の生花は残る）／透かし無し（目視確認）",
    "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/18_エントランス.jpg",
    "upload_size": [
     1100,
     1125
-   ]
+   ],
+   "watermark": false
   },
   {
-   "order": 18,
+   "order": 19,
    "file": "出力/14_リビオタワー品川/共用部/06_館銘板.jpg",
    "category": 16,
    "category_label": "エントランス",
@@ -878,283 +927,29 @@
    "upload_size": [
     2000,
     1500
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 19,
+   "order": 20,
    "file": "出力/14_リビオタワー品川/共用部/07_エントランス夜景.jpg",
    "category": 16,
    "category_label": "エントランス",
    "comment20": "夜のエントランス",
-   "comment100": "夜のエントランス。高い天井から照明が柱と壁を照らし、帰宅時を迎えます。デザイン監修は浅井謙建築研究所。「船」をコンセプトにした奥行き約50mのエントランス空間の入口にあたる場所です。",
+   "comment100": "夜のエントランス。高い天井から照明が石張りの柱と壁を照らし、帰宅時を穏やかに迎えます。「船」をコンセプトにデザインされた、奥へと続く印象的なエントランス空間の入口にあたる場所です。",
    "permission": "元付HP",
    "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
    "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/20_エントランス.jpg",
    "upload_size": [
     1500,
     2000
-   ]
-  },
-  {
-   "order": 20,
-   "file": "出力/14_リビオタワー品川/共用部/13_大階段.jpg",
-   "category": 44,
-   "category_label": "ロビー",
-   "comment20": "エントランスの大階段",
-   "comment100": "エントランスホールの大階段と竜骨状のオブジェ。船をテーマにしたデザインで、2階のオーナーズラウンジへとつながります。大きな窓から外の緑が見え、建物の中心となる印象的な共用空間です。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "note": "人物が小さく写り込み。気になる場合は外すかぼかし",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/21_ロビー.jpg",
-   "upload_size": [
-    1495,
-    1094
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 21,
-   "file": "出力/14_リビオタワー品川/共用部/14_吹抜け.jpg",
-   "category": 44,
-   "category_label": "ロビー",
-   "comment20": "大階段の吹抜け",
-   "comment100": "大階段の上に広がる吹抜けと、竜骨状のオブジェ。天井の高い空間に光が入り、エントランスホール全体が明るく開放的です。訪れる人に強い印象を残す、このタワーを象徴するデザインとなっています。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/22_ロビー.jpg",
-   "upload_size": [
-    1500,
-    2000
-   ]
-  },
-  {
-   "order": 22,
-   "file": "出力/14_リビオタワー品川/共用部/15_吹抜けラウンジ.jpg",
-   "category": 44,
-   "category_label": "ロビー",
-   "comment20": "吹抜けとラウンジ",
-   "comment100": "2階から見下ろす吹抜けとラウンジ。木の手すりと石の床、大きな窓の外の緑が調和しています。上下の階が視線でつながり、共用空間全体にゆったりとした広がりを感じられる開放的なつくりです。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/23_ロビー.jpg",
-   "upload_size": [
-    1477,
-    1108
-   ]
-  },
-  {
-   "order": 23,
-   "file": "出力/14_リビオタワー品川/共用部/11_グリーンラウンジ.jpg",
-   "category": 44,
-   "category_label": "ロビー",
-   "comment20": "緑のエントランスラウンジ",
-   "comment100": "インナーグリーンに囲まれたエントランスラウンジ。緑演舎監修の植栽と円形のソファが配され、来客との待ち合わせや、ちょっとした休憩に使えます。外の喧騒から離れてゆっくり一息つける空間です。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/24_ロビー.jpg",
-   "upload_size": [
-    1477,
-    1108
-   ]
-  },
-  {
-   "order": 24,
-   "file": "出力/14_リビオタワー品川/共用部/12_エントランスラウンジ.jpg",
-   "category": 44,
-   "category_label": "ロビー",
-   "comment20": "ラウンジの植栽",
-   "comment100": "エントランスラウンジの植栽とソファ。大きな窓から外の緑が見え、室内の植物と一体になった景色をつくっています。住戸に上がる前に一息つける場所として、日常的に気軽に使える共用空間です。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/25_ロビー.jpg",
-   "upload_size": [
-    1500,
-    844
-   ]
-  },
-  {
-   "order": 25,
-   "file": "出力/14_リビオタワー品川/共用部/16_スカイラウンジ.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "29階スカイラウンジ",
-   "comment100": "29階のスカイラウンジ。バーカウンターを備え、夕方以降は飲み物の提供も予定されています（飲食は別途）。居住者と同行者が利用でき、自宅に招くほどではない来客とも気軽に過ごせる場所です。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "note": "人物が小さく写り込み。気になる場合は外すかぼかし",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/26_その他共用部分.jpg",
-   "upload_size": [
-    1108,
-    1477
-   ]
-  },
-  {
-   "order": 26,
-   "file": "出力/14_リビオタワー品川/共用部/17_スカイラウンジ眺望.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "スカイラウンジの眺望",
-   "comment100": "29階スカイラウンジから見た東京湾方向の眺め。窓際に並ぶ椅子からレインボーブリッジと湾岸の景色が見渡せます。住戸とは別に、景色を楽しみながらゆっくりくつろげる場所として利用できます。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "note": "人物が小さく写り込み。気になる場合は外すかぼかし",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/27_その他共用部分.jpg",
-   "upload_size": [
-    1500,
-    844
-   ]
-  },
-  {
-   "order": 27,
-   "file": "出力/14_リビオタワー品川/共用部/18_ラウンジ.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "共用ラウンジ",
-   "comment100": "共用ラウンジ。ゆったりとしたソファと大きな窓、壁面のアートが並ぶ落ち着いた空間です。来客との打ち合わせや、家族でくつろぐ時間にも使えます。デザイン監修は浅井謙建築研究所が担当しています。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/28_その他共用部分.jpg",
-   "upload_size": [
-    1108,
-    1477
-   ]
-  },
-  {
-   "order": 28,
-   "file": "出力/14_リビオタワー品川/共用部/25_ゲストルーム.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "29階ゲストルーム",
-   "comment100": "29階のゲストルーム（予約制・有料）。二つの洗面ボウルとベッドを備え、遠方から訪れるご家族や友人の宿泊に使えます。2室あり、うち1室はサウナ付き。窓からは湾岸の景色も望めるつくりです。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/29_その他共用部分.jpg",
-   "upload_size": [
-    1500,
-    844
-   ]
-  },
-  {
-   "order": 29,
-   "file": "出力/14_リビオタワー品川/共用部/23_フィットネス.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "フィットネスルーム",
-   "comment100": "2階のフィットネスルーム。原則24時間、無償で利用でき、非接触キーや顔認証で入室します。バイクやトレーニング機器が並び、仕事前後の運動を建物内で無理なく続けられる環境が整っています。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/30_その他共用部分.jpg",
-   "upload_size": [
-    1477,
-    1108
-   ]
-  },
-  {
-   "order": 30,
-   "file": "出力/14_リビオタワー品川/共用部/24_フィットネス2.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "フィットネスの機器",
-   "comment100": "フィットネスルームの別角度。明るい窓際にトレーニング機器が並び、木の床と塗り壁で落ち着いた雰囲気です。ジムに通う時間を省いて、自宅から数分で運動に向かえるのは都心の暮らしに便利です。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/31_その他共用部分.jpg",
-   "upload_size": [
-    1500,
-    844
-   ]
-  },
-  {
-   "order": 31,
-   "file": "出力/14_リビオタワー品川/共用部/22_ゴルフレンジ.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "ゴルフレンジ",
-   "comment100": "1階のゴルフレンジ（トラックマンレンジ）。24時間、専用WEBで予約して利用できます（利用料は別途）。雨の日も夜も天候を気にせず練習でき、ゴルフを趣味とする方には大きな魅力になります。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/32_その他共用部分.jpg",
-   "upload_size": [
-    1500,
-    844
-   ]
-  },
-  {
-   "order": 32,
-   "file": "出力/14_リビオタワー品川/共用部/20_ワークラウンジ.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "ワークラウンジ",
-   "comment100": "1階のワークラウンジ。大きなテーブルとカウンター席があり、原則24時間、無料で利用できます。自宅とは別に仕事に集中できる場所があるため、在宅勤務が多いご家庭にも便利な共用施設です。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/33_その他共用部分.jpg",
-   "upload_size": [
-    1500,
-    844
-   ]
-  },
-  {
-   "order": 33,
-   "file": "出力/14_リビオタワー品川/共用部/19_キッチンラウンジ.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "ラウンジのカウンター",
-   "comment100": "ワークラウンジのカウンター席。背面の飾り棚と照明が落ち着いた雰囲気をつくっています。軽食をとりながらの作業もでき、朝の短い時間やオンライン会議の前後にも気軽に立ち寄りやすい空間です。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/34_その他共用部分.jpg",
-   "upload_size": [
-    1500,
-    844
-   ]
-  },
-  {
-   "order": 34,
-   "file": "出力/14_リビオタワー品川/共用部/21_ワークブース.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "個室ワークブース",
-   "comment100": "ワークラウンジ内の個室ワークブース（予約制・有料）。モニターとデスク、チェアが備わり、周りを気にせずオンライン会議ができます。自宅の生活音から離れて集中したいときに便利な設備です。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/35_その他共用部分.jpg",
-   "upload_size": [
-    1500,
-    844
-   ]
-  },
-  {
-   "order": 35,
-   "file": "出力/14_リビオタワー品川/共用部/26_内廊下.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "エレベーターホール",
-   "comment100": "エレベーターホール。木目の壁と石張りの床で仕上げ、天井の間接照明が奥まで続きます。複数基のエレベーターが並び、朝の通勤時間帯でも待ち時間を抑えて住戸と地上を行き来できるつくりです。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/36_その他共用部分.jpg",
-   "upload_size": [
-    1108,
-    1477
-   ]
-  },
-  {
-   "order": 36,
-   "file": "出力/14_リビオタワー品川/共用部/03_アプローチ.jpg",
-   "category": 19,
-   "category_label": "その他共用部分",
-   "comment20": "館銘石とアプローチ",
-   "comment100": "敷地内のアプローチと館銘石。約30種・200本を上回る中高木を植えたランドスケープで、四季の移ろいを感じながら歩けます。車道から離れた歩行者の動線で、小さなお子さまとも安心して歩けます。",
-   "permission": "元付HP",
-   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
-   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/37_その他共用部分.jpg",
-   "upload_size": [
-    1500,
-    1125
-   ]
-  },
-  {
-   "order": 37,
    "file": "出力/14_リビオタワー品川/共用部/10_館銘石夜景.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1166,10 +961,12 @@
    "upload_size": [
     1125,
     844
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 38,
+   "order": 22,
    "file": "出力/14_リビオタワー品川/共用部/08_ラウンジ外観夜景.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1181,10 +978,12 @@
    "upload_size": [
     1500,
     1125
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 39,
+   "order": 23,
    "file": "出力/14_リビオタワー品川/共用部/09_ラウンジ外観夜景2.jpg",
    "category": 19,
    "category_label": "その他共用部分",
@@ -1196,7 +995,281 @@
    "upload_size": [
     1500,
     1125
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 24,
+   "file": "出力/14_リビオタワー品川/共用部/13_大階段.jpg",
+   "category": 44,
+   "category_label": "ロビー",
+   "comment20": "エントランスの大階段",
+   "comment100": "エントランスホールの大階段と竜骨状のオブジェ。船をテーマにしたデザインで、2階のオーナーズラウンジへとつながります。大きな窓から外の緑が見え、建物の中心となる印象的な共用空間です。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "note": "人物が小さく写り込み。気になる場合は外すかぼかし／透かし無し（目視確認）",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/21_ロビー.jpg",
+   "upload_size": [
+    1495,
+    1094
+   ],
+   "watermark": false
+  },
+  {
+   "order": 25,
+   "file": "出力/14_リビオタワー品川/共用部/14_吹抜け.jpg",
+   "category": 44,
+   "category_label": "ロビー",
+   "comment20": "大階段の吹抜け",
+   "comment100": "大階段の上に広がる吹抜けと、竜骨状のオブジェ。天井の高い空間に光が入り、エントランスホール全体が明るく開放的です。訪れる人に強い印象を残す、このタワーを象徴するデザインとなっています。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/22_ロビー.jpg",
+   "upload_size": [
+    1500,
+    2000
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 26,
+   "file": "出力/14_リビオタワー品川/共用部/15_吹抜けラウンジ.jpg",
+   "category": 44,
+   "category_label": "ロビー",
+   "comment20": "吹抜けとラウンジ",
+   "comment100": "2階から見下ろす吹抜けとラウンジ。木の手すりと石の床、大きな窓の外の緑が調和しています。上下の階が視線でつながり、共用空間全体にゆったりとした広がりを感じられる開放的なつくりです。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/23_ロビー.jpg",
+   "upload_size": [
+    1477,
+    1108
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 27,
+   "file": "出力/14_リビオタワー品川/共用部/11_グリーンラウンジ.jpg",
+   "category": 44,
+   "category_label": "ロビー",
+   "comment20": "緑のエントランスラウンジ",
+   "comment100": "インナーグリーンに囲まれたエントランスラウンジ。緑演舎監修の植栽と円形のソファが配され、来客との待ち合わせや、ちょっとした休憩に使えます。外の喧騒から離れてゆっくり一息つける空間です。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/24_ロビー.jpg",
+   "upload_size": [
+    1477,
+    1108
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 28,
+   "file": "出力/14_リビオタワー品川/共用部/12_エントランスラウンジ.jpg",
+   "category": 44,
+   "category_label": "ロビー",
+   "comment20": "ラウンジの植栽",
+   "comment100": "エントランスラウンジの植栽とソファ。大きな窓から外の緑が見え、室内の植物と一体になった景色をつくっています。住戸に上がる前に一息つける場所として、日常的に気軽に使える共用空間です。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/25_ロビー.jpg",
+   "upload_size": [
+    1500,
+    844
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 29,
+   "file": "出力/14_リビオタワー品川/共用部/16_スカイラウンジ.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "29階スカイラウンジ",
+   "comment100": "29階のスカイラウンジ。バーカウンターを備え、夕方以降は飲み物の提供も予定されています（飲食は別途）。居住者と同行者が利用でき、自宅に招くほどではない来客とも気軽に過ごせる場所です。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "note": "人物が小さく写り込み。気になる場合は外すかぼかし／透かし無し（目視確認）",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/26_その他共用部分.jpg",
+   "upload_size": [
+    1108,
+    1477
+   ],
+   "watermark": false
+  },
+  {
+   "order": 30,
+   "file": "出力/14_リビオタワー品川/共用部/17_スカイラウンジ眺望.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "スカイラウンジの眺望",
+   "comment100": "29階スカイラウンジから見た東京湾方向の眺め。窓際に並ぶ椅子からレインボーブリッジと湾岸の景色が見渡せます。住戸とは別に、景色を楽しみながらゆっくりくつろげる場所として利用できます。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "note": "人物が小さく写り込み。気になる場合は外すかぼかし／透かし無し（目視確認）",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/27_その他共用部分.jpg",
+   "upload_size": [
+    1500,
+    844
+   ],
+   "watermark": false
+  },
+  {
+   "order": 31,
+   "file": "出力/14_リビオタワー品川/共用部/18_ラウンジ.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "共用ラウンジ",
+   "comment100": "共用ラウンジ。ゆったりとしたソファと大きな窓、壁面のアートが並ぶ落ち着いた空間です。来客との打ち合わせや、家族でくつろぐ時間にも使えます。デザイン監修は浅井謙建築研究所が担当しています。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/28_その他共用部分.jpg",
+   "upload_size": [
+    1108,
+    1477
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 32,
+   "file": "出力/14_リビオタワー品川/共用部/25_ゲストルーム.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "29階ゲストルーム",
+   "comment100": "29階のゲストルーム（予約制・有料）。二つの洗面ボウルとベッドを備え、遠方から訪れるご家族や友人の宿泊に使えます。窓からは湾岸の景色も望め、ホテルのような滞在を楽しめるつくりです。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/29_その他共用部分.jpg",
+   "upload_size": [
+    1500,
+    844
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 33,
+   "file": "出力/14_リビオタワー品川/共用部/23_フィットネス.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "フィットネスルーム",
+   "comment100": "2階のフィットネスルーム。バイクやトレーニング機器が並び、仕事の前後や休日の朝にも建物内で身体を動かせます。外のジムに通わなくても運動の習慣を無理なく続けられる環境が整っています。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/30_その他共用部分.jpg",
+   "upload_size": [
+    1477,
+    1108
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 34,
+   "file": "出力/14_リビオタワー品川/共用部/24_フィットネス2.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "フィットネスの機器",
+   "comment100": "フィットネスルームの別角度。明るい窓際にトレーニング機器が並び、木の床と塗り壁で落ち着いた雰囲気です。ジムに通う時間を省いて、自宅から数分で運動に向かえるのは都心の暮らしに便利です。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/31_その他共用部分.jpg",
+   "upload_size": [
+    1500,
+    844
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 35,
+   "file": "出力/14_リビオタワー品川/共用部/22_ゴルフレンジ.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "ゴルフレンジ",
+   "comment100": "1階のゴルフレンジ（トラックマンレンジ）。専用WEBで予約して利用できます（利用料は別途）。雨の日も夜も天候を気にせず練習でき、ゴルフを趣味とする方にとって大きな魅力になる共用施設です。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/32_その他共用部分.jpg",
+   "upload_size": [
+    1500,
+    844
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 36,
+   "file": "出力/14_リビオタワー品川/共用部/20_ワークラウンジ.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "ワークラウンジ",
+   "comment100": "1階のワークラウンジ。大きなテーブルとカウンター席があり、仕事や勉強に使えます。自宅とは別に集中できる場所が建物内にあるため、在宅勤務が多いご家庭にとっても、とても便利な共用施設です。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/33_その他共用部分.jpg",
+   "upload_size": [
+    1500,
+    844
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 37,
+   "file": "出力/14_リビオタワー品川/共用部/19_キッチンラウンジ.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "ラウンジのカウンター",
+   "comment100": "ワークラウンジのカウンター席。背面の飾り棚と照明が落ち着いた雰囲気をつくっています。軽食をとりながらの作業もでき、朝の短い時間やオンライン会議の前後にも気軽に立ち寄りやすい空間です。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/34_その他共用部分.jpg",
+   "upload_size": [
+    1500,
+    844
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 38,
+   "file": "出力/14_リビオタワー品川/共用部/21_ワークブース.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "個室ワークブース",
+   "comment100": "ワークラウンジ内の個室ワークブース（予約制・有料）。モニターとデスク、チェアが備わり、周りを気にせずオンライン会議ができます。自宅の生活音から離れて集中したいときに便利な設備です。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/35_その他共用部分.jpg",
+   "upload_size": [
+    1500,
+    844
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 39,
+   "file": "出力/14_リビオタワー品川/共用部/26_内廊下.jpg",
+   "category": 19,
+   "category_label": "その他共用部分",
+   "comment20": "エレベーターホール",
+   "comment100": "エレベーターホール。木目の壁と石張りの床で仕上げ、天井の間接照明が奥まで続きます。複数基のエレベーターが並び、朝の通勤時間帯でも待ち時間を抑えて住戸と地上を行き来できるつくりです。",
+   "permission": "元付HP",
+   "source_url": "https://andd-f.co.jp/properties/livio-tower-shinagawa/",
+   "upload_file": "出力/14_リビオタワー品川/34階/21cloud_upload/36_その他共用部分.jpg",
+   "upload_size": [
+    1108,
+    1477
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   }
  ],
  "images_pending_permission": [],
