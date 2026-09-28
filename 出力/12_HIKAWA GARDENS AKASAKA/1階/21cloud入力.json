@@ -718,7 +718,12 @@
    "source_url": "販売図面PDF A-p19",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
    "order": 3,
-   "watermark": false
+   "watermark": false,
+   "upload_file": "出力/12_HIKAWA GARDENS AKASAKA/1階/21cloud_upload/03_リビング.jpg",
+   "upload_size": [
+    257,
+    302
+   ]
   },
   {
    "file": "出力/12_HIKAWA GARDENS AKASAKA/1階/写真/07_ダイニング_販売図面.jpg",
@@ -730,7 +735,12 @@
    "source_url": "販売図面PDF A-p19",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
    "order": 4,
-   "watermark": false
+   "watermark": false,
+   "upload_file": "出力/12_HIKAWA GARDENS AKASAKA/1階/21cloud_upload/04_リビング.jpg",
+   "upload_size": [
+    220,
+    255
+   ]
   },
   {
    "file": "出力/12_HIKAWA GARDENS AKASAKA/1階/写真/08_リビングダイニング_販売図面.jpg",
@@ -742,7 +752,12 @@
    "source_url": "販売図面PDF A-p19",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
    "order": 5,
-   "watermark": false
+   "watermark": false,
+   "upload_file": "出力/12_HIKAWA GARDENS AKASAKA/1階/21cloud_upload/05_リビング.jpg",
+   "upload_size": [
+    242,
+    280
+   ]
   },
   {
    "file": "出力/12_HIKAWA GARDENS AKASAKA/1階/写真/06_キッチン_販売図面.jpg",
@@ -754,7 +769,12 @@
    "source_url": "販売図面PDF A-p19",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
    "order": 6,
-   "watermark": false
+   "watermark": false,
+   "upload_file": "出力/12_HIKAWA GARDENS AKASAKA/1階/21cloud_upload/06_キッチン.jpg",
+   "upload_size": [
+    248,
+    291
+   ]
   },
   {
    "file": "出力/12_HIKAWA GARDENS AKASAKA/共用部/11_エントランス_販売図面.jpg",
@@ -766,7 +786,12 @@
    "source_url": "販売図面PDF A-p19",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
    "order": 7,
-   "watermark": false
+   "watermark": false,
+   "upload_file": "出力/12_HIKAWA GARDENS AKASAKA/1階/21cloud_upload/07_エントランス.jpg",
+   "upload_size": [
+    476,
+    354
+   ]
   },
   {
    "file": "出力/12_HIKAWA GARDENS AKASAKA/共用部/13_フィットネス_販売図面.jpg",
@@ -778,7 +803,12 @@
    "source_url": "販売図面PDF A-p19",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
    "order": 8,
-   "watermark": false
+   "watermark": false,
+   "upload_file": "出力/12_HIKAWA GARDENS AKASAKA/1階/21cloud_upload/08_その他共用部分.jpg",
+   "upload_size": [
+    298,
+    221
+   ]
   },
   {
    "file": "出力/12_HIKAWA GARDENS AKASAKA/共用部/12_駐車場_販売図面.jpg",
@@ -790,7 +820,12 @@
    "source_url": "販売図面PDF A-p19",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
    "order": 9,
-   "watermark": false
+   "watermark": false,
+   "upload_file": "出力/12_HIKAWA GARDENS AKASAKA/1階/21cloud_upload/09_駐車場.jpg",
+   "upload_size": [
+    303,
+    223
+   ]
   }
  ],
  "images_pending_permission": [

@@ -728,7 +728,12 @@
    "source_url": "販売図面PDF A-p01",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
    "order": 1,
-   "watermark": false
+   "watermark": false,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/01_リビング.jpg",
+   "upload_size": [
+    526,
+    345
+   ]
   },
   {
    "file": "出力/01_高輪ザ・レジデンス/46-47階/間取図/02_間取図_販売図面.jpg",
@@ -740,7 +745,12 @@
    "source_url": "販売図面PDF A-p01",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
    "order": 2,
-   "watermark": false
+   "watermark": false,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/02_間取り.jpg",
+   "upload_size": [
+    720,
+    858
+   ]
   },
   {
    "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/23_ダイニング_販売図面.jpg",
@@ -752,7 +762,12 @@
    "source_url": "販売図面PDF A-p01",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
    "order": 3,
-   "watermark": false
+   "watermark": false,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/03_リビング.jpg",
+   "upload_size": [
+    276,
+    180
+   ]
   },
   {
    "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/24_眺望_販売図面.jpg",
@@ -764,7 +779,12 @@
    "source_url": "販売図面PDF A-p01",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
    "order": 4,
-   "watermark": false
+   "watermark": false,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/04_現地からの眺望.jpg",
+   "upload_size": [
+    276,
+    202
+   ]
   },
   {
    "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/26_キッチン_販売図面.jpg",
@@ -776,7 +796,12 @@
    "source_url": "販売図面PDF A-p01",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
    "order": 5,
-   "watermark": false
+   "watermark": false,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/05_キッチン.jpg",
+   "upload_size": [
+    276,
+    178
+   ]
   },
   {
    "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/25_主寝室_販売図面.jpg",
@@ -788,7 +813,12 @@
    "source_url": "販売図面PDF A-p01",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
    "order": 6,
-   "watermark": false
+   "watermark": false,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/06_寝室.jpg",
+   "upload_size": [
+    276,
+    178
+   ]
   },
   {
    "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/28_書斎_販売図面.jpg",
@@ -800,7 +830,12 @@
    "source_url": "販売図面PDF A-p01",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
    "order": 7,
-   "watermark": false
+   "watermark": false,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/07_その他居室.jpg",
+   "upload_size": [
+    276,
+    179
+   ]
   },
   {
    "file": "出力/01_高輪ザ・レジデンス/46-47階/写真/27_ジム_販売図面.jpg",
@@ -812,7 +847,12 @@
    "source_url": "販売図面PDF A-p01",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
    "order": 8,
-   "watermark": false
+   "watermark": false,
+   "upload_file": "出力/01_高輪ザ・レジデンス/46-47階/21cloud_upload/08_その他居室.jpg",
+   "upload_size": [
+    276,
+    179
+   ]
   }
  ],
  "images_pending_permission": [

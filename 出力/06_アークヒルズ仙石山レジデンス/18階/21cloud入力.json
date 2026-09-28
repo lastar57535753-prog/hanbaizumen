@@ -516,7 +516,7 @@
  "images": [
   {
    "order": 1,
-   "file": "出力/06_アークヒルズ仙石山レジデンス/共用部/01_外観.jpg",
+   "file": "出力/06_アークヒルズ仙石山レジデンス/共用部/01_外観_透かし除去.jpg",
    "category": 2,
    "category_label": "外観",
    "comment20": "麻布台ヒルズ越しの外観",
@@ -526,26 +526,13 @@
    "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/01_外観.jpg",
    "upload_size": [
     2000,
-    1334
-   ]
+    990
+   ],
+   "watermark": false,
+   "note": "透かし・ロゴ除去（目視確認）：下端の商業施設の看板・店名ロゴをトリミングで除去"
   },
   {
    "order": 2,
-   "file": "出力/06_アークヒルズ仙石山レジデンス/共用部/02_外観2.jpg",
-   "category": 2,
-   "category_label": "外観",
-   "comment20": "足元から見上げた外観",
-   "comment100": "足元から見上げた地上47階建のタワー。低層部を木々が包み、落ち着いた表情をつくります。制震装置を採用し、24時間有人管理の体制を備えた、森ビル分譲・管理の総戸数243戸のレジデンスです。",
-   "permission": "元付HP（ハウジング・ジャパン）",
-   "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/38_外観.jpg",
-   "upload_size": [
-    2016,
-    1512
-   ]
-  },
-  {
-   "order": 3,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/間取図/01_間取図.jpg",
    "category": 1,
    "category_label": "間取り",
@@ -557,10 +544,12 @@
    "upload_size": [
     2560,
     1448
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 4,
+   "order": 3,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/間取図/02_間取図2.jpg",
    "category": 1,
    "category_label": "間取り",
@@ -568,30 +557,33 @@
    "comment100": "18階の間取図。曲線を描くLDは約35.8帖。洋室は約12.6帖・約7.1帖・約7.3帖・約7.3帖、三面のバルコニーは計26.25㎡。家族それぞれが個室を持ち、在宅勤務用の部屋も確保できます。",
    "permission": "販売図面PDF",
    "source_url": "販売図面PDF A-p12",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/37_間取り.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/03_間取り.jpg",
    "upload_size": [
     1600,
     824
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 5,
+   "order": 4,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真_他社掲載_要許可確認/01_間取図.jpg",
    "category": 1,
    "category_label": "間取り",
-   "comment20": "各室の面積入り間取図",
-   "comment100": "各室の面積と天井高を記した間取図。LDは約54.02㎡・天井高約2.75m、主寝室は約20.42㎡。4つの洋室がバルコニーに面して並び、家族それぞれの部屋に朝の光が差し込む配置です。",
+   "comment20": "各室の天井高入り間取図",
+   "comment100": "各室の面積と天井高を記した間取図。LD最大天井高は約2.75m、LDは約35.8帖、主寝室は約12.6帖です。4つの洋室がバルコニーに面して並び、家族それぞれの部屋に光が差し込む配置です。",
    "permission": "同一住戸の他社掲載（許可済み）",
    "source_url": "https://www.creavision.co.jp/building/146/18796/",
-   "note": "同一住戸の他社掲載写真（依頼者指示 2026-09-28 により許可済み）",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/要許可/01_間取り.jpg",
+   "note": "同一住戸の他社掲載写真（依頼者指示 2026-09-28 により許可済み）／透かし無し（目視確認）",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/04_間取り.jpg",
    "upload_size": [
     520,
     325
-   ]
+   ],
+   "watermark": false
   },
   {
-   "order": 6,
+   "order": 5,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/01_リビング.jpg",
    "category": 4,
    "category_label": "リビング",
@@ -599,14 +591,16 @@
    "comment100": "曲線を描く窓に沿って広がる約35.8帖のリビングダイニング。右手奥の窓の先に東京タワーが見え、LD最大天井高は約2.75m。LDKは床暖房付きで、冬の朝も素足のまま窓辺へ向かえます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/03_リビング.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/05_リビング.jpg",
    "upload_size": [
     2000,
     1334
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 7,
+   "order": 6,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/03_リビング2.jpg",
    "category": 4,
    "category_label": "リビング",
@@ -614,14 +608,16 @@
    "comment100": "北東・南東の二方向に窓が連なる角住戸のリビングダイニング。窓の外には都心の高層ビル群が広がります。大きなソファとダイニングテーブルを置いても余裕があり、来客との会食の席も設けられます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/04_リビング.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/06_リビング.jpg",
    "upload_size": [
     2000,
     1334
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 8,
+   "order": 7,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/04_リビング3.jpg",
    "category": 4,
    "category_label": "リビング",
@@ -629,14 +625,16 @@
    "comment100": "木目の壁の奥にキッチンが続くリビングダイニング。LDとキッチンを緩やかに仕切る造りで、来客時も調理スペースが目立ちにくい配置となっています。窓辺からは都心の高層ビル群を間近に望めます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/05_リビング.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/07_リビング.jpg",
    "upload_size": [
     2000,
     1334
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 9,
+   "order": 8,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/02_眺望.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -644,14 +642,16 @@
    "comment100": "18階から望む東京タワーと都心の街並み。手前には麻布台ヒルズの緑化された屋根が広がります。昼の青空、夕景、夜景と、時間ごとに表情を変える景色を、住まいから日常的に楽しめる環境です。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/06_現地からの眺望.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/08_現地からの眺望.jpg",
    "upload_size": [
     961,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 10,
+   "order": 9,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/05_眺望2.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -659,14 +659,16 @@
    "comment100": "東京タワーと高層ビル群を一望する眺め。北東・南東の角住戸ならではの広がりがあり、窓辺に立つと都心の景色がパノラマのように広がります。天候のよい日は遠くの街並みまで見渡すことができます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/07_現地からの眺望.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/09_現地からの眺望.jpg",
    "upload_size": [
     855,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 11,
+   "order": 10,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/06_眺望3.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -674,14 +676,16 @@
    "comment100": "バルコニー越しに見える東京タワー。室内からもタワーを身近に感じられる位置関係です。夜にはライトアップされた姿が窓の外に浮かび、住まいで過ごす夜の時間に穏やかな彩りを添えてくれます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/08_現地からの眺望.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/10_現地からの眺望.jpg",
    "upload_size": [
     428,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 12,
+   "order": 11,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/07_眺望4.jpg",
    "category": 13,
    "category_label": "現地からの眺望",
@@ -689,14 +693,16 @@
    "comment100": "角住戸の窓から望む都心の高層ビル群と緑。足元には木々の多い街並みが広がり、高層階ならではの開けた視界です。18階の高さから、都心の活気と緑の両方を日常の景色として存分に楽しめます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/09_現地からの眺望.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/11_現地からの眺望.jpg",
    "upload_size": [
     855,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 13,
+   "order": 12,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/08_キッチン.jpg",
    "category": 5,
    "category_label": "キッチン",
@@ -704,14 +710,16 @@
    "comment100": "約12.8帖のキッチン。カウンターを中心に、木目の壁面収納と調理スペースを配置しています。オーブンレンジ・食洗機・浄水器・ディスポーザーを備え、複数人での調理や配膳もスムーズです。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/13_キッチン.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/12_キッチン.jpg",
    "upload_size": [
     2000,
     1334
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 14,
+   "order": 13,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/09_キッチン2.jpg",
    "category": 5,
    "category_label": "キッチン",
@@ -719,14 +727,16 @@
    "comment100": "ビルトインのオーブンと食器洗い乾燥機を備えたキッチンの一角。木目の扉と白いワークトップが落ち着いた印象です。調理から片付けまでの手間を減らし、日々の家事をゆとりを持ってこなせます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/14_キッチン.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/13_キッチン.jpg",
    "upload_size": [
     961,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 15,
+   "order": 14,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/10_キッチン3.jpg",
    "category": 5,
    "category_label": "キッチン",
@@ -734,14 +744,16 @@
    "comment100": "白いワークトップに5口のコンロを組み込んだキッチンの一角。その下にはビルトインオーブンを備えています。複数の鍋を並べて調理でき、来客の多い日の料理も手際よく進められる十分な広さがあります。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/15_キッチン.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/14_キッチン.jpg",
    "upload_size": [
     961,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 16,
+   "order": 15,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/15_洋室5.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -749,14 +761,16 @@
    "comment100": "床から天井近くまでの窓がある洋室。窓の外にはバルコニーが続き、都心の街並みを望めます。クローゼットも備え、ゲストルームとして使っても来客がくつろいで快適に過ごせる空間となっています。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/16_洋室.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/15_洋室.jpg",
    "upload_size": [
     2000,
     1334
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 17,
+   "order": 16,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/12_洋室2.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -764,14 +778,16 @@
    "comment100": "奥行きのあるゆとりある洋室。大きな窓からバルコニーへ出られ、室内に自然光が入ります。家具の配置の自由度が高く、主寝室や書斎を兼ねた部屋など、暮らし方に合わせて自由に使い分けられます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/17_洋室.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/16_洋室.jpg",
    "upload_size": [
     2000,
     1334
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 18,
+   "order": 17,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/11_洋室.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -779,14 +795,16 @@
    "comment100": "バルコニーに面した明るい洋室。広い床面にベッドやソファを置いても余裕があります。窓の外には都心の街並みが広がり、朝の光で目覚める心地よい寝室として使える、ゆとりのある落ち着いた空間です。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/18_洋室.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/17_洋室.jpg",
    "upload_size": [
     2000,
     1334
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 19,
+   "order": 18,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/17_洋室7.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -794,14 +812,16 @@
    "comment100": "バルコニーに面した洋室を別の角度から。窓際にデスクを置けば、都心の景色を眺めながら仕事や勉強ができます。クローゼットも備え、日々の暮らしをすっきりと整えられる、使い勝手のよい個室です。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/19_洋室.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/18_洋室.jpg",
    "upload_size": [
     2000,
     1334
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 20,
+   "order": 19,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/13_洋室3.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -809,14 +829,16 @@
    "comment100": "バルコニーに面した洋室。窓からの光で明るく、エアコンも天井に組み込まれています。お子さまの部屋やゲストルーム、趣味の部屋など、ご家族の成長や暮らしの変化に合わせて使い方を変えられます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/20_洋室.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/19_洋室.jpg",
    "upload_size": [
     961,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 21,
+   "order": 20,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/19_洋室9.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -824,14 +846,16 @@
    "comment100": "窓の外に都心の高層ビルを望む洋室。クローゼットを備え、室内はシンプルで使いやすい形です。角住戸の配置により多くの居室が外に面しており、それぞれの部屋で自然光を感じられる住まいとなっています。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/21_洋室.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/20_洋室.jpg",
    "upload_size": [
     2000,
     1334
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 22,
+   "order": 21,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/14_洋室4.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -839,14 +863,16 @@
    "comment100": "壁一面にクローゼットを備えた洋室。衣類や季節の品をまとめて収納でき、室内をすっきり保てます。バルコニーに面した窓から光が入り、日中は照明なしでも明るく過ごせる、居心地のよい洋室です。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/22_洋室.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/21_洋室.jpg",
    "upload_size": [
     961,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 23,
+   "order": 22,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/16_洋室6.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -854,14 +880,16 @@
    "comment100": "クローゼットと窓を備えた洋室。家具を置いても動線を確保しやすい形で、書斎やワークスペースとしても使えます。4LDKの間取りで、ご家族それぞれが個室を持てる、余裕のある住まいとなっています。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/23_洋室.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/22_洋室.jpg",
    "upload_size": [
     961,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 24,
+   "order": 23,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/18_洋室8.jpg",
    "category": 21,
    "category_label": "洋室",
@@ -869,14 +897,16 @@
    "comment100": "窓からの光が入る明るい洋室。壁面にクローゼットを備え、ベッドとデスクを並べても余裕があります。個室が4室あるため、在宅勤務用の部屋や来客用の部屋も無理なく確保できる、ゆとりのあるプランです。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/24_洋室.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/23_洋室.jpg",
    "upload_size": [
     961,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 25,
+   "order": 24,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/21_浴室.jpg",
    "category": 6,
    "category_label": "バス",
@@ -884,14 +914,16 @@
    "comment100": "ゆったりとした浴槽と洗い場を備えた浴室。石目調の壁と床で落ち着いた印象です。浴室換気乾燥暖房機付きで、冬の入浴や雨の日の衣類乾燥にも役立ちます。浴室は住戸内に2か所あり、使い分けられます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/29_バス.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/24_バス.jpg",
    "upload_size": [
     2000,
     1334
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 26,
+   "order": 25,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/22_浴室2.jpg",
    "category": 6,
    "category_label": "バス",
@@ -899,14 +931,16 @@
    "comment100": "白いタイル貼りの浴室。ガラスの間仕切りで洗面室とつながり、明るく開放的です。浴室が2か所あるため、朝の支度や入浴の時間が家族で重なりにくく、来客時にも気兼ねなく使い分けられる住まいです。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/30_バス.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/25_バス.jpg",
    "upload_size": [
     2000,
     1334
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 27,
+   "order": 26,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/23_浴室3.jpg",
    "category": 6,
    "category_label": "バス",
@@ -914,14 +948,16 @@
    "comment100": "壁付けの水栓を備えた浴槽まわりのディテール。すっきりとした意匠で、日々の掃除もしやすい形です。浴室には換気乾燥暖房機を備えており、寒い冬の夜も冷えを気にせずゆっくりと湯船につかれます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/34_バス.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/26_バス.jpg",
    "upload_size": [
     428,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 28,
+   "order": 27,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/24_洗面所.jpg",
    "category": 11,
    "category_label": "洗面台・洗面所",
@@ -929,14 +965,16 @@
    "comment100": "2ボウルの洗面台を備えた洗面所。照明付きの鏡が並び、ご夫婦で同時に身支度ができます。木目の収納と組み合わせた落ち着いた空間で、朝の混み合う時間帯もゆとりを持って身支度を整えられます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/31_洗面台・洗面所.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/27_洗面台・洗面所.jpg",
    "upload_size": [
     961,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 29,
+   "order": 28,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/25_洗面所2.jpg",
    "category": 11,
    "category_label": "洗面台・洗面所",
@@ -944,14 +982,16 @@
    "comment100": "2ボウルの洗面台と大きな鏡。カウンターが広く、化粧品や日用品を置いても余裕があります。浴室と隣接し、入浴前後の動線がスムーズです。洗面所は住戸内に2か所あり、家族で使い分けられます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/32_洗面台・洗面所.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/28_洗面台・洗面所.jpg",
    "upload_size": [
     2000,
     1334
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 30,
+   "order": 29,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/26_洗面・手洗い.jpg",
    "category": 11,
    "category_label": "洗面台・洗面所",
@@ -959,14 +999,16 @@
    "comment100": "スクエア型のボウルを備えた手洗い。木目のカウンターと鏡で、来客にも気持ちよく使っていただける空間です。トイレは住戸内に3か所あり、ゲスト用と家族用を分けて使うこともできる、ゆとりある造りです。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/33_洗面台・洗面所.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/29_洗面台・洗面所.jpg",
    "upload_size": [
     428,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 31,
+   "order": 30,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/20_ウォークインクローゼット.jpg",
    "category": 12,
    "category_label": "収納",
@@ -974,14 +1016,16 @@
    "comment100": "ハンガーパイプと棚を備えたウォークインクローゼット。衣類をかけたまま収納でき、季節の入れ替えも楽に行えます。引出し収納も備え、小物や下着類まで整理しやすく、室内を常にすっきり保てる収納です。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/35_収納.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/30_収納.jpg",
    "upload_size": [
     428,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 32,
+   "order": 31,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/33_玄関収納.jpg",
    "category": 12,
    "category_label": "収納",
@@ -989,14 +1033,16 @@
    "comment100": "玄関ホールの壁一面に設けた収納。靴やコート、傘などをまとめてしまえ、玄関をいつもすっきり保てます。ご家族が多くても収納に困りにくい十分な容量で、来客を迎える際の玄関の印象もきれいに整います。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/36_収納.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/31_収納.jpg",
    "upload_size": [
     961,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 33,
+   "order": 32,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/30_玄関ホール.jpg",
    "category": 7,
    "category_label": "玄関",
@@ -1004,14 +1050,16 @@
    "comment100": "壁面収納を備えた広い玄関ホール。明るい床と白い壁で、来客を落ち着いた雰囲気で迎えられます。本住戸はメインとサブの2つの玄関を備え、家族とゲストの動線を分けやすいプランとなっています。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/25_玄関.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/32_玄関.jpg",
    "upload_size": [
     2000,
     1334
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 34,
+   "order": 33,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/31_玄関.jpg",
    "category": 7,
    "category_label": "玄関",
@@ -1019,14 +1067,16 @@
    "comment100": "重厚な木目の扉を備えた玄関。扉の内側には広い土間と収納が続き、ベビーカーや大きな荷物も置きやすい造りです。ホテルライクな内廊下設計のため、天候に左右されずに玄関まで移動することができます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/26_玄関.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/33_玄関.jpg",
    "upload_size": [
     2000,
     1334
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
-   "order": 35,
+   "order": 34,
    "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/32_玄関2.jpg",
    "category": 7,
    "category_label": "玄関",
@@ -1034,11 +1084,30 @@
    "comment100": "玄関扉と壁面収納。扉を開けるとすぐに収納があり、帰宅時にコートやバッグを片付けられます。メインとサブの2つの玄関があるため、来客時も家族の出入りを気にせず過ごせる、使い勝手のよい住まいです。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/27_玄関.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/34_玄関.jpg",
    "upload_size": [
     1334,
     2000
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
+  },
+  {
+   "order": 35,
+   "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/34_廊下.jpg",
+   "category": 38,
+   "category_label": "その他内観",
+   "comment20": "各室をつなぐ廊下",
+   "comment100": "玄関から各室へつながる廊下。木目の扉とフローリングが落ち着いた印象です。LDと個室を廊下で分けるプランのため、来客中でも家族のプライバシーを保ちながら、それぞれの時間を心地よく過ごせます。",
+   "permission": "元付HP（ハウジング・ジャパン）",
+   "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/35_その他内観.jpg",
+   "upload_size": [
+    428,
+    641
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 36,
@@ -1049,11 +1118,13 @@
    "comment100": "テーブルとチェアを置けるバルコニー。朝のコーヒーや夕方のひとときを、都心の景色を眺めながら楽しめます。三面・計26.25㎡のバルコニーで、住まいの中にもうひとつ屋外の居場所を持てます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/10_バルコニー.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/36_バルコニー.jpg",
    "upload_size": [
     2000,
     1334
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 37,
@@ -1064,11 +1135,13 @@
    "comment100": "都心の街並みを望むバルコニー。三面に配されたバルコニーは計26.25㎡で、外の空気を感じながら景色を楽しめます。ウッド調の床で、チェアを置いて朝や夕方にゆっくりくつろぐ時間も過ごせます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/11_バルコニー.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/37_バルコニー.jpg",
    "upload_size": [
     961,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 38,
@@ -1079,26 +1152,30 @@
    "comment100": "高層ビル群を間近に望むバルコニー。18階の高さから都心のスカイラインが広がります。三面バルコニーのため、時間帯や季節によって景色の異なる場所を選んで過ごせるのも、角住戸ならではの魅力です。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/12_バルコニー.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/38_バルコニー.jpg",
    "upload_size": [
     961,
     641
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 39,
-   "file": "出力/06_アークヒルズ仙石山レジデンス/18階/写真/34_廊下.jpg",
-   "category": 38,
-   "category_label": "その他内観",
-   "comment20": "各室をつなぐ廊下",
-   "comment100": "玄関から各室へつながる廊下。木目の扉とフローリングが落ち着いた印象です。LDと個室を廊下で分けるプランのため、来客中でも家族のプライバシーを保ちながら、それぞれの時間を心地よく過ごせます。",
+   "file": "出力/06_アークヒルズ仙石山レジデンス/共用部/02_外観2.jpg",
+   "category": 2,
+   "category_label": "外観",
+   "comment20": "足元から見上げた外観",
+   "comment100": "足元から見上げた地上47階建のタワー。低層部を木々が包み、落ち着いた表情をつくります。制震装置を採用し、24時間有人管理の体制を備えた、森ビル分譲・管理の総戸数243戸のレジデンスです。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/28_その他内観.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/39_外観.jpg",
    "upload_size": [
-    428,
-    641
-   ]
+    2016,
+    1512
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 40,
@@ -1109,11 +1186,13 @@
    "comment100": "石張りの列柱が続くエントランスへのアプローチ。屋根付きの通路で、雨の日も濡れずに建物へ入れます。敷地には約4,000㎡の緑地が整えられ、四季の緑に囲まれた落ち着いた空間が広がっています。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/39_エントランス.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/40_エントランス.jpg",
    "upload_size": [
     1477,
     1108
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 41,
@@ -1124,11 +1203,13 @@
    "comment100": "ガラス張りのエントランス。非接触式キーによるオートロックや、居住者以外が乗降できないエレベーター制御など、森ビルの多重セキュリティで住まいを守ります。車寄せも備え、送迎時も便利です。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/40_エントランス.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/41_エントランス.jpg",
    "upload_size": [
     1477,
     1108
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 42,
@@ -1139,11 +1220,13 @@
    "comment100": "フロントカウンターを備えたロビー。バイリンガル対応のフロントサービスがあり、来客の取次ぎや日々の相談に応じます。24時間有人管理で、夜遅い帰宅時にも安心感のある、落ち着いたエントランスです。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/41_ロビー.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/42_ロビー.jpg",
    "upload_size": [
     600,
     401
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 43,
@@ -1154,11 +1237,13 @@
    "comment100": "アート作品を飾ったロビーのラウンジスペース。ゆったりとしたソファが並び、来客との待ち合わせにも使えます。共用部のインテリアは植木莞爾氏（カザッポアンドアソシエイツ）が手がけています。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/42_ロビー.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/43_ロビー.jpg",
    "upload_size": [
     1477,
     1108
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 44,
@@ -1166,14 +1251,16 @@
    "category": 19,
    "category_label": "その他共用部分",
    "comment20": "25階ビューラウンジ",
-   "comment100": "25階のビューラウンジ（一部有償）。大きな窓の先に東京タワーと都心の街並みが広がります。約430㎡の広さでキッチンを併設し、パーティーや会食にも利用できる、居住者のための開放的な空間です。",
+   "comment100": "25階のビューラウンジ（一部有償）。大きな窓の先に東京タワーと都心の街並みが広がります。居住者が使える共用空間で、来客との歓談や家族でのひとときなど、特別な時間を過ごす場として利用できます。",
    "permission": "販売図面PDF",
    "source_url": "販売図面PDF A-p12",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/43_その他共用部分.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/44_その他共用部分.jpg",
    "upload_size": [
     600,
     400
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 45,
@@ -1184,11 +1271,13 @@
    "comment100": "階段と吹抜のあるラウンジ。落ち着いた照明とソファが配され、住まいの延長として過ごせる空間です。来客をもてなしたり、一人で読書を楽しんだりと、多目的に利用できる居住者のための共用空間です。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/44_その他共用部分.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/45_その他共用部分.jpg",
    "upload_size": [
     830,
     553
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 46,
@@ -1199,11 +1288,13 @@
    "comment100": "窓の外に東京タワーの夜景が広がるラウンジ。ソファでくつろぎながら都心の夜景を楽しめます。来客との語らいや、ちょっとした集まりの場としても使える、このレジデンスならではの落ち着いた共用空間です。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/45_その他共用部分.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/46_その他共用部分.jpg",
    "upload_size": [
     900,
     600
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 47,
@@ -1214,11 +1305,13 @@
    "comment100": "建物内の会員制「ヒルズスパ仙石山」のプール（有償・会員制）。20m×3レーンで、天候を問わず泳げます。忙しい日常の中でも、住まいの中で体を動かす習慣を無理なく続けやすい恵まれた環境です。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/46_その他共用部分.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/47_その他共用部分.jpg",
    "upload_size": [
     614,
     460
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 48,
@@ -1229,11 +1322,13 @@
    "comment100": "ガラス越しに緑を望むプール（ヒルズスパ・有償・会員制）。自然光の入る明るい空間で、朝のひと泳ぎや週末のリフレッシュに利用できます。フィットネスジムやエステも併設されており、心身を整えられます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/47_その他共用部分.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/48_その他共用部分.jpg",
    "upload_size": [
     600,
     450
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 49,
@@ -1244,11 +1339,13 @@
    "comment100": "ヒルズスパのフィットネスジム（有償・会員制）。トレーニングマシンやランニングマシンが並び、建物内で本格的なトレーニングができます。移動の時間をかけずに、日々の体づくりを無理なく続けられます。",
    "permission": "元付HP（ハウジング・ジャパン）",
    "source_url": "https://housingjapan.com/buy/ark-hills-sengokuyama-residence/1113981-4bed-2bath-210sqm-unit-roppongi/",
-   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/48_その他共用部分.jpg",
+   "upload_file": "出力/06_アークヒルズ仙石山レジデンス/18階/21cloud_upload/49_その他共用部分.jpg",
    "upload_size": [
     900,
     600
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   }
  ],
  "images_pending_permission": [],
