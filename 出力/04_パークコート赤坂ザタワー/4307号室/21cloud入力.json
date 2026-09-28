@@ -477,7 +477,9 @@
    "upload_size": [
     2560,
     552
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   },
   {
    "order": 2,
@@ -492,7 +494,9 @@
    "upload_size": [
     1335,
     705
-   ]
+   ],
+   "watermark": false,
+   "note": "透かし無し（目視確認）"
   }
  ],
  "images_pending_permission": [

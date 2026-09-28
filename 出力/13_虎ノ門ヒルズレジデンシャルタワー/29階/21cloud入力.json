@@ -612,7 +612,8 @@
    "permission": "販売図面",
    "source_url": "販売図面PDF A-p20",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
-   "order": 1
+   "order": 1,
+   "watermark": false
   },
   {
    "order": 2,
@@ -640,7 +641,8 @@
    "permission": "販売図面",
    "source_url": "販売図面PDF A-p20",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
-   "order": 3
+   "order": 3,
+   "watermark": false
   },
   {
    "file": "出力/13_虎ノ門ヒルズレジデンシャルタワー/29階/写真/17_キッチン_販売図面.jpg",
@@ -651,7 +653,8 @@
    "permission": "販売図面",
    "source_url": "販売図面PDF A-p20",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
-   "order": 4
+   "order": 4,
+   "watermark": false
   },
   {
    "file": "出力/13_虎ノ門ヒルズレジデンシャルタワー/29階/写真/19_バルコニー_販売図面.jpg",
@@ -662,7 +665,8 @@
    "permission": "販売図面",
    "source_url": "販売図面PDF A-p20",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
-   "order": 5
+   "order": 5,
+   "watermark": false
   },
   {
    "file": "出力/13_虎ノ門ヒルズレジデンシャルタワー/共用部/15_スパ_販売図面.jpg",
@@ -673,7 +677,8 @@
    "permission": "販売図面",
    "source_url": "販売図面PDF A-p20",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
-   "order": 6
+   "order": 6,
+   "watermark": false
   },
   {
    "file": "出力/13_虎ノ門ヒルズレジデンシャルタワー/共用部/16_フィットネス_販売図面.jpg",
@@ -684,7 +689,8 @@
    "permission": "販売図面",
    "source_url": "販売図面PDF A-p20",
    "note": "販売図面から切り出し・透かし無し（目視確認）",
-   "order": 7
+   "order": 7,
+   "watermark": false
   }
  ],
  "images_pending_permission": [],

@@ -73,8 +73,11 @@ def check(path):
             if w in c20 + c100:
                 errs.append(f"画像コメントに社内向け注記「{w}」: {f}")
     for im in imgs:
-        if "他社掲載" in im.get("file", ""):
+        # 同一住戸の他社掲載写真は許可済み（依頼者指示 2026-09-28）。それ以外の他社掲載は要許可
+        if "他社掲載" in im.get("file", "") and im.get("permission") != "同一住戸の他社掲載（許可済み）":
             errs.append(f"要許可写真が許可済み側に入っている: {im['file']}")
+        if im.get("watermark"):
+            errs.append(f"透かし入り写真が掲載側に入っている: {im['file']}")
     return d, errs, warns, len(imgs), len(d.get("images_pending_permission", []))
 
 
