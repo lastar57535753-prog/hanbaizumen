@@ -5,6 +5,7 @@
 | ディレクトリ | 中身 |
 |---|---|
 | `skills/property-mysoku-generator/` | 販売図面スキル本体（A4横1枚）。これを配れば単体で動く |
+| `skills/bukken-photo-hosei/` | 広告写真の補正スキル（明るさ・色・傾き・空の差し替え。構造は変えない） |
 | `pictograms/` | ピクトグラム275点のマスター（SVG＋PNG＋一覧） |
 | `scripts/` | 素材の作り直しと確認用のツール |
 | `assets/fonts/` | 折り返し確認用の日本語フォント（Noto Sans/Serif JP・SIL OFL） |

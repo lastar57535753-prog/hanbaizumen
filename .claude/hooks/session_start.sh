@@ -22,6 +22,21 @@ else
   log "python-pptx / Pillow / cairosvg … OK"
 fi
 
+# 写真補正スキル（bukken-photo-hosei）は OpenCV を使う
+if python3 -c "import cv2" 2>/dev/null; then
+  log "OpenCV（写真補正用） … OK"
+else
+  log "OpenCV が無いので入れます（写真補正用）"
+  pip install --quiet --disable-pip-version-check opencv-python-headless 2>&1 | tail -2
+fi
+
+# 空の素材づくりに Codex（ChatGPT）を使う場合。ログインはセッションごとに必要
+if command -v codex >/dev/null 2>&1; then
+  log "Codex … $(codex login status 2>&1 | tail -1)"
+else
+  log "Codex は未導入（空の素材を作るときだけ必要: npm i -g @openai/codex → codex login --device-auth）"
+fi
+
 # PDF書き出しには LibreOffice Impress が要る（無くてもPPTXまでは作れる）
 if command -v soffice >/dev/null 2>&1 && [ -e /usr/lib/libreoffice/program/libsdlo.so ]; then
   log "LibreOffice Impress … OK（PDF書き出し可）"

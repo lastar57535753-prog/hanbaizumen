@@ -1,0 +1,26 @@
+{
+  "web": {
+    "label": "ポータル掲載用（汎用）",
+    "long_side": 1920,
+    "format": "jpeg",
+    "quality": 88,
+    "max_kb": 2000,
+    "suffix": "_web"
+  },
+  "zumen": {
+    "label": "販売図面・チラシ貼り込み用",
+    "long_side": 3000,
+    "format": "jpeg",
+    "quality": 92,
+    "max_kb": 0,
+    "suffix": "_zumen"
+  },
+  "original": {
+    "label": "元サイズのまま（保管用）",
+    "long_side": 0,
+    "format": "jpeg",
+    "quality": 95,
+    "max_kb": 0,
+    "suffix": "_hosei"
+  }
+}
