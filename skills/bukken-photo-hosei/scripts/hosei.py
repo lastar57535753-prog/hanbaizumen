@@ -139,7 +139,8 @@ def tone(rgb: np.ndarray, interior: bool) -> tuple[np.ndarray, dict]:
     Ln = np.clip((L - lo) / (hi - lo), 0, 1)
     target = 0.60 if interior else 0.55
     m = float(np.clip(np.median(Ln), 0.05, 0.95))
-    gamma = float(np.clip(math.log(target) / math.log(m), 0.62, 1.05))
+    # 室内は暗くしない（広告写真は明るめが基本）。外観もわずかに締める程度まで
+    gamma = float(np.clip(math.log(target) / math.log(m), 0.62, 0.97 if interior else 1.05))
     Ln = Ln ** gamma
     # 局所コントラスト（CLAHE を4割だけ混ぜる。影の中のディテールを起こす）
     L8 = (Ln * 255).astype(np.uint8)
@@ -172,7 +173,8 @@ def process(path: Path, outdir: Path, args, presets: dict) -> dict:
             log["ops"].append(f"傾き補正 {a:+.2f}°")
         log["roll_deg"] = round(a, 2)
 
-    rgb, gains = white_balance(rgb)
+    # 室内は電球色の温かみを残す（完全に中和すると壁が灰色に見える）
+    rgb, gains = white_balance(rgb, strength=0.35, cap=0.07) if args.interior else white_balance(rgb)
     log["ops"].append(f"WB {gains}")
     rgb, t = tone(rgb, args.interior)
     log["ops"].append(f"明るさ black={t['black']} white={t['white']} gamma={t['gamma']}")
