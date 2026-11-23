@@ -32,7 +32,7 @@ from PIL import Image, ImageOps
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-from sky import detect_sky_mask, make_sky, composite_sky, sky_is_already_blue  # noqa: E402
+from sky import detect_sky_mask, make_sky, composite_sky, sky_is_already_blue, sun_in_frame  # noqa: E402
 
 EXTS = {".jpg", ".jpeg", ".png", ".tif", ".tiff", ".webp", ".heic"}
 SKY_NOTE = "※空は画像処理により青空に差し替えています。"
@@ -187,6 +187,8 @@ def process(path: Path, outdir: Path, args, presets: dict) -> dict:
         cover = float((mask > 0.5).mean())
         if cover < 0.01:
             log["sky"] = "空が見つからない→差し替えなし"
+        elif sun_in_frame(rgb, mask):
+            log["sky"] = "太陽の写り込みあり（晴天）→空はそのまま"
         elif sky_is_already_blue(rgb, mask) and not args.force_sky:
             log["sky"] = f"既に青空（{cover:.0%}）→差し替えなし"
         else:
@@ -220,7 +222,7 @@ def main():
     ap.add_argument("--sky", default="off", help="off（既定）/ auto / 空マスクPNG（白=空）")
     ap.add_argument("--sky-image", help="差し替えに使う空の画像（未指定なら自動生成のグラデーション空）")
     ap.add_argument("--clouds", action="store_true", help="自動生成の空に薄い雲を入れる")
-    ap.add_argument("--force-sky", action="store_true", help="既に青空でも差し替える")
+    ap.add_argument("--force-sky", action="store_true", help="既に青空でも差し替える（太陽が写り込んだ晴天の写真は差し替えない）")
     ap.add_argument("--preset", default="web", help="presets.json のキーをカンマ区切り（例 web,print）")
     ap.add_argument("--interior", action="store_true", help="室内写真（明るめに仕上げる）")
     ap.add_argument("--no-straighten", action="store_true")

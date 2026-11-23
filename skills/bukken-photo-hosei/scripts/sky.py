@@ -68,6 +68,37 @@ def sky_is_already_blue(rgb: np.ndarray, mask: np.ndarray) -> bool:
     return bool(((h >= 90) & (h <= 130) & (s > 0.25)).mean() > 0.6)
 
 
+def sun_in_frame(rgb: np.ndarray, mask: np.ndarray) -> bool:
+    """太陽が写り込んだ晴天か。白飛びした小さな塊が上側にあり、周りの空が青いとき True。
+    曇天の白い空（空全体が白飛び）は塊が大きすぎるので False。"""
+    H, W = rgb.shape[:2]
+    s = 800 / max(H, W)
+    small = cv2.resize(rgb, None, fx=s, fy=s, interpolation=cv2.INTER_AREA) if s < 1 else rgb
+    m = cv2.resize(mask, (small.shape[1], small.shape[0]), interpolation=cv2.INTER_LINEAR)
+    hsv = cv2.cvtColor(small, cv2.COLOR_RGB2HSV)
+    h, sat, v = hsv[..., 0], hsv[..., 1] / 255, hsv[..., 2]
+    sky = m > 0.3
+    if sky.sum() < 100:
+        return False
+    blue_ratio = ((h >= 88) & (h <= 132) & (sat > 0.25))[sky].mean()
+    if blue_ratio < 0.3:
+        return False
+    hot = ((v >= 250) & (sat < 0.12)).astype(np.uint8)
+    hot[int(small.shape[0] * 0.7):] = 0
+    n, lab, st, _ = cv2.connectedComponentsWithStats(hot, connectivity=8)
+    total = small.shape[0] * small.shape[1]
+    for i in range(1, n):
+        x, y, w, hh, area = st[i]
+        if not (0.0003 * total <= area <= 0.05 * total and area / max(w * hh, 1) > 0.35):
+            continue
+        # 太陽は周りが空と光のにじみで囲まれる（白い看板や壁は周りが建物）
+        blob = (lab == i).astype(np.uint8)
+        ring = (cv2.dilate(blob, np.ones((13, 13), np.uint8)) - blob) > 0
+        if sky[ring].mean() >= 0.35 and (v[ring] > 200).mean() >= 0.7:
+            return True
+    return False
+
+
 def make_sky(W: int, H: int, mask: np.ndarray, seed: int = 0, clouds: bool = False) -> np.ndarray:
     """自然な青空（上が濃く地平線側が淡い）。clouds=True で薄い雲を足す。"""
     ys = np.where(mask.max(axis=1) > 0.5)[0]
